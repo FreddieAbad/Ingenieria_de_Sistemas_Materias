@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <record>
+        <nombre>victor</nombre>
+        <apellido>saquicela</apellido>
+        <sexo>Masculino</sexo>
+    </record>
+    <record>
+        <nombre>juan</nombre>
+        <apellido>perez</apellido>
+        <sexo>Masculino</sexo>
+    </record>
+    <record>
+        <nombre>maria</nombre>
+        <apellido>castro</apellido>
+        <sexo>Femenino</sexo>
+    </record>
+</dataset>
