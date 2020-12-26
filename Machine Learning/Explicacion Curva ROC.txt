@@ -1,0 +1,9 @@
+Explicacion Curva ROC
+
+
+La Curva ROC sirve para evaluar la calidad de salida del clasificador.
+Las curvas ROC suelen tener una tasa positiva real en el eje Y y una tasa de falsos positivos en el eje X, lo que significa que la esquina superior izquierda de la gráfica es el punto "ideal", una tasa de falsos positivos de cero y una tasa positiva verdadera de uno. La "pendiente" de las curvas ROC también es importante, ya que es ideal para maximizar la tasa positiva verdadera mientras se minimiza la tasa de falsos positivos. En si la curva ROC son puntos en un espacio cuadrado de [0,1].
+
+Razon de la Curva ROC
+
+AL dibujar la curva ROC consiste en poner juntos todos los puntos correspondientes a todos los umbrales o puntos de corte, de tal modo que ese conjunto de puntos se parecerá más o menos a una curva en el espacio cuadrado entre (0,0) y (1,1). Dependiendo del tipo de modelo la curva se parecerá más a una escalera (métodos no paramétricos) o una verdadera curva (métodos paramétricos). A medida que desplazamos ese valor umbral, en realidad estamos alterando las tasas de verdaderos positivos (VP) y falsos positivos (FP).

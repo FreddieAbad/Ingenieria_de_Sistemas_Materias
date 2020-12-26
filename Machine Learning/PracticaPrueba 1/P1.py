@@ -1,0 +1,31 @@
+import pandas as pd
+import numpy as np
+
+datos=pd.read_csv('Data.csv')
+print(datos.info())
+print(datos.head())
+nuevo=pd.DataFrame(datos)
+print(nuevo)
+
+nuevo=nuevo.replace(np.nan,"0")
+print("Impresion sin NaN")
+print(nuevo.info())
+print("\n"*5)
+print("Estadisticas sin NaN")
+print(nuevo.describe())
+print("\n"*5)
+print("Estadisticas solo numeros")
+print(nuevo.describe(include=[np.number]))
+print("\n"*5)
+nuevo=nuevo.replace("N/A","0")
+nuevo=nuevo.replace("NR","0")
+print("Estadisticas SIN N/A NR")
+print(nuevo.describe())
+print(list(nuevo))
+nuevo['Wsets']=nuevo.Wsets.astype(int)
+nuevo['WRank']=nuevo.WRank.astype(int)
+
+print("Estadisticas de Ranking y sets")
+print(nuevo.describe())
+nuevo.dropna(how='any', inplace=True)
+print(nuevo.head())
