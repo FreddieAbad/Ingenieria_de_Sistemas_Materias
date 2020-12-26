@@ -1,0 +1,17 @@
+Trabajo Final WEB (Ultima dia de examen).
+(4 paginas web).
+Escoger dominio especifico.
+5 API'S.
+Pagina de Registro.
+Login con facebook. (1 pto)
+Construir MASH UPS (App Web con propio ciclo de desarrollo)
+	programmableweb.com
+	liveplasma.com
+Dado el dominio se cobra algo, y se emite una factura. (PDF y en linea sin servidor sino en el cliente).
+Se genera un comprobante en pdf y se envia al cliente por correo.
+Transaccionalidad JSP, PHP (CUALQUIERA ajax), Angular con/sin nodejs. 
+Una parte de nuestra aplicacion subir a hosting.
+Crear con los datos de la aplicacion un servicio. (Compartir servicios web entre grupos).
+Responsive.
+Sesiones.
+Cookies.

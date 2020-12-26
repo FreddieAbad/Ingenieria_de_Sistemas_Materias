@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <title>EcuAutor</title>
+  <link rel="stylesheet" href="stylo.css">
+  <link rel="shortcut icon" href="https://png.icons8.com/color/480/000000/us-marines-ega.png">
+
+</head>
+<body>
+  <div ng-app="">
+  <header>
+    <nav id="cabeza" class"navbar navbar-inverse"></nav>
+    <nav class="navbar navbar-inverse">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a href="index2.html" class="navbar-brand"></a>
+              <img src="data:image/png;base64,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">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4 style="color:red">Autores Ecuatorianos</h3>
+        </div>
+        <div class="col-md-4" id="navegacion">
+          <div id="myNavbar" class="navbar-collapse">
+            <ul class="nav navbar-nav" >
+              <li><a href="videos.html">Inicio</a></li>
+              <li><a href="videos.html">Sign In</a></li>
+              <li><a href="informes.html">Log In</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <nav>
+      <div class="col-md-4 col-md-offset-4">
+        <div class="col-md-9">
+          <input type="text" ng-model="busqueda" class="form-control" placeholder="Busca tu Autor" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="col-md-3">
+          <button type="button" class="btn btn-warning"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+        </div>
+      </div>
+      <br><br>
+      <div class="row row-centered">
+        <div class="col-sm-11 centered">
+          <h4>Resultados de: {{ busqueda }}</h4>
+          <h5> {{ numero }} resultados.</h5>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+  <div class="container-fluid" id="autor-parte1">
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Jmontalvo.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+      </div>
+      <div class="col-sm-9">
+        <div class="panel panel-default" id="resumenAutor">
+          <div class="panel-heading">
+            Nombre del Autor
+          </div>
+          <div class="panel-body">
+            Panel content <br>
+            Panel content <br>
+            Panel content <br>
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+          </div>
+          <div class="panel-footer">
+            Panel footer
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

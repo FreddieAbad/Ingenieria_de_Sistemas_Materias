@@ -1,0 +1,10 @@
+extends templates/default
+block content
+  h1='Pagina de Inicio'
+  if isAuthenticated
+    img.img-fluid.rounded-circle(src='', width='100px')
+    p='Bienvenido '+user.nombre
+    b
+    a(href='logout') Salir
+  else
+    p='Usuario No Logeado'

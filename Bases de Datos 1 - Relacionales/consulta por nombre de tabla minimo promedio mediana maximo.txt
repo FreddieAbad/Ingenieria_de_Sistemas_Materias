@@ -1,0 +1,10 @@
+select j.job_title "Titulo", count(*) "Nro", min(salary) "Minimo",
+round (avg(salary),0) "Promedio",
+Median (salary) "Mediana",
+Max (Salary) "Maximo",
+Round(Stddev(salary)) "Des Std"
+from employees e, jobs j
+where e.job_id=j.job_id
+group by j.job_title
+order by j.job_title
+/

@@ -1,0 +1,145 @@
+.a{
+  color: red;
+}
+h3 {
+  font-size:20px;
+  text-align: center;
+  color:rgb(245, 245, 245)
+}
+h1 {
+	font-size: 3.5em;
+	font-style: bold;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	color: #283747;
+}
+#bwikipedia {
+  width: 200px;
+  /*margin: 0 auto;*/
+  margin-left: 40%; /* Modificar el margin para centrar los botones cuando se añado o quite alguno */
+}
+#research{
+  margin-top: 0%;
+}
+#denegado {
+  width: 300px;
+  margin-left: 40%; /* Modificar el margin para centrar los botones cuando se añado o quite alguno */
+  text-align: center;
+}
+#imgLib > img{
+  width: 300px;
+  margin-left: 50 px;
+}
+#aprobado {
+/* Modificar el margin para centrar los botones cuando se añado o quite alguno */
+  text-align: center;
+}
+#customResults{
+  width: 600px;
+  margin: 0 auto;
+}
+#fotoautor {
+   width: 150px;
+   height: 150px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: -75px;
+   margin-left: -75px;
+}
+
+#formSearch {
+	width: 100%;
+	margin: auto;
+    text-align: center;
+}
+
+#buscador {
+	width: 70%;
+	margin: auto;
+}
+
+#buscador input {
+    height: 40px;
+    width: 400px;
+    margin: auto;
+    font-size: 1.3em;
+}
+
+#buscador button {
+    color: white;
+	background-color: #3CC93F;
+	border-radius: 7px;
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 1.3em;
+}
+
+/*CONTENEDOR DE RESULTADOS*/
+
+#resultados {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#resultados > div {
+    /*background: green;*/
+    width: 1000px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+
+/*CONTENEDOR SUPERIOR*/
+.contenedorSuperior {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedorSuperior > .contenedorDatosLibro {
+    /*background: yellow;*/
+    width: 40%;
+    /*padding: 40px;*/
+}
+
+.contenedorSuperior > .contenedorImagenLibro {
+    /*background: pink;*/
+    width: 50%;
+    /*padding: 40px;*/
+    /*text-align: center;*/
+}
+
+.contenedorImagenLibro > img {
+    width: 200px;
+}
+
+
+/*CONTENEDOR MEDIO*/
+.contenedorMedio, .contenedorInferior {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    /*background-color: dodgerblue;*/
+}
+
+.contenedorMedio h4 {
+    font-size: 2em;
+	font-style: bold;
+	color: #283747;
+    /*background-color: aqua;*/
+}
+
+.contenedorMedio p {
+    font-family: "Times New Roman", Times, serif;
+	text-align: justify;
+	font-size: 1.5em;
+    /*background-color: crimson;*/
+}

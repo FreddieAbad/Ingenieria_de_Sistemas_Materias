@@ -1,0 +1,5 @@
+select last_name, nvl(to_char(commission_pct),'No aplica') "Comision", job_title
+from employees,jobs
+where last_name like 'B%' and jobs.job_id=employees.job_id
+order by last_name
+/

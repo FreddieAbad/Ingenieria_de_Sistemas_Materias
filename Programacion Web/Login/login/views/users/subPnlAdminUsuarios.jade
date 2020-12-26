@@ -1,0 +1,46 @@
+block content
+    #usuarios
+      a
+      div(class='row')
+       div(class='col-md-8')
+         div(class='panel panel-default')
+           div(class='panel-heading' align='center')='Usuarios'
+           div(class='panel-body')
+             form(action='http://localhost:3000/users/signin' method='post' autocomplete='off')
+               div(class='form-group' )
+                 div(class='form-group' )
+                   label(for='nombreP')='Id Paquete'
+                   input(type='text', name='nombrePaquete', placeholder='Id Paquete', class='form-control')
+                 div(class='form-group' )
+                   label(align='left')='Buscar el Paquete'
+                   select.form-control
+                     option Gold
+                     option Premium
+                     option Basico
+                     option Turista
+                     option Familiar
+                     option Mochilero
+               div(class='form-group' align='center')
+                button(type='submit' class='btn btn-success')='Buscar'
+
+            div(class='form-group' align='center')
+            div(class='form-group')
+              .panel.panel-default
+                .panel-heading(align='center')
+                  b Informacion Usurios
+
+                .panel-body
+                  .row
+                    .col-md-4
+                      p='Num. Usuarios Activos:    (Falta Completar)'
+
+                    .col-md-8
+                      ul.list-group
+                        li.list-group-item
+                          'Identificador de Paquete/s: Nombre'
+                        li.list-group-item
+                          'Fecha Salida : Nombre'
+                        li.list-group-item
+                          'Fecha Retorno : Nombre'
+                        li.list-group-item
+                          'Tipo Viaje: Nombre'

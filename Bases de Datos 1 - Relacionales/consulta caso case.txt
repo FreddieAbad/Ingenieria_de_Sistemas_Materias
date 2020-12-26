@@ -1,0 +1,16 @@
+select last_name "Nombre",
+hire_date "Inicio",
+salary "Salario",
+case 
+	when hire_date<to_date('01-Ene-90','dd-mm-yy')
+		then trunc(salary*1.15,0)
+	when hire_date<to_date('01-Ene-95','dd-mm-yy')
+		then trunc(salary*1.10,0)
+	when hire_date<to_date('01-Ene-00','dd-mm-yy')
+		then trunc(salary*1.05,0)
+	else salary 
+end "Proposed Salary"
+from employees
+where department_id=100
+order by hire_date
+/

@@ -1,0 +1,150 @@
+block content
+    #salidas
+      h2(class='col-md-8' align='center')='Salidas'
+      a
+      div(class='row')
+        div(class='col-md-8')
+          div(class='panel panel-primary')
+            div(class='panel-heading' align='center')='Buscar Salidas Turistico'
+            div(class='panel-body')
+              form(action='http://localhost:3000/users/signin' method='post' autocomplete='off')
+                div(class='form-group' )
+                  div(class='form-group' )
+                    label(for='nombreP')='Identificador Salida'
+                    div(class='row')
+                      div(class='col-md-4')
+                        input(type='text', name='nombreSalida', placeholder='Nombre del Paquete', class='form-control')
+                      div(class='col-md-8')
+                        div(class='form-group' )
+                          select.form-control
+                            option Gold
+                            option Premium
+                            option Basico
+                            option Turista
+                            option Familiar
+                            option Mochilero
+                  div(class='form-group')
+                    .panel.panel-default
+                      .panel-heading(align='center')
+                        b Informacion Salida Turistica
+
+                      .panel-body
+                        .row
+                          .col-md-4
+                            p
+                              Informacion  en General:  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pre
+
+                          .col-md-8
+                            ul.list-group
+                              li.list-group-item
+                                'Identificador de Paquete/s: Nombre'
+                              li.list-group-item
+                                'Fecha Salida : Nombre'
+                              li.list-group-item
+                                'Fecha Retorno : Nombre'
+                              li.list-group-item
+                                'Tipo Viaje: Nombre'
+
+
+
+
+      div(class='row')
+        div(class='col-md-8')
+          div(class='panel panel-primary')
+            div(class='panel-heading' align='center')='Ingresar Salidas Turisticas'
+            div(class='panel-body')
+              form(action='http://localhost:3000/users/signin' method='post' autocomplete='off')
+                div(class='form-group')
+                  label(for='nombreP')='Nombre Salida'
+                  input(type='text', name='nombrePaquete', placeholder='Nombre de la Salida', class='form-control')
+
+                div(class='form-group' align='center')
+                  label(for='vigPaq' align='center')='Fechas de Salida'
+                  .row
+                    .col-md-12
+                      //h5(align='center') Fecha de Salida
+                      input(type='date' name='vigPaquet' id='ivigPaquete' class='form-control' )
+
+                div(class='form-group')
+                  label(align='center')='Paquetes que aplican Salida (Ctrl+Opcion)'
+                  select.form-control(multiple='')
+                    option Gold
+                    option Premium
+                    option Basico
+                    option Turista
+                    option Familiar
+                    option Mochilero
+                div(class='form-group' align='center')
+                  button(type='submit' class='btn btn-success')='Agregar'
+
+     div(class='row')
+       div(class='col-md-8')
+         div(class='panel panel-primary')
+           div(class='panel-heading' align='center')='Modificar Salidas Turisticas'
+           div(class='panel-body')
+             form(action='http://localhost:3000/users/signin' method='post' autocomplete='off')
+               div(class='form-group')
+                 label(for='nombreP')='Nombre Salida'
+                 .row
+                  .col-md-4
+                    input(type='text', name='nombrePaquete', placeholder='Nombre de la Salida', class='form-control')
+                  .col-md-8
+                    select.form-control
+                      option Gold
+                      option Premium
+                      option Basico
+                      option Turista
+                      option Familiar
+                      option Mochilero
+                div(class='form-group' align='center')
+                  button(type='submit' class='btn btn-default')='Buscar'
+                div(class='form-group')
+                  label(for='nombreP')='Nombre Salida'
+                  input(type='text', name='nombrePaquete', placeholder='Nombre de la Salida', class='form-control')
+               div(class='form-group' align='center')
+                 label(for='vigPaq' align='center')='Fechas de Salida'
+                 .row
+                   .col-md-12
+                     //h5(align='center') Fecha de Salida
+                     input(type='date' name='vigPaquet' id='ivigPaquete' class='form-control' )
+
+               div(class='form-group')
+                 label(align='center')='Paquetes que aplican Salida (Ctrl+Opcion)'
+                 select.form-control(multiple='')
+                   option Gold
+                   option Premium
+                   option Basico
+                   option Turista
+                   option Familiar
+                   option Mochilero
+
+
+               div(class='form-group' align='center')
+                 button(type='submit' class='btn btn-success')='Modificar'
+
+
+
+
+
+      div(class='row')
+       div(class='col-md-8')
+         div(class='panel panel-primary')
+           div(class='panel-heading' align='center')='Eliminar Paquete Turistico'
+           div(class='panel-body')
+             form(action='http://localhost:3000/users/signin' method='post' autocomplete='off')
+               div(class='form-group' )
+                 div(class='form-group' )
+                   label(for='nombreP')='Identificador Paquete'
+                   input(type='text', name='nombrePaquete', placeholder='Nombre del Paquete', class='form-control')
+                 div(class='form-group' )
+                   label(align='left')='Buscar el Paquete'
+                   select.form-control
+                     option Gold
+                     option Premium
+                     option Basico
+                     option Turista
+                     option Familiar
+                     option Mochilero
+               div(class='form-group' align='center')
+                button(type='submit' class='btn btn-danger')='Eliminar'
+    <hr noshade="noshade" size="2" width="95%"  />

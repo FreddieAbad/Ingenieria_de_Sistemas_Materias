@@ -1,0 +1,18 @@
+5fn
+La quinta forma normal (5FN), también conocida como forma normal de proyección-unión (PJ/NF), es un nivel de
+normalización de bases de datos designado para reducir redundancia en las bases de datos relacionales que guardan
+hechos multi-valores aislando semánticamente relaciones múltiples relacionadas. Una tabla se dice que está en 5NF
+si y sólo si está en 4NF y cada dependencia de unión (join) en ella es implicada por las claves candidatas.
+LA CUARTA FORMA NORMAL
+La 4NF se asegura de que las dependencias multivaluadas independientes estén correcta y eficientemente
+representadas en un diseño de base de datos.
+
+TERCERA FORMA NORMAL
+Es una forma normal usada para afinar el diseño de las bases de datos.
+Requiere que se cumplan las siguientes condiciones:
+• La tabla debe estar ya en segunda forma normal.
+• Ningún atributo no-primario de la tabla es dependiente transitivamente de una clave candidata (Un
+atributo no-primario es un atributo que no pertenece a ninguna clave candidata)
+2FN
+Dada cualquier clave candidata y cualquier atributo que no sea un constituyente de la clave candidata, el atributo
+no clave depende de toda la clave candidata en vez de sólo una parte de ella.

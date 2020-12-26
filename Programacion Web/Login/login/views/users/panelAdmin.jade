@@ -1,0 +1,41 @@
+extends ../templates/default
+
+block content
+
+  h2(align='center') Panel de Control - Administracion
+
+  .row
+    // Panel Izquierdo de Navegacion
+    nav#myScrollspy.col-md-3
+      ul.nav.nav-pills.nav-stacked(data-spy='affix', data-offset-top='205')
+        #sidebar.well.sidebar-nav
+          h5
+            i.glyphicon.glyphicon-home
+            small
+              b ADMINISTRACION
+          ul.nav.nav-pills.nav-stacked
+            li.active
+              a(href='#paquetes') Paquetes
+            li
+              a(href='#salidas') Salidas
+
+          h5
+            i.glyphicon.glyphicon-user
+            small
+              a(href='#usuarios')  USUARIOS
+          ul.nav.nav-pills.nav-stacked
+            li
+              a(href='#reservas') Listar
+            li
+              a(href='#agregarU') Agregar
+            li
+              a(href='#editarU') Editar
+            li
+              a(href='#eliminarU') Eliminar
+
+    //PARTE AMPLIADA
+    .col-md-9
+      include subPnlAdminPaquetes
+      include subPnlAdminSalidas
+      include subPnlAdminReservas
+      include subPnlAdminUsuarios

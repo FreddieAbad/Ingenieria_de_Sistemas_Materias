@@ -1,0 +1,219 @@
+extends ../templates/default
+
+block content
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    .row
+      div(class='col-md-2')
+
+      div(class='col-md-8')
+        #myCarousel.carousel.slide(data-ride='carousel', data-interval='2500', align='center')
+          ol.carousel-indicators
+            li.active(data-target='#myCarousel', data-slide-to='0')
+
+            li(data-target='#myCarousel', data-slide-to='1')
+
+            li(data-target='#myCarousel', data-slide-to='2')
+
+            li(data-target='#myCarousel', data-slide-to='3')
+
+            li(data-target='#myCarousel', data-slide-to='4')
+          .carousel-inner
+            .item.active
+              img(src='/images/cover.jpg', alt='')
+
+            .item
+              img(src='/images/cover1.jpg', alt='')
+
+            .item
+              img(src='/images/cover2.jpg', alt='')
+
+            .item
+              img(src='/images/cover3.jpg', alt='')
+
+            .item
+              img(src='/images/cover4.jpg', alt='')
+          a.left.carousel-control(href='#myCarousel', data-slide='prev')
+            span.glyphicon.glyphicon-chevron-left
+
+            span.sr-only Previous
+
+          a.right.carousel-control(href='#myCarousel', data-slide='next')
+            span.glyphicon.glyphicon-chevron-right
+
+            span.sr-only Next
+      div(class='col-md-8')
+    hr
+    #parrInicial.row(align='left')
+      .col-sm-6
+        h3(align='center') Beneficios de la Lectura
+        div(class='row')
+          div(class='col-md-2')
+
+          div(class='col-md-8')
+            p(align='justify', style='font-size:2vmin; font-family: Merriweather')
+              Leer es para la mente lo que el ejercicio físico es para el cuerpo. 
+              Esta frase de Joseph Addison, ensayista, poeta y guinista inglés (1672 - 1719) 
+              representa muy bien los beneficios de leer. Al leer, no solo incrementa 
+              notoriamente la concentración, enriquece su vocabulario y previene 
+              el declive cognitivo.
+              br
+              La lectura ofrece innumerables beneficios, entre ellos:
+              Agudiza la astucia. Estimula el intercambio de información y conocimiento.
+              La costumbre continuada de leer, retarda la aparición de los síntomas de demencia.
+              Estimula la percepción. Estimula la concentración. Estimula la empatía.
+              Durante la lectura se activan regiones cerebrales que propician procesos de 
+              imaginación a partir de los acontecimientos de la narración y vienen a la 
+              mente recuerdos y confrontaciones con experiencias personales.
+              br
+              Tras investigaciones realizadas con respecto a las personas que leen, se 
+              encontró que los estudiantes exitosos poseen mejores habilidades de expresión, 
+              lectura y lenguaje.
+              br
+              Incremento en la capacidad de concentración, análisis e interpretación de texto.
+              
+             
+          div(class='col-2')
+
+        div(class='col-md-12')
+      .col-sm-6(align='center')
+        iframe(width='100%', height='315', controls, src='https://www.youtube.com/embed/3itX_7ycd1U', frameborder='0', allow='autoplay; encrypted-media', allowfullscreen='')
+
+
+
+
+      hr
+      #seccionGaleria.row(align='center')
+        hr
+        h2(align='center') Galeria
+        .col-sm-6
+          #myCarousel.carousel.slide(data-ride='carousel', data-interval='2500', align='center')
+            ol.carousel-indicators
+              li(data-target='#myCarousel', data-slide-to='0')
+
+              li.active(data-target='#myCarousel', data-slide-to='1')
+
+              li(data-target='#myCarousel', data-slide-to='2')
+
+              li(data-target='#myCarousel', data-slide-to='3')
+
+              li(data-target='#myCarousel', data-slide-to='4')
+            .carousel-inner
+              .item
+                img(src='/images/cover.jpg', alt='')
+
+              .item.active
+                img(src='/images/cover1.jpg', alt='')
+
+              .item
+                img(src='/images/cover2.jpg', alt='')
+
+              .item
+                img(src='/images/cover3.jpg', alt='')
+
+              .item
+                img(src='/images/cover4.jpg', alt='')
+        .col-sm-6(align='center')
+          iframe(style="margin-top: 5%",width='100%', height='315', controls, src='https://www.youtube.com/embed/CAAV9bvFw9M', frameborder='0', allow='autoplay; encrypted-media', allowfullscreen='')
+
+
+    #seccionPaquetes.row(align='center')
+      br
+      br
+      br
+    
+      .row
+        .col-md-3.col-md-offset-4
+          img(src='/images/logo cuenca.png')
+
+    
+    #seccionOpiniones.row
+      .form-group
+        br
+        br
+        h3(align='center') Autores del Mes
+
+        .form-group
+          #header.row(align='left', style='background-color:rgb(19, 19, 19);')
+            .form-group
+              .col-sm-6(align='right')
+                .col-sm-8(align='center')
+                  img(src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png")
+
+                .col-sm-4(align='center')
+                  h4(align='center' style="color: #ffffff") Rosa S. Anton
+                  p(align='justify' style="color: #ffffff") Escribir es fácil. Lo único que tienes que hacer es cruzar las palabras erróneas.
+
+
+            .form-group
+              .col-sm-6
+                .col-sm-4(align='justify')
+                  h4(align='center' style="color: #ffffff")  Luis F. Gomez
+                  p(align='justify' style="color: #ffffff") Más vale la pena en el rostro que la mancha en el corazón.
+
+
+                .col-sm-8(align='center')
+                  img(src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png")
+
+        .form-group
+          #header.row(align='left')
+            .form-group
+              .col-sm-3
+
+              .col-sm-9( style='background-color:#ffffff;')
+                .col-sm-6(align='justify')
+                  h4(align='center' style="color: rgb(19, 19, 19)")  Cesar D. Bernal
+                  p(align='justify' style="color: rgb(19, 19, 19)" class='text-muted') El que lee mucho y anda mucho, ve mucho y sabe mucho
+                .col-sm-6(align='left')
+                  img(src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_05.png" )
+              .col-sm-3(style='background-color:#ffffff;')
+
+
+
+                
+    .footer.footer-distributed
+      .footer-left
+        h3
+          | Proyecto de 
+          span Ciclo
+        p.footer-links
+          a(href='#') Programacion
+          a(href='#') en la Web
+        p.footer-company-name Freddy L. Abad L. & Edisson F. Sigua L. & Gabriela E. Delgado E.© 2018
+      .footer-center
+        div
+          i.fa.fa-envelope
+          p
+            a(href='mailto:support@company.com') freddy.abadl@ucuenca.edu.ec
+          br
+          i.fa.fa-envelope
+          p
+            a(href='mailto:support@company.com') edisson.loja@ucuenca.edu.ec
+          br
+          i.fa.fa-envelope
+          p
+            a(href='mailto:support@company.com') gabriela.delgado@ucuenca.edu.ec
+
+    
+      .footer-right
+        .footer-icons
+          a(href='https://www.facebook.com')
+            i.fa.fa-facebook
+          a(href='#')
+            i.fa.fa-twitter
+          a(href='#')
+            i.fa.fa-linkedin
+          a(href='#')
+            i.fa.fa-github
+    

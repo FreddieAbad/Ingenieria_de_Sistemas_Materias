@@ -1,0 +1,56 @@
+extends ../templates/default
+block content
+  div(ng-app='')
+    form#formSearch.formSearch(method='get', action='')
+      .col-md-4.col-md-offset-4
+        .col-md-9
+          input#search.form-control(type='text', ng-model='busqueda', placeholder='Busca tu Autor', aria-label='Username', aria-describedby='basic-addon1')
+
+        .col-md-3
+          button#boton.btn.btn-warning(name='boton', type='button')
+            span.glyphicon.glyphicon-search(aria-hidden='true')
+          br
+          br
+      .col-md-3.col-md-offset-5  
+          .row
+            .col-md-6(style = "width: 60%;" )
+              h5
+              | Cantidad de Resultados: 
+            .col-md-4
+              select#cantRes.form-control-sm.form-control(data-width='150px')
+                option(value='10') 10
+                option(value='15') 15
+                option(value='20') 20
+                option(value='25') 25
+    .container                
+    .principal
+      #buscador
+
+        h3(align='center') Buscador
+        h4(align='center') Resultados de: {{busqueda}}
+        div(align='center') 
+      #customResults
+        script.
+          (function() {
+          var cx = '005416834225651398663:wm4pxcxvpc8';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+          })();
+        gcse:search
+      #resultados
+
+
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    script(src='/main.js')
+    script(src='/redirectBookWindow.js')
+    
+    
+
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css', integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp', crossorigin='anonymous')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')

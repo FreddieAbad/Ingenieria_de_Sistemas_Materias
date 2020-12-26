@@ -1,0 +1,21 @@
+Innovacion
+Biglieto es un terminal virtual, el cual mediante una interfaz web (www.biglieto.com) informa al publico en general de horarios, rutas, servicios, costos de empresas de transporte 
+terreste. Estas empresas acceden a los servicios de biglieto.com y sus multiples beneficios. Se esta desarrollando la opcion de compra de tickets online mediante la plataforma.
+
+Objetivo
+Ser un referente tecnológico para innovación y progreso de los sistemas y procesos de transporte. Mediante la incorporación de las 
+empresas de transporte interprovincial y provincial de buses a una plataforma virtual donde puedan disponer de los servicios que 
+necesitan para satisfacer sus necesidades de empresa y puedan ofertar sus servicios de manera más eficiente. La plataforma sera el 
+ente central de encuentro de una comunidad de Empresas de Transporte Terrestre y la información se centralizara para mayor comodidad 
+de los viajeros.
+
+Mercado potencial
+Empresas : Empresas de Transporte terrestres interprovincial y provincial de buses; 
+Empresas de Transporte terrestres cantonales de buses contratistas particulares. 
+Empresas externas al transporte que busquen publicitarse en la plataforma.
+Viajeros que puedan comprar los tickets por internet(En desarrollo).
+
+Situación actual
+Etapa inicial de producción de Biglieto y Etapas Inicales de socialización con las empresas de transporte interprovincial 
+de Azuay y Morona Santiago. Etapa de venta de paquetes de publicidad a las empresas de transporte. Etapa de Planificacion 
+de Venta de Tickets por la plataforma.

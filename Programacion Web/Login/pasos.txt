@@ -1,0 +1,4 @@
+Para correr: set debug=login:* & npm start
+Ingresar a Login/login (donde esta package.json), ejecutar en consola jade bootstrap node js
+
+correr: http://localhost:3000/users/panel

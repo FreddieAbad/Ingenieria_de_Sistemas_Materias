@@ -1,0 +1,19 @@
+extends ../templates/default
+block content
+  nav
+    .col-md-4.col-md-offset-4
+      .col-md-9
+        input.form-control(type='text', placeholder='Busca tu Autor', aria-label='Username', aria-describedby='basic-addon1')
+      .col-md-3
+        button.btn.btn-warning(type='button')
+          span.glyphicon.glyphicon-search(aria-hidden='true')
+
+  #contSup
+    #datLib
+    #imgLib
+  #contMed
+  #contInf
+    #verLib
+    #compLib
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+script(src='/js/loadBook.js')

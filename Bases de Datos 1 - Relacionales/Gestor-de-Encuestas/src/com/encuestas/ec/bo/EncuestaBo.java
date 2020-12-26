@@ -1,0 +1,93 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.encuestas.ec.bo;
+
+import com.encuestas.ec.dao.EncuestaDao;
+import com.encuestas.ec.db.Conexion;
+import com.encuestas.ec.entity.Encuesta;
+import java.sql.Connection;
+import java.sql.SQLException;
+import javax.swing.JTable;
+
+/**
+ *
+ * @author Freddie
+ */
+public class EncuestaBo {
+    private String mensaje="";
+    private EncuestaDao edao = new EncuestaDao();
+    
+    public String agregarEncuesta( Encuesta emp){
+        Connection con= Conexion.getConnection();
+        try {
+            mensaje=edao.agregarEncuesta(con, emp);
+        } catch (Exception e) {
+            mensaje=mensaje+" "+e.getMessage();
+        }finally{
+            try {
+                if(con!=null){
+                    con.close();
+                }
+            } catch (Exception e) {
+                mensaje=mensaje+ " " + e.getMessage();
+            }
+        }
+        return mensaje;
+    }
+    
+    public String modificarEncuesta(Encuesta encuesta){
+        Connection con= Conexion.getConnection();
+        try {
+            mensaje=edao.modificarEncuesta(con, encuesta);
+        } catch (Exception e) {
+            mensaje=mensaje+" "+e.getMessage();
+        }finally{
+            try {
+                if(con!=null){
+                    con.close();
+                }
+            } catch (Exception e) {
+                mensaje=mensaje+ " " + e.getMessage();
+            }
+        }
+        return mensaje;
+    }
+    public String eliminarEncuesta(int id){
+        Connection con= Conexion.getConnection();
+        try {
+            mensaje=edao.eliminarEncuesta(con, id);
+        } catch (Exception e) {
+            mensaje=mensaje+" "+e.getMessage();
+        }finally{
+            try {
+                if(con!=null){
+                    con.close();
+                }
+            } catch (Exception e) {
+            }
+        }
+        return mensaje;
+    }
+    public void listarEncuesta(JTable table) throws SQLException{
+        Connection con= Conexion.getConnection();
+        edao.listarEncuesta(con, table);
+        try {
+            con.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    public int getMaxID(){
+        Connection con= Conexion.getConnection();
+        int id=edao.getMaxID(con);
+        try {
+            con.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return id;
+    }
+}

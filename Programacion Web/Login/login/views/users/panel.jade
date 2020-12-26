@@ -1,0 +1,103 @@
+extends ../templates/default
+
+block content
+  
+  .row
+    .col-md-3.col-md-offset-5
+      p(color:white)='Perfil '+user.nombre
+      img.img-fluid.rounded-circle(src="https://png.icons8.com/color/80/000000/administrator-male.png", width='100px')
+  hr
+  .row
+    .col-md-3.col-md-offset-0
+      a.twitter-timeline(data-lang='es', data-width='250', data-height='700', data-theme='dark', href='https://twitter.com/bookfind1?ref_src=twsrc%5Etfw') Tweets by bookfind1
+        script(async='', src='https://platform.twitter.com/widgets.js', charset='utf-8')
+    .col-md-6.col-md-offset-0
+      .row
+        div(class='col-md-2')
+  
+        div(class='col-md-8')
+          #myCarousel.carousel.slide(data-ride='carousel', data-interval='2500', align='center')
+            ol.carousel-indicators
+              li.active(data-target='#myCarousel', data-slide-to='0')
+  
+              li(data-target='#myCarousel', data-slide-to='1')
+  
+              li(data-target='#myCarousel', data-slide-to='2')
+  
+              li(data-target='#myCarousel', data-slide-to='3')
+  
+              li(data-target='#myCarousel', data-slide-to='4')
+            .carousel-inner
+              .item.active
+                img(src='/images/cover.jpg', alt='')
+  
+              .item
+                img(src='/images/cover1.jpg', alt='')
+  
+              .item
+                img(src='/images/cover2.jpg', alt='')
+  
+              .item
+                img(src='/images/cover3.jpg', alt='')
+  
+              .item
+                img(src='/images/cover4.jpg', alt='')
+            a.left.carousel-control(href='#myCarousel', data-slide='prev')
+              span.glyphicon.glyphicon-chevron-left
+  
+              span.sr-only Previous
+  
+            a.right.carousel-control(href='#myCarousel', data-slide='next')
+              span.glyphicon.glyphicon-chevron-right
+  
+              span.sr-only Next
+        div(class='col-md-8')
+
+    .col-md-3
+      #research.rg-plugin(data-stats='true', data-faces='true', data-publications='true', data-height='700', data-width='300', data-theme='light', data-type='institution', data-installationid='5b5797075801f2ee0f143163')
+
+  .footer.footer-distributed
+    .footer-left
+      h3
+        | Proyecto de 
+        span Ciclo
+      p.footer-links
+        a(href='#') Programacion
+        a(href='#') en la Web
+      p.footer-company-name Freddy L. Abad L. & Edisson F. Sigua L. & Gabriela E. Delgado E.© 2018
+    .footer-center
+      div
+        i.fa.fa-envelope
+        p
+          a(href='mailto:support@company.com') freddy.abadl@ucuenca.edu.ec
+        br
+        i.fa.fa-envelope
+        p
+          a(href='mailto:support@company.com') edisson.loja@ucuenca.edu.ec
+        br
+        i.fa.fa-envelope
+        p
+          a(href='mailto:support@company.com') gabriela.delgado@ucuenca.edu.ec
+
+  
+    .footer-right
+      .footer-icons
+        a(href='https://www.facebook.com')
+          i.fa.fa-facebook
+        a(href='#')
+          i.fa.fa-twitter
+        a(href='#')
+          i.fa.fa-linkedin
+        a(href='#')
+          i.fa.fa-github
+  
+  
+  
+link(rel='stylesheet', href='/demo.css')
+link(rel='stylesheet', href='/stylesheets/footer.css')
+link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css')
+link(href='http://fonts.googleapis.com/css?family=Cookie', rel='stylesheet', type='text/css')
+script.
+  (function() { var st = document.createElement('script'); st.type = 'text/javascript'; st.async = true; st.src = 'https://www.researchgate.net/javascript/plugin/plugin-api-min.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(st, s); })();
+
+  

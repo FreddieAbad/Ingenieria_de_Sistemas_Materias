@@ -1,0 +1,58 @@
+block content
+    #reservas
+      a
+      div(class='row')
+       div(class='col-md-8')
+         div(class='panel panel-default')
+           div(class='panel-heading' align='center')='Reservas'
+           div(class='panel-body')
+             form(action='http://localhost:3000/users/signin' method='post' autocomplete='off')
+               div(class='form-group' )
+                 div(class='form-group' )
+                   label(for='nombreP')='Id Paquete'
+                   input(type='text', name='nombrePaquete', placeholder='Id Paquete', class='form-control')
+                 div(class='form-group' )
+                   label(align='left')='Buscar el Paquete'
+                   select.form-control
+                     option Gold
+                     option Premium
+                     option Basico
+                     option Turista
+                     option Familiar
+                     option Mochilero
+               div(class='form-group' align='center')
+                button(type='submit' class='btn btn-success')='Buscar'
+
+            div(class='form-group' align='center')
+              .panel.panel-primary
+                .panel-heading(align='center')
+                  b Titulo del Paquete Turistico
+
+                .panel-body
+                  .row
+                    .col-md-4
+                      p
+                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pre
+
+                    .col-md-6
+                      ul.list-group
+                        li.list-group-item
+                          'Nombre del Paquete: Nombre'
+
+                        li.list-group-item
+                          'Costo : Nombre'
+
+                        li.list-group-item
+                          'Cupos: Nombre'
+
+                        li.list-group-item
+                          'Fecha Inicio: Nombre'
+
+                        li.list-group-item
+                          'Fecha Fin: Nombre'
+
+                        li.list-group-item
+                          'Categoria del Paquete: Nombre'
+
+          //          div(class='form-group' align='center')
+          //            button(type='submit' class='btn btn-success')='Buscar'

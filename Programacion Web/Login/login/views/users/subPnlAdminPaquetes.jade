@@ -1,0 +1,187 @@
+
+block content
+    #paquetes
+      h2(class='col-md-8' align='center')='Paquetes'
+      a
+      div(class='row')
+        div(class='col-md-8')
+          div(class='panel panel-primary')
+            div(class='panel-heading' align='center')='Buscar Paquete Turistico'
+            div(class='panel-body')
+              form(action='http://localhost:3000/users/panelAdmin' method='post' autocomplete='off')
+                div(class='form-group' )
+                  div(class='form-group' )
+                    label(for='nombreP')='Identificador Paquete'
+                    div(class='row')
+                      div(class='col-md-4')
+                        input(type='text', name='nombrePaquete', placeholder='Nombre del Paquete', class='form-control')
+                      div(class='col-md-8')
+                        div(class='form-group' )
+                          select.form-control
+                            option Gold
+                            option Premium
+                            option Basico
+                            option Turista
+                            option Familiar
+                            option Mochilero
+                div(class='form-group' align='center')
+                  .panel.panel-default
+                    .panel-heading(align='center')
+                      b T&iacute;tulo del Paquete Turistico
+
+                    .panel-body
+                      .row
+                        .col-md-4
+                          p
+                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pre
+
+                        .col-md-6
+                          ul.list-group
+                            li.list-group-item
+                              'Nombre del Paquete: Nombre'
+
+                            li.list-group-item
+                              'Costo : Nombre'
+
+                            li.list-group-item
+                              'Cupos: Nombre'
+
+                            li.list-group-item
+                              'Fecha Inicio: Nombre'
+
+                            li.list-group-item
+                              'Fecha Fin: Nombre'
+
+                            li.list-group-item
+                              'Categoria del Paquete: Nombre'
+
+                div(class='form-group' align='center')
+                  button(type='submit' class='btn btn-success')='Buscar'
+
+
+
+      div(class='row')
+        div(class='col-md-8')
+          div(class='panel panel-primary')
+            div(class='panel-heading' align='center')='Ingresar Paquete Turistico'
+            div(class='panel-body')
+              form(action='http://localhost:3000/users/panelAdmin' method='post' autocomplete='off')
+                div(class='form-group')
+                  label(for='nombreP')='Nombre Paquete'
+                  input(type='text', name='nombrePaqueteI', placeholder='Nombre del Paquete', class='form-control')
+
+                  label(for='cost')='Costo'
+                  input(type='number', name='costoI', class='form-control',  step="any")
+
+                  label(for='numCupos')='Cupos'
+                  input(type='number', name='nCupoI', class='form-control')
+
+                div(class='form-group' align='center')
+                  label(for='vigPaq' align='center')='Vigencia del Paquete'
+                  .row
+                    .col-md-6
+                      h5(align='center') Inicio del Paquete
+                      input(type='date' name='ivigPaqueteI' id='ivigPaqueteI' class='form-control' )
+                    .col-md-6
+                      h5(align='center') Termino del Paquete
+                      input(type='date' name='tvigPaqueteI' id='tvigPaqueteI' class='form-control')
+                div(class='form-group')
+                  label(align='center')='Categoria del Paquete'
+                  select.form-control(id='categoriaI')
+                    option Gold
+                    option Premium
+                    option Basico
+                    option Turista
+                    option Familiar
+                    option Mochilero
+
+                div(class='form-group' align='center')
+                  label(align='center') Informacion Adicional
+                  textarea(rows='4', cols='50', name='infoadicionalI', class='form-control' placeholder='Informacion Aclarativa, que transmita una idea clara del Paquete.' align='center')
+                div(class='form-group' align='center')
+                  label(align='center') Agregar Imagen
+                  .row
+                    .col-md-4
+                      button(type='submit' class='btn btn-default')='Buscar'
+                    .col-md-8
+                      input(type='text' id='urlI' class='form-control' placeholder='Ingresar URL')
+                div(class='form-group' align='center')
+                  button(type='submit' class='btn btn-success')='Agregar'
+
+
+      div(class='row')
+        div(class='col-md-8')
+          div(class='panel panel-primary')
+            div(class='panel-heading' align='center')='Modificar Paquete Turistico'
+            div(class='panel-body')
+              form(action='http://localhost:3000/users/panelAdmin' method='put' autocomplete='off')
+                div(class='form-group')
+                  label(for='nombreP')='Nombre Paquete'
+                  .row
+                    div(class='col-md-8')
+                      input(type='text', name='nombrePaqueteU', placeholder='Nombre del Paquete', class='form-control')
+                    div(class='col-md-4')
+                      button(type='submit' class='btn btn-success')='Cargar'
+
+                  label(for='cost')='Costo'
+                  input(type='number', name='costoU', class='form-control',  step="any")
+
+                  label(for='numCupos')='Cupos'
+                  input(type='number', name='nCupoU', class='form-control')
+
+                div(class='form-group' align='center')
+                  label(for='vigPaq' align='center')='Vigencia del Paquete'
+                  .row
+                    .col-md-6
+                      h5(align='center') Inicio del Paquete
+                      input(type='date' name='vigPaquetU' id='ivigPaqueteU' class='form-control' )
+                    .col-md-6
+                      h5(align='center') Termino del Paquete
+                      input(type='date' name='vigPaquetU' id='tvigPaqueteU' class='form-control')
+                div(class='form-group')
+                  label(align='center')='Categoria del Paquete'
+                  select.form-control(ID='categoriaU')
+                    option Gold
+                    option Premium
+                    option Basico
+                    option Turista
+                    option Familiar
+                    option Mochilero
+
+                div(class='form-group' align='center')
+                  label(align='center') Informacion Adicional
+                  textarea(rows='4', cols='50', name='infoAdicionalU', class='form-control' placeholder='Informacion Aclarativa, que transmita una idea clara del Paquete.' align='center')
+                div(class='form-group' align='center')
+                  label(align='center') Agregar Imagen
+                  .row
+                    .col-md-4
+                      button(type='submit' class='btn btn-default')='Buscar'
+                    .col-md-8
+                      input(type='text' class='form-control' placeholder='Ingresar URL')
+                div(class='form-group' align='center')
+                  button(type='submit' class='btn btn-warning')='Modificar'
+
+
+      div(class='row')
+        div(class='col-md-8')
+          div(class='panel panel-primary')
+            div(class='panel-heading' align='center')='Eliminar Paquete Turistico'
+            div(class='panel-body')
+              form(action='http://localhost:3000/users/signin' method='post' autocomplete='off')
+                div(class='form-group' )
+                  div(class='form-group' )
+                    label(for='nombreP')='Identificador Paquete'
+                    input(type='text', name='nombrePaquete', placeholder='Nombre del Paquete', class='form-control')
+                  div(class='form-group' )
+                    label(align='left')='Buscar el Paquete'
+                    select.form-control
+                      option Gold
+                      option Premium
+                      option Basico
+                      option Turista
+                      option Familiar
+                      option Mochilero
+                div(class='form-group' align='center')
+
+                  button(type='submit' class='btn btn-danger')='Eliminar'
+    <hr noshade="noshade" size="2" width="95%"  />

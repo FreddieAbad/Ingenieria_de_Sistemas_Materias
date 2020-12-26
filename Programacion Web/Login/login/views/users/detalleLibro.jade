@@ -1,0 +1,110 @@
+extends ../templates/default
+block content
+  .row
+    .col-sm-2
+    .col-sm-8
+      .row
+        .col-sm-6
+          #contSup
+            #datLib
+              p(align='justify')
+                b Libro: 
+                p=libro.volumeInfo.title
+              p(align='justify')
+                b Autor: 
+                p=libro.volumeInfo.authors
+              p(align='justify')
+                b Editorial: 
+                p=libro.volumeInfo.publisher
+              p(align='justify')
+                b ISBN: 
+                p=libro.volumeInfo.industryIdentifiers[0].identifier
+              p(align='justify')
+                b Fecha Publicación: 
+                p=libro.volumeInfo.publishedDate
+              p(align='justify')
+                b Cantidad de Páginas: 
+                p=libro.volumeInfo.pageCount 
+                p páginas
+              p(align='justify')
+                b Categoría: 
+                p=libro.volumeInfo.categories
+              p(align='justify')
+                b Calificación: 
+                p=libro.volumeInfo.averageRating
+          
+        .col-sm-6
+            #imgLib
+              img(src=libro.volumeInfo.imageLinks.thumbnail)
+      #contMed
+        h4 Descripción
+        p(align='justify')=libro.volumeInfo.description
+      #contInf
+        #verLib
+          .row(align='center')
+            .col-sm-6
+              a(href=libro.volumeInfo.previewLink, target='_blank')
+                button.btn.btn-basic Ver en Google Books
+            .col-sm-6  
+              a(href=libro.accessInfo.webReaderLink, target='_blank')
+                button.btn.btn-success Leer Online
+              br
+              br
+        #compLib
+          .row
+            .col-sm-6
+              if libro.saleInfo
+                if libro.saleInfo.listPrice               
+                  a(href=libro.saleInfo.buyLink, target='_blank')
+                    button.btn.btn-danger= 'Compra por Google Play a ' + libro.saleInfo.listPrice.amount + ' ' + libro.saleInfo.listPrice.currencyCode
+                    br
+            .col-sm-6
+              .row
+                .col-sm-6
+                  if ebay.Item
+                    if ebay.Item[0]
+                      a(href=ebay.Item[0].ViewItemURLForNaturalSearch, target='_blank')
+                        button.btn.btn-primary= 'Compra por eBay: ' +ebay.Item[0].ConvertedCurrentPrice.Value + ' USD' 
+                
+    .col-sm-2  
+ 
+
+  .footer.footer-distributed
+    .footer-left
+      h3
+        | Proyecto de 
+        span Ciclo
+      p.footer-links
+        a(href='#') Programacion
+        a(href='#') en la Web
+      p.footer-company-name Freddy L. Abad L. & Edisson F. Sigua L. & Gabriela E. Delgado E.© 2018
+    .footer-center
+      div
+        i.fa.fa-envelope
+        p
+          a(href='mailto:support@company.com') freddy.abadl@ucuenca.edu.ec
+        br
+        i.fa.fa-envelope
+        p
+          a(href='mailto:support@company.com') edisson.loja@ucuenca.edu.ec
+        br
+        i.fa.fa-envelope
+        p
+          a(href='mailto:support@company.com') gabriela.delgado@ucuenca.edu.ec
+
+  
+    .footer-right
+      .footer-icons
+        a(href='https://www.facebook.com')
+          i.fa.fa-facebook
+        a(href='#')
+          i.fa.fa-twitter
+        a(href='#')
+          i.fa.fa-linkedin
+        a(href='#')
+          i.fa.fa-github
+    
+    
+      
+  
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')

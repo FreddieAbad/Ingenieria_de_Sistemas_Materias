@@ -1,0 +1,89 @@
+
+
+
+  .container
+    .row
+      ul.nav.nav-pills
+              li.active
+                a(data-toggle='pill', href='#home') Home
+              li
+                a(data-toggle='pill', href='#menu1') Menu 1
+              li
+                a(data-toggle='pill', href='#menu2') Menu 2
+              li
+                a(data-toggle='pill', href='#menu3') Menu 3
+
+            .tab-content
+              #home.tab-pane.fade.in.active
+                h3 HOME
+                p
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              #menu1.tab-pane.fade
+                h3 Menu 1
+                p
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+              #menu2.tab-pane.fade
+                h3 Menu 2
+                p
+                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+
+              #menu3.tab-pane.fade
+                h3 Menu 3
+                p
+                 Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .row
+      .col-md-4
+        // It can be fixed with bootstrap affix http://getbootstrap.com/javascript/#affix
+        #sidebar.well.sidebar-nav
+          h5
+            i.glyphicon.glyphicon-home
+
+            small
+              b ADMINISTRACION
+
+          ul.nav.nav-pills.nav-stacked
+            li.active
+              a(href='#') Paquetes
+            li
+              a(href='#') Salidas
+            li
+              a(href='#') Opiniones
+
+          h5
+            i.glyphicon.glyphicon-user
+            small
+              b USUARIOS
+          ul.nav.nav-pills.nav-stacked
+            li
+              a(href='#home') Listar
+            li
+              a(href='#') Agregar
+            li
+              a(href='#') Editar
+            li
+              a(href='#') Eliminar
+      .col-md-4
+        .tab-content
+          #home.tab-pane.active(role='tabpanel') Hola
+
+          #profile.tab-pane(role='tabpanel') ...
+
+          #messages.tab-pane(role='tabpanel') ...
+
+          #settings.tab-pane(role='tabpanel') ...
