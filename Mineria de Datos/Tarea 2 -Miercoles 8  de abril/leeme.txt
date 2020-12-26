@@ -1,0 +1,11 @@
+shupaloo freddy
+
+fuentes2.ktr debes abrir
+
+el excel F1_ZonasClave va para lo que es la entrada f1
+zonas es la tabla del trabajo create te adjunto el csv de las tuplas
+Entrada excel 2 2 tiene como archivo al de la dami listadoF1YF2
+
+
+EN EL DE ABAJO ES EL MISMO
+solo cambia el archivo de la dami por PUGS
