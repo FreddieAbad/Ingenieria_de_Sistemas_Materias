@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=float\ getPerimetro()
+comment1.params=
+comment1.target=float\ getArea()
+comment2.params=nuevoPerimetro
+comment2.target=void\ setPerimetro(float)
+comment3.params=nuevaArea
+comment3.target=void\ setArea(float)
+numComments=4

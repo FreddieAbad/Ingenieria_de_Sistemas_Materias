@@ -1,0 +1,15 @@
+To import the Exercise Files into Eclipse:
+
+1) Extract the DesignPatterns.zip folder inside the Exercise Files folder. Download the zip file for the course.
+2) Unzip the file, and save the folder on your desktop. You can name this folder "Exercise Files" to correspond with the example files, or any other name you like (it doesn't matter).
+3) Open Eclipse.
+4) Select File > Import > General > Existing Projects in Workspace.
+5) Click Next.
+6) In "Select root directory", browse to and select the folder you just created on the desktop.
+7) Click Finish.
+
+This will create a new project folder in your Eclipse Package Explorer. To see the same view that we used in the course, choose:
+Navigator > Show In > Navigator
+and open the folder using the arrows. You should see all the Java source files in the src/ folder.
+
+Remember to "Run as" a Java application when running the code.

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=id\ nombre\ color\ tipo
+comment0.target=Bicicleta(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getColor()
+comment2.params=
+comment2.target=java.lang.String\ getTipo()
+comment3.params=
+comment3.target=void\ pedalear()
+comment4.params=
+comment4.target=void\ acelerar()
+comment5.params=
+comment5.target=void\ frenar()
+numComments=6

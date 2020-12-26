@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SerVivo()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ SerVivo\r\n
+comment1.params=alimentar\ crecer\ reproducir
+comment1.target=SerVivo(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getAlimentar()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCrecer()
+comment4.params=
+comment4.target=java.lang.String\ getReproducir()
+numComments=5

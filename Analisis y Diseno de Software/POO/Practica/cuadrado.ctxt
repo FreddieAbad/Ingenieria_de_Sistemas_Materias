@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=float\ getLado()
+comment1.params=nuevoLado
+comment1.target=void\ setLado(float)
+comment2.params=
+comment2.target=double\ perimetro()
+comment3.params=
+comment3.target=double\ area()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

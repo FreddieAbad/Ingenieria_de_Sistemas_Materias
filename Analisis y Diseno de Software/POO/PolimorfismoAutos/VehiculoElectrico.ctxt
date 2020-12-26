@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=id\ nombre
+comment0.target=VehiculoElectrico(java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=void\ cargar()
+comment2.params=
+comment2.target=void\ acelerar()
+comment3.params=
+comment3.target=void\ frenar()
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ alimentarse()
+comment1.params=
+comment1.target=void\ crecer()
+comment2.params=
+comment2.target=void\ reproducir()
+comment3.params=
+comment3.target=void\ SeresVivos()
+comment3.text=\r\n\ Constructor\ for\ objects\ of\ class\ SeresVivos\r\n
+numComments=4
