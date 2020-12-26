@@ -1,0 +1,12 @@
+Integrantes:
+ 
+Freddy Abad
+Wilson Zhagui
+
+Explicacion:
+La entrega consiste de los metodos para factorizacion LU, se tiene el archivo croutFact, que descompone en estas
+dos matrices L y U. A la vez, se tiene un archivo llamado croutSolucionSistEcuaciones, que ademas de descomponer
+en matrices L y U, soluciona los sistemas de de ecuaciones. Finalmente, el archivo doolittle que descompone matrices
+en LU mediante la eliminacion gaussiana.
+
+Cada Archivo tiene un pantallazo donde se muestra su funcionamiento.

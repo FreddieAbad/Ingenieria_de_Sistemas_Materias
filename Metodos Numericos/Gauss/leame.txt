@@ -1,0 +1,9 @@
+Integrantes: 
+Freddy Abad
+Wilson Zhagui
+
+Contenido:
+Script del Metodo de Gauss Simple.
+Pantallazo de un ejercicios resuelto mediante Gauss Simple.
+Script del Metodo de Gauss con pivoteo.
+Pantallazo de un ejercicios resuelto mediante Gauss con Pivoteo Parcial.

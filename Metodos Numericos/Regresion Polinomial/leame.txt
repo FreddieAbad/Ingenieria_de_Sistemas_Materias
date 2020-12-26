@@ -1,0 +1,18 @@
+Integrantes: 
+Freddy Abad
+Wilson Zhagui
+
+Contenido:
+RegPolimial.m=Script con el codigo fuente de la regresion polinomial
+
+temp3=Screenshot que demuestra la comparativa entre las estimaciones de regresion polinomial de varios grados de polinomio, 
+con x=[0 1 2 3 4 5]; y=[2.1 7.7 13.6 27.2 40.9 61.1];.
+
+temp4=Screenshot con los resultados de la regresion polinomial con grados [2, 4, 5]. Dados x=[0 1 2 3 4 5]; 
+y=[2.1 7.7 13.6 27.2 40.9 61.1];.
+
+temp5=Screenshot con los resultados de la regresion polinomial y su grafica con grado [2]. Dados x=[0 1 2 3 4 5]; 
+y=[2.1 7.7 13.6 27.2 40.9 61.1];.
+
+temp6=Screenshot con los resultados de la regresion polinomial y su grafica con grado [9]. Dados x=[0 1 2 3 4 5]; 
+y=[2.1 7.7 13.6 27.2 40.9 61.1];.
