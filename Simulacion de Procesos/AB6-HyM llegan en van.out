@@ -1,0 +1,52 @@
+
+                                      ARENA Simulation Results
+                                     Usuario - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/20/2019
+Analyst: Usuario                                                     Model revision date: 6/20/2019
+
+Replication ended at time      : 1.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+HOMBRE.VATime                               .00000     (Insuf)    .00000     .00000          4    
+HOMBRE.NVATime                              .00000     (Insuf)    .00000     .00000          4    
+HOMBRE.WaitTime                             .00000     (Insuf)    .00000     .00000          4    
+HOMBRE.TranTime                             .00000     (Insuf)    .00000     .00000          4    
+HOMBRE.OtherTime                            .00000     (Insuf)    .00000     .00000          4    
+HOMBRE.TotalTime                            .00000     (Insuf)    .00000     .00000          4    
+MUJER.VATime                                .00000     (Insuf)    .00000     .00000          4    
+MUJER.NVATime                               .00000     (Insuf)    .00000     .00000          4    
+MUJER.WaitTime                              .00000     (Insuf)    .00000     .00000          4    
+MUJER.TranTime                              .00000     (Insuf)    .00000     .00000          4    
+MUJER.OtherTime                             .00000     (Insuf)    .00000     .00000          4    
+MUJER.TotalTime                             .00000     (Insuf)    .00000     .00000          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+HOMBRE.WIP                                  .00000     (Insuf)    .00000     1.0000     .00000    
+MUJER.WIP                                   .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+HOMBRE.NumberIn                             4.0000    
+HOMBRE.NumberOut                            4.0000    
+MUJER.NumberIn                              4.0000    
+MUJER.NumberOut                             4.0000    
+System.NumberOut                            8.0000    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

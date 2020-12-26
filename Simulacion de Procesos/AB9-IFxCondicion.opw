@@ -1,0 +1,9 @@
+[RESOURCES]
+[VARIABLES]
+PROBABILIDAD2
+PUERTA?.NumberOut True
+MUJERES.NumberOut
+PUERTA2.NumberOut
+PUERTA1.NumberOut
+PUERTA?.NumberOut False
+HOMBRES.NumberOut

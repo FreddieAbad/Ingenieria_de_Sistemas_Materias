@@ -1,0 +1,870 @@
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                  Summary for Replication 1 of 10
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+Replication ended at time      : 86400.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1210.1     (Corr)     160.00     5488.5        394    
+Hombre.NVATime                              .00000     .00000     .00000     .00000        394    
+Hombre.WaitTime                             13.325     1.3788     .00000     67.770        394    
+Hombre.TranTime                             .00000     .00000     .00000     .00000        394    
+Hombre.OtherTime                            .00000     .00000     .00000     .00000        394    
+Hombre.TotalTime                            1223.4     (Corr)     186.25     5523.0        394    
+Mujer.VATime                                1226.9     84.951     165.62     5672.3        407    
+Mujer.NVATime                               .00000     .00000     .00000     .00000        407    
+Mujer.WaitTime                              13.470     1.2963     .00000     63.214        407    
+Mujer.TranTime                              .00000     .00000     .00000     .00000        407    
+Mujer.OtherTime                             .00000     .00000     .00000     .00000        407    
+Mujer.TotalTime                             1240.3     85.693     179.56     5716.3        407    
+Cola Espera Subir.Queue.WaitingTime         3.0416     .30961     .00000     22.217       1136    
+Cola Espera Subir PB.Queue.WaitingTime      5.0187     (Insuf)    .00000     20.146        274    
+Cola Espera Subir P2.Queue.WaitingTime      3.9041     (Insuf)    .00000     24.296        292    
+Cola Espera Subir P3.Queue.WaitingTime      4.6351     (Insuf)    .00000     22.071        276    
+Cola Espera Subir P4.Queue.WaitingTime      3.8855     (Insuf)    .00000     21.327        294    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  5.7488     (Corr)     .00000     35.000     .00000    
+Mujer.WIP                                   6.0249     (Corr)     .00000     31.000     .00000    
+AscensorSubida.NumberBusy                   .26379     (Corr)     .00000     6.0000     .00000    
+AscensorSubida.NumberScheduled              5.1147     (Corr)     .00000     8.0000     8.0000    
+AscensorSubida.Utilization                  .18035     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .16529     (Corr)     .00000     5.0000     .00000    
+AscensorBajada.NumberScheduled              5.2740     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .12237     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberBusy                   .05779     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .05779     (Corr)     .00000     1.0000     .00000    
+Cola Espera Subir.Queue.NumberInQueue       .03999     (Corr)     .00000     3.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .01592     (Corr)     .00000     3.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .01319     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .01481     (Insuf)    .00000     3.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .01322     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            801.00    
+Persona.NumberOut                           801.00    
+Hombre.NumberIn                             1372.0    
+Hombre.NumberOut                            1372.0    
+Mujer.NumberIn                              1455.0    
+Mujer.NumberOut                             1455.0    
+AscensorSubida.NumberSeized                 1410.0    
+AscensorSubida.ScheduledUtilization         .05157    
+AscensorBajada.NumberSeized                 862.00    
+AscensorBajada.ScheduledUtilization         .03134    
+PuertaAscensor.NumberSeized                 2272.0    
+PuertaAscensor.ScheduledUtilization         .05779    
+System.NumberOut                            801.00    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                  Summary for Replication 2 of 10
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+Replication ended at time      : 86400.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1242.5     84.718     114.15     6949.8        441    
+Hombre.NVATime                              .00000     .00000     .00000     .00000        441    
+Hombre.WaitTime                             14.011     (Corr)     .00000     60.851        441    
+Hombre.TranTime                             .00000     .00000     .00000     .00000        441    
+Hombre.OtherTime                            .00000     .00000     .00000     .00000        441    
+Hombre.TotalTime                            1256.5     85.361     114.15     6992.3        441    
+Mujer.VATime                                1212.1     62.921     115.48     6303.3        449    
+Mujer.NVATime                               .00000     .00000     .00000     .00000        449    
+Mujer.WaitTime                              13.801     1.3453     .00000     58.190        449    
+Mujer.TranTime                              .00000     .00000     .00000     .00000        449    
+Mujer.OtherTime                             .00000     .00000     .00000     .00000        449    
+Mujer.TotalTime                             1225.9     63.107     132.36     6331.4        449    
+Cola Espera Subir.Queue.WaitingTime         3.2925     .30304     .00000     21.612       1271    
+Cola Espera Subir PB.Queue.WaitingTime      4.6807     .62199     .00000     18.146        337    
+Cola Espera Subir P2.Queue.WaitingTime      4.2032     (Insuf)    .00000     22.375        301    
+Cola Espera Subir P3.Queue.WaitingTime      3.9191     (Insuf)    .00000     20.286        299    
+Cola Espera Subir P4.Queue.WaitingTime      4.3353     .69549     .00000     19.327        334    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  6.6073     (Corr)     .00000     35.000     .00000    
+Mujer.WIP                                   6.5689     (Corr)     .00000     31.000     .00000    
+AscensorSubida.NumberBusy                   .29630     (Corr)     .00000     7.0000     .00000    
+AscensorSubida.NumberScheduled              4.9781     (Corr)     .00000     8.0000     8.0000    
+AscensorSubida.Utilization                  .19888     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .17433     (Corr)     .00000     5.0000     .00000    
+AscensorBajada.NumberScheduled              5.1874     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .12990     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberBusy                   .06207     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .06207     (Corr)     .00000     1.0000     .00000    
+Cola Espera Subir.Queue.NumberInQueue       .04844     (Corr)     .00000     3.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .01826     (Corr)     .00000     3.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .01464     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .01356     (Insuf)    .00000     3.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .01676     (Corr)     .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            890.00    
+Persona.NumberOut                           890.00    
+Hombre.NumberIn                             1557.0    
+Hombre.NumberOut                            1557.0    
+Mujer.NumberIn                              1589.0    
+Mujer.NumberOut                             1589.0    
+AscensorSubida.NumberSeized                 1608.0    
+AscensorSubida.ScheduledUtilization         .05952    
+AscensorBajada.NumberSeized                 934.00    
+AscensorBajada.ScheduledUtilization         .03361    
+PuertaAscensor.NumberSeized                 2542.0    
+PuertaAscensor.ScheduledUtilization         .06207    
+System.NumberOut                            890.00    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                  Summary for Replication 3 of 10
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+Replication ended at time      : 86400.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1140.6     82.705     101.85     4333.1        381    
+Hombre.NVATime                              .00000     .00000     .00000     .00000        381    
+Hombre.WaitTime                             12.856     .98344     .00000     45.762        381    
+Hombre.TranTime                             .00000     .00000     .00000     .00000        381    
+Hombre.OtherTime                            .00000     .00000     .00000     .00000        381    
+Hombre.TotalTime                            1153.5     83.023     112.35     4355.7        381    
+Mujer.VATime                                1156.8     85.913     146.46     4712.9        332    
+Mujer.NVATime                               .00000     .00000     .00000     .00000        332    
+Mujer.WaitTime                              11.074     1.6560     .00000     46.498        332    
+Mujer.TranTime                              .00000     .00000     .00000     .00000        332    
+Mujer.OtherTime                             .00000     .00000     .00000     .00000        332    
+Mujer.TotalTime                             1167.9     86.424     160.89     4749.6        332    
+Cola Espera Subir.Queue.WaitingTime         2.8946     .35132     .00000     20.632        992    
+Cola Espera Subir PB.Queue.WaitingTime      4.4126     (Insuf)    .00000     21.925        233    
+Cola Espera Subir P2.Queue.WaitingTime      3.6189     (Insuf)    .00000     21.862        229    
+Cola Espera Subir P3.Queue.WaitingTime      4.2794     (Insuf)    .00000     20.132        269    
+Cola Espera Subir P4.Queue.WaitingTime      4.3051     (Insuf)    .00000     17.738        261    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  5.2544     (Corr)     .00000     25.000     .00000    
+Mujer.WIP                                   4.6341     (Corr)     .00000     27.000     .00000    
+AscensorSubida.NumberBusy                   .23493     (Corr)     .00000     5.0000     .00000    
+AscensorSubida.NumberScheduled              5.2606     (Corr)     .00000     8.0000     8.0000    
+AscensorSubida.Utilization                  .17021     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .14527     (Corr)     .00000     4.0000     .00000    
+AscensorBajada.NumberScheduled              5.4078     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .10845     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberBusy                   .04938     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .04938     (Corr)     .00000     1.0000     .00000    
+Cola Espera Subir.Queue.NumberInQueue       .03323     (Corr)     .00000     4.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .01190     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .00959     (Insuf)    .00000     3.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .01332     (Insuf)    .00000     3.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .01301     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            713.00    
+Persona.NumberOut                           713.00    
+Hombre.NumberIn                             1347.0    
+Hombre.NumberOut                            1347.0    
+Mujer.NumberIn                              1175.0    
+Mujer.NumberOut                             1175.0    
+AscensorSubida.NumberSeized                 1225.0    
+AscensorSubida.ScheduledUtilization         .04466    
+AscensorBajada.NumberSeized                 759.00    
+AscensorBajada.ScheduledUtilization         .02686    
+PuertaAscensor.NumberSeized                 1984.0    
+PuertaAscensor.ScheduledUtilization         .04938    
+System.NumberOut                            713.00    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                  Summary for Replication 4 of 10
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+Replication ended at time      : 86400.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1158.7     65.680     101.82     4120.2        465    
+Hombre.NVATime                              .00000     .00000     .00000     .00000        465    
+Hombre.WaitTime                             13.135     1.1520     .00000     63.224        465    
+Hombre.TranTime                             .00000     .00000     .00000     .00000        465    
+Hombre.OtherTime                            .00000     .00000     .00000     .00000        465    
+Hombre.TotalTime                            1171.9     66.090     118.87     4171.8        465    
+Mujer.VATime                                1236.3     72.395     160.51     5694.3        485    
+Mujer.NVATime                               .00000     .00000     .00000     .00000        485    
+Mujer.WaitTime                              13.707     1.2947     .00000     68.149        485    
+Mujer.TranTime                              .00000     .00000     .00000     .00000        485    
+Mujer.OtherTime                             .00000     .00000     .00000     .00000        485    
+Mujer.TotalTime                             1250.0     72.873     182.13     5721.9        485    
+Cola Espera Subir.Queue.WaitingTime         3.3583     .36513     .00000     21.033       1327    
+Cola Espera Subir PB.Queue.WaitingTime      4.4968     .63511     .00000     17.517        352    
+Cola Espera Subir P2.Queue.WaitingTime      4.1984     (Insuf)    .00000     20.416        318    
+Cola Espera Subir P3.Queue.WaitingTime      4.0665     (Insuf)    .00000     19.673        295    
+Cola Espera Subir P4.Queue.WaitingTime      3.6450     .46381     .00000     17.317        362    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  6.5062     (Corr)     .00000     28.000     .00000    
+Mujer.WIP                                   7.2253     (Corr)     .00000     45.000     .00000    
+AscensorSubida.NumberBusy                   .30331     (Corr)     .00000     7.0000     .00000    
+AscensorSubida.NumberScheduled              4.9631     (Corr)     .00000     8.0000     8.0000    
+AscensorSubida.Utilization                  .20046     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .18016     (Corr)     .00000     6.0000     .00000    
+AscensorBajada.NumberScheduled              5.1600     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .12892     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberBusy                   .06412     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .06412     (Corr)     .00000     1.0000     .00000    
+Cola Espera Subir.Queue.NumberInQueue       .05158     (Corr)     .00000     4.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .01832     (Corr)     .00000     2.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .01545     (Corr)     .00000     2.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .01388     (Insuf)    .00000     4.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .01527     (Corr)     .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            950.00    
+Persona.NumberOut                           950.00    
+Hombre.NumberIn                             1611.0    
+Hombre.NumberOut                            1611.0    
+Mujer.NumberIn                              1683.0    
+Mujer.NumberOut                             1683.0    
+AscensorSubida.NumberSeized                 1679.0    
+AscensorSubida.ScheduledUtilization         .06111    
+AscensorBajada.NumberSeized                 975.00    
+AscensorBajada.ScheduledUtilization         .03491    
+PuertaAscensor.NumberSeized                 2654.0    
+PuertaAscensor.ScheduledUtilization         .06412    
+System.NumberOut                            950.00    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                  Summary for Replication 5 of 10
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+Replication ended at time      : 86400.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1172.5     74.678     159.96     4181.0        478    
+Hombre.NVATime                              .00000     .00000     .00000     .00000        478    
+Hombre.WaitTime                             13.257     1.1060     .00000     77.145        478    
+Hombre.TranTime                             .00000     .00000     .00000     .00000        478    
+Hombre.OtherTime                            .00000     .00000     .00000     .00000        478    
+Hombre.TotalTime                            1185.7     75.023     178.09     4184.8        478    
+Mujer.VATime                                1196.4     67.611     134.58     4639.0        416    
+Mujer.NVATime                               .00000     .00000     .00000     .00000        416    
+Mujer.WaitTime                              12.516     1.2329     .00000     62.822        416    
+Mujer.TranTime                              .00000     .00000     .00000     .00000        416    
+Mujer.OtherTime                             .00000     .00000     .00000     .00000        416    
+Mujer.TotalTime                             1208.9     67.886     134.58     4672.7        416    
+Cola Espera Subir.Queue.WaitingTime         3.3049     .27949     .00000     18.867       1237    
+Cola Espera Subir PB.Queue.WaitingTime      4.7657     (Insuf)    .00000     21.362        302    
+Cola Espera Subir P2.Queue.WaitingTime      4.2505     .74469     .00000     21.558        322    
+Cola Espera Subir P3.Queue.WaitingTime      3.5314     (Insuf)    .00000     16.896        285    
+Cola Espera Subir P4.Queue.WaitingTime      3.5931     .46250     .00000     19.237        328    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  6.7660     (Corr)     .00000     35.000     .00000    
+Mujer.WIP                                   5.9984     (Corr)     .00000     28.000     .00000    
+AscensorSubida.NumberBusy                   .28611     (Corr)     .00000     8.0000     .00000    
+AscensorSubida.NumberScheduled              5.0047     (Corr)     .00000     8.0000     8.0000    
+AscensorSubida.Utilization                  .19293     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .17513     (Corr)     .00000     7.0000     .00000    
+AscensorBajada.NumberScheduled              5.2059     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .12746     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberBusy                   .06078     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .06078     (Corr)     .00000     1.0000     .00000    
+Cola Espera Subir.Queue.NumberInQueue       .04732     (Corr)     .00000     4.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .01666     (Corr)     .00000     2.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .01584     (Corr)     .00000     2.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .01165     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .01364     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            894.00    
+Persona.NumberOut                           894.00    
+Hombre.NumberIn                             1664.0    
+Hombre.NumberOut                            1664.0    
+Mujer.NumberIn                              1439.0    
+Mujer.NumberOut                             1439.0    
+AscensorSubida.NumberSeized                 1539.0    
+AscensorSubida.ScheduledUtilization         .05717    
+AscensorBajada.NumberSeized                 935.00    
+AscensorBajada.ScheduledUtilization         .03364    
+PuertaAscensor.NumberSeized                 2474.0    
+PuertaAscensor.ScheduledUtilization         .06078    
+System.NumberOut                            894.00    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                  Summary for Replication 6 of 10
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+Replication ended at time      : 86400.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1209.6     81.630     137.02     5044.9        437    
+Hombre.NVATime                              .00000     .00000     .00000     .00000        437    
+Hombre.WaitTime                             13.292     1.2763     .00000     67.022        437    
+Hombre.TranTime                             .00000     .00000     .00000     .00000        437    
+Hombre.OtherTime                            .00000     .00000     .00000     .00000        437    
+Hombre.TotalTime                            1222.9     82.029     163.09     5089.1        437    
+Mujer.VATime                                1153.6     67.451     166.25     4463.6        449    
+Mujer.NVATime                               .00000     .00000     .00000     .00000        449    
+Mujer.WaitTime                              12.187     1.3009     .00000     49.734        449    
+Mujer.TranTime                              .00000     .00000     .00000     .00000        449    
+Mujer.OtherTime                             .00000     .00000     .00000     .00000        449    
+Mujer.TotalTime                             1165.7     67.938     181.54     4501.8        449    
+Cola Espera Subir.Queue.WaitingTime         3.3347     .37155     .00000     19.861       1211    
+Cola Espera Subir PB.Queue.WaitingTime      4.2978     (Insuf)    .00000     18.684        285    
+Cola Espera Subir P2.Queue.WaitingTime      4.4059     (Insuf)    .00000     21.165        315    
+Cola Espera Subir P3.Queue.WaitingTime      4.0977     (Insuf)    .00000     20.109        314    
+Cola Espera Subir P4.Queue.WaitingTime      4.0259     (Insuf)    .00000     20.607        297    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  6.3720     (Corr)     .00000     29.000     .00000    
+Mujer.WIP                                   6.2494     (Corr)     .00000     27.000     .00000    
+AscensorSubida.NumberBusy                   .27358     (Corr)     .00000     6.0000     .00000    
+AscensorSubida.NumberScheduled              4.9880     (Corr)     .00000     8.0000     8.0000    
+AscensorSubida.Utilization                  .19059     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .17576     (Corr)     .00000     6.0000     .00000    
+AscensorBajada.NumberScheduled              5.1843     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .13131     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberBusy                   .05903     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .05903     (Corr)     .00000     1.0000     .00000    
+Cola Espera Subir.Queue.NumberInQueue       .04674     (Corr)     .00000     3.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .01418     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .01606     (Corr)     .00000     2.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .01489     (Corr)     .00000     3.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .01384     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            886.00    
+Persona.NumberOut                           886.00    
+Hombre.NumberIn                             1511.0    
+Hombre.NumberOut                            1511.0    
+Mujer.NumberIn                              1550.0    
+Mujer.NumberOut                             1550.0    
+AscensorSubida.NumberSeized                 1496.0    
+AscensorSubida.ScheduledUtilization         .05485    
+AscensorBajada.NumberSeized                 926.00    
+AscensorBajada.ScheduledUtilization         .03390    
+PuertaAscensor.NumberSeized                 2422.0    
+PuertaAscensor.ScheduledUtilization         .05903    
+System.NumberOut                            886.00    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                  Summary for Replication 7 of 10
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+Replication ended at time      : 86400.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1270.6     95.044     144.43     6103.3        412    
+Hombre.NVATime                              .00000     .00000     .00000     .00000        412    
+Hombre.WaitTime                             13.788     1.7152     .00000     63.021        412    
+Hombre.TranTime                             .00000     .00000     .00000     .00000        412    
+Hombre.OtherTime                            .00000     .00000     .00000     .00000        412    
+Hombre.TotalTime                            1284.4     95.588     146.14     6152.2        412    
+Mujer.VATime                                1257.2     90.730     149.01     5212.2        429    
+Mujer.NVATime                               .00000     .00000     .00000     .00000        429    
+Mujer.WaitTime                              13.985     (Corr)     .00000     62.939        429    
+Mujer.TranTime                              .00000     .00000     .00000     .00000        429    
+Mujer.OtherTime                             .00000     .00000     .00000     .00000        429    
+Mujer.TotalTime                             1271.2     91.038     162.03     5275.2        429    
+Cola Espera Subir.Queue.WaitingTime         2.9154     .33838     .00000     18.730       1233    
+Cola Espera Subir PB.Queue.WaitingTime      4.9800     (Insuf)    .00000     21.960        276    
+Cola Espera Subir P2.Queue.WaitingTime      4.2726     (Insuf)    .00000     18.993        310    
+Cola Espera Subir P3.Queue.WaitingTime      4.1859     (Insuf)    .00000     18.047        310    
+Cola Espera Subir P4.Queue.WaitingTime      4.2769     .64283     .00000     18.786        337    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  6.3102     (Corr)     .00000     38.000     .00000    
+Mujer.WIP                                   6.5106     (Corr)     .00000     32.000     .00000    
+AscensorSubida.NumberBusy                   .27134     (Corr)     .00000     8.0000     .00000    
+AscensorSubida.NumberScheduled              5.1219     (Corr)     .00000     8.0000     8.0000    
+AscensorSubida.Utilization                  .18317     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .17451     (Corr)     .00000     5.0000     .00000    
+AscensorBajada.NumberScheduled              5.2679     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .12390     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberBusy                   .06043     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .06043     (Corr)     .00000     1.0000     .00000    
+Cola Espera Subir.Queue.NumberInQueue       .04161     (Corr)     .00000     4.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .01591     (Corr)     .00000     2.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .01533     (Corr)     .00000     2.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .01502     (Corr)     .00000     3.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .01668     (Corr)     .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            841.00    
+Persona.NumberOut                           841.00    
+Hombre.NumberIn                             1479.0    
+Hombre.NumberOut                            1479.0    
+Mujer.NumberIn                              1573.0    
+Mujer.NumberOut                             1573.0    
+AscensorSubida.NumberSeized                 1509.0    
+AscensorSubida.ScheduledUtilization         .05297    
+AscensorBajada.NumberSeized                 957.00    
+AscensorBajada.ScheduledUtilization         .03313    
+PuertaAscensor.NumberSeized                 2466.0    
+PuertaAscensor.ScheduledUtilization         .06043    
+System.NumberOut                            841.00    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                  Summary for Replication 8 of 10
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+Replication ended at time      : 76249.584 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1223.3     81.811     173.04     4464.0        377    
+Hombre.NVATime                              .00000     .00000     .00000     .00000        377    
+Hombre.WaitTime                             11.771     1.5398     .00000     71.745        377    
+Hombre.TranTime                             .00000     .00000     .00000     .00000        377    
+Hombre.OtherTime                            .00000     .00000     .00000     .00000        377    
+Hombre.TotalTime                            1235.0     82.627     181.85     4484.9        377    
+Mujer.VATime                                1259.7     85.773     155.43     6740.8        393    
+Mujer.NVATime                               .00000     .00000     .00000     .00000        393    
+Mujer.WaitTime                              12.198     1.4173     .00000     65.919        393    
+Mujer.TranTime                              .00000     .00000     .00000     .00000        393    
+Mujer.OtherTime                             .00000     .00000     .00000     .00000        393    
+Mujer.TotalTime                             1271.9     86.738     157.50     6806.7        393    
+Cola Espera Subir.Queue.WaitingTime         2.7988     .26204     .00000     19.960       1112    
+Cola Espera Subir PB.Queue.WaitingTime      3.9681     (Insuf)    .00000     21.876        310    
+Cola Espera Subir P2.Queue.WaitingTime      3.6124     (Insuf)    .00000     17.713        293    
+Cola Espera Subir P3.Queue.WaitingTime      3.7381     (Insuf)    .00000     17.978        233    
+Cola Espera Subir P4.Queue.WaitingTime      3.8536     (Insuf)    .00000     20.523        276    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  6.3598     (Corr)     .00000     27.000     1.0000    
+Mujer.WIP                                   6.7589     (Corr)     .00000     26.000     .00000    
+AscensorSubida.NumberBusy                   .30451     (Corr)     .00000     6.0000     .00000    
+AscensorSubida.NumberScheduled              4.7217     (Corr)     .00000     8.0000     .00000    
+AscensorSubida.Utilization                  .21506     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .16990     (Corr)     .00000     4.0000     1.0000    
+AscensorBajada.NumberScheduled              4.9484     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .12795     (Corr)     .00000     1.0000     .12500    
+PuertaAscensor.NumberBusy                   .06418     (Corr)     .00000     1.0000     1.0000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .06418     (Corr)     .00000     1.0000     1.0000    
+Cola Espera Subir.Queue.NumberInQueue       .04082     (Corr)     .00000     3.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .01613     (Corr)     .00000     2.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .01388     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .01142     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .01395     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            771.00    
+Persona.NumberOut                           771.00    
+Hombre.NumberIn                             1379.0    
+Hombre.NumberOut                            1378.0    
+Mujer.NumberIn                              1425.0    
+Mujer.NumberOut                             1425.0    
+AscensorSubida.NumberSeized                 1422.0    
+AscensorSubida.ScheduledUtilization         .06449    
+AscensorBajada.NumberSeized                 802.00    
+AscensorBajada.ScheduledUtilization         .03433    
+PuertaAscensor.NumberSeized                 2224.0    
+PuertaAscensor.ScheduledUtilization         .06418    
+System.NumberOut                            770.00    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                  Summary for Replication 9 of 10
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+Replication ended at time      : 86400.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1196.1     77.316     117.64     5300.3        445    
+Hombre.NVATime                              .00000     .00000     .00000     .00000        445    
+Hombre.WaitTime                             13.413     1.1210     .00000     61.180        445    
+Hombre.TranTime                             .00000     .00000     .00000     .00000        445    
+Hombre.OtherTime                            .00000     .00000     .00000     .00000        445    
+Hombre.TotalTime                            1209.5     77.718     124.87     5322.4        445    
+Mujer.VATime                                1156.9     72.788     157.21     5963.1        423    
+Mujer.NVATime                               .00000     .00000     .00000     .00000        423    
+Mujer.WaitTime                              13.227     (Corr)     .00000     78.389        423    
+Mujer.TranTime                              .00000     .00000     .00000     .00000        423    
+Mujer.OtherTime                             .00000     .00000     .00000     .00000        423    
+Mujer.TotalTime                             1170.2     73.262     170.32     6041.5        423    
+Cola Espera Subir.Queue.WaitingTime         3.2226     .30531     .00000     22.694       1209    
+Cola Espera Subir PB.Queue.WaitingTime      4.6191     (Insuf)    .00000     23.899        286    
+Cola Espera Subir P2.Queue.WaitingTime      4.1743     (Insuf)    .00000     18.501        292    
+Cola Espera Subir P3.Queue.WaitingTime      4.0193     (Insuf)    .00000     21.370        316    
+Cola Espera Subir P4.Queue.WaitingTime      3.9196     (Insuf)    .00000     22.971        315    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  6.4217     (Corr)     .00000     31.000     .00000    
+Mujer.WIP                                   5.9102     (Corr)     .00000     31.000     .00000    
+AscensorSubida.NumberBusy                   .27779     (Corr)     .00000     7.0000     .00000    
+AscensorSubida.NumberScheduled              5.0570     (Corr)     .00000     8.0000     8.0000    
+AscensorSubida.Utilization                  .18932     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .17633     (Corr)     .00000     4.0000     .00000    
+AscensorBajada.NumberScheduled              5.2430     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .12611     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberBusy                   .06183     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .06183     (Corr)     .00000     1.0000     .00000    
+Cola Espera Subir.Queue.NumberInQueue       .04509     (Corr)     .00000     3.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .01529     (Corr)     .00000     2.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .01411     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .01470     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .01429     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            868.00    
+Persona.NumberOut                           868.00    
+Hombre.NumberIn                             1550.0    
+Hombre.NumberOut                            1550.0    
+Mujer.NumberIn                              1466.0    
+Mujer.NumberOut                             1466.0    
+AscensorSubida.NumberSeized                 1495.0    
+AscensorSubida.ScheduledUtilization         .05493    
+AscensorBajada.NumberSeized                 923.00    
+AscensorBajada.ScheduledUtilization         .03363    
+PuertaAscensor.NumberSeized                 2418.0    
+PuertaAscensor.ScheduledUtilization         .06183    
+System.NumberOut                            868.00    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                  Summary for Replication 10 of 10
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+Replication ended at time      : 86400.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1237.6     87.191     186.12     4418.6        433    
+Hombre.NVATime                              .00000     .00000     .00000     .00000        433    
+Hombre.WaitTime                             13.714     1.3382     .00000     72.542        433    
+Hombre.TranTime                             .00000     .00000     .00000     .00000        433    
+Hombre.OtherTime                            .00000     .00000     .00000     .00000        433    
+Hombre.TotalTime                            1251.4     87.817     186.12     4462.3        433    
+Mujer.VATime                                1228.8     (Corr)     121.79     4912.4        411    
+Mujer.NVATime                               .00000     .00000     .00000     .00000        411    
+Mujer.WaitTime                              13.414     1.4106     .00000     91.755        411    
+Mujer.TranTime                              .00000     .00000     .00000     .00000        411    
+Mujer.OtherTime                             .00000     .00000     .00000     .00000        411    
+Mujer.TotalTime                             1242.2     (Corr)     121.79     4960.9        411    
+Cola Espera Subir.Queue.WaitingTime         3.4405     .33450     .00000     22.028       1215    
+Cola Espera Subir PB.Queue.WaitingTime      4.2936     (Insuf)    .00000     18.750        298    
+Cola Espera Subir P2.Queue.WaitingTime      3.7554     (Insuf)    .00000     21.904        304    
+Cola Espera Subir P3.Queue.WaitingTime      3.9287     (Insuf)    .00000     17.191        294    
+Cola Espera Subir P4.Queue.WaitingTime      4.5397     (Insuf)    .00000     19.379        319    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  6.4673     (Corr)     .00000     28.000     .00000    
+Mujer.WIP                                   6.0953     (Corr)     .00000     29.000     .00000    
+AscensorSubida.NumberBusy                   .27931     (Corr)     .00000     6.0000     .00000    
+AscensorSubida.NumberScheduled              4.9837     (Corr)     .00000     8.0000     8.0000    
+AscensorSubida.Utilization                  .19323     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .17381     (Corr)     .00000     5.0000     .00000    
+AscensorBajada.NumberScheduled              5.1674     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .13051     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberBusy                   .06036     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .06036     (Corr)     .00000     1.0000     .00000    
+Cola Espera Subir.Queue.NumberInQueue       .04838     (Corr)     .00000     4.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .01481     (Corr)     .00000     2.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .01321     (Insuf)    .00000     3.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .01337     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .01676     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            844.00    
+Persona.NumberOut                           844.00    
+Hombre.NumberIn                             1561.0    
+Hombre.NumberOut                            1561.0    
+Mujer.NumberIn                              1482.0    
+Mujer.NumberOut                             1482.0    
+AscensorSubida.NumberSeized                 1513.0    
+AscensorSubida.ScheduledUtilization         .05604    
+AscensorBajada.NumberSeized                 917.00    
+AscensorBajada.ScheduledUtilization         .03364    
+PuertaAscensor.NumberSeized                 2430.0    
+PuertaAscensor.ScheduledUtilization         .06036    
+System.NumberOut                            844.00    
+
+
+                                      ARENA Simulation Results
+                                Usuario de Windows - License: STUDENT
+
+                                 Output Summary for 10 Replications
+
+Project: Unnamed Project                                             Run execution date : 8/ 1/2019
+Analyst: Bryan                                                       Model revision date: 8/ 1/2019
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Persona.NumberIn                            845.80     49.159     713.00     950.00     10
+Persona.NumberOut                           845.80     49.159     713.00     950.00     10
+Hombre.NumberIn                             1503.1     76.740     1347.0     1664.0     10
+Hombre.NumberOut                            1503.0     76.832     1347.0     1664.0     10
+Mujer.NumberIn                              1483.7     96.870     1175.0     1683.0     10
+Mujer.NumberOut                             1483.7     96.870     1175.0     1683.0     10
+AscensorSubida.NumberSeized                 1489.6     87.361     1225.0     1679.0     10
+AscensorSubida.ScheduledUtilization         .05573     .00393     .04466     .06449     10
+AscensorBajada.NumberSeized                 899.00     49.825     759.00     975.00     10
+AscensorBajada.ScheduledUtilization         .03290     .00165     .02686     .03491     10
+PuertaAscensor.NumberSeized                 2388.6     133.89     1984.0     2654.0     10
+PuertaAscensor.ScheduledUtilization         .06000     .00303     .04938     .06418     10
+System.NumberOut                            845.70     49.246     713.00     950.00     10
+
+Simulation run time: 1.85 minutes.
+Simulation run complete.

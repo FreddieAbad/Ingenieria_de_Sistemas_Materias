@@ -1,0 +1,63 @@
+SIMAN Run Controller.
+
+2.5317153 Hours>
+                                      ARENA Simulation Results
+                                     Usuario - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/21/2019
+Analyst: Usuario                                                     Model revision date: 6/21/2019
+
+Replication ended at time      : 2.5317153 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+CAMION.VATime                               .00000     (Insuf)    .00000     .00000          5    
+CAMION.NVATime                              .00000     (Insuf)    .00000     .00000          5    
+CAMION.WaitTime                             .00000     (Insuf)    .00000     .00000          5    
+CAMION.TranTime                             .00000     (Insuf)    .00000     .00000          5    
+CAMION.OtherTime                            .00000     (Insuf)    .00000     .00000          5    
+CAMION.TotalTime                            .00000     (Insuf)    .00000     .00000          5    
+CARRO.VATime                                .00000     (Insuf)    .00000     .00000          2    
+CARRO.NVATime                               .00000     (Insuf)    .00000     .00000          2    
+CARRO.WaitTime                              .00000     (Insuf)    .00000     .00000          2    
+CARRO.TranTime                              .00000     (Insuf)    .00000     .00000          2    
+CARRO.OtherTime                             .00000     (Insuf)    .00000     .00000          2    
+CARRO.TotalTime                             .00000     (Insuf)    .00000     .00000          2    
+BICICLETA.VATime                            .00000     (Insuf)    .00000     .00000          4    
+BICICLETA.NVATime                           .00000     (Insuf)    .00000     .00000          4    
+BICICLETA.WaitTime                          .00000     (Insuf)    .00000     .00000          4    
+BICICLETA.TranTime                          .00000     (Insuf)    .00000     .00000          4    
+BICICLETA.OtherTime                         .00000     (Insuf)    .00000     .00000          4    
+BICICLETA.TotalTime                         .00000     (Insuf)    .00000     .00000          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+CAMION.WIP                                  .00000     (Insuf)    .00000     1.0000     .00000    
+CARRO.WIP                                   .00000     (Insuf)    .00000     1.0000     .00000    
+BICICLETA.WIP                               .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+CAMION.NumberIn                             5.0000    
+CAMION.NumberOut                            5.0000    
+CARRO.NumberIn                              2.0000    
+CARRO.NumberOut                             2.0000    
+BICICLETA.NumberIn                          4.0000    
+BICICLETA.NumberOut                         4.0000    
+System.NumberOut                            11.000    
+
+
+Simulation run time: 0.30 minutes.
+Simulation run complete.

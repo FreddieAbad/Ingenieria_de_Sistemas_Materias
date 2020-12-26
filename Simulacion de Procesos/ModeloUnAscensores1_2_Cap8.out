@@ -1,0 +1,109 @@
+SIMAN Run Controller.
+
+39686.076 Seconds>
+                                      ARENA Simulation Results
+                                     Usuario - License: STUDENT
+
+                                  Summary for Replication 1 of 10
+
+Project: Caso1Ascensor                                               Run execution date : 8/ 2/2019
+Analyst: UserFreddy                                                  Model revision date: 8/ 2/2019
+
+Replication ended at time      : 39686.076 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Persona.VATime                                  --         --         --         --          0
+Persona.NVATime                                 --         --         --         --          0
+Persona.WaitTime                                --         --         --         --          0
+Persona.TranTime                                --         --         --         --          0
+Persona.OtherTime                               --         --         --         --          0
+Persona.TotalTime                               --         --         --         --          0
+Hombre.VATime                               1165.9     (Insuf)    208.89     4716.8         82    
+Hombre.NVATime                              .00000     (Insuf)    .00000     .00000         82    
+Hombre.WaitTime                             10.550     (Insuf)    .00000     31.042         82    
+Hombre.TranTime                             .00000     (Insuf)    .00000     .00000         82    
+Hombre.OtherTime                            .00000     (Insuf)    .00000     .00000         82    
+Hombre.TotalTime                            1176.5     (Insuf)    219.67     4743.4         82    
+Mujer.VATime                                1151.4     (Insuf)    339.59     3103.9         79    
+Mujer.NVATime                               .00000     (Insuf)    .00000     .00000         79    
+Mujer.WaitTime                              11.985     (Insuf)    .00000     30.340         79    
+Mujer.TranTime                              .00000     (Insuf)    .00000     .00000         79    
+Mujer.OtherTime                             .00000     (Insuf)    .00000     .00000         79    
+Mujer.TotalTime                             1163.3     (Insuf)    343.80     3124.8         79    
+Ingreso al Elevador PB.Queue.WaitingTime    .29379     (Insuf)    .00000     3.2580         57    
+Ingreso al Elevador P2.Queue.WaitingTime    .34901     (Insuf)    .00000     4.9757         44    
+Ingreso al Elevador P4.Queue.WaitingTime    .32896     (Insuf)    .00000     7.6390         60    
+Cola Espera Subir.Queue.WaitingTime         2.9182     (Insuf)    .00000     17.163        243    
+Cola Espera Subir PB.Queue.WaitingTime      5.4260     (Insuf)    .00000     18.673         57    
+Cola Espera Subir P2.Queue.WaitingTime      3.3583     (Insuf)    .00000     17.604         44    
+Cola Espera Subir P3.Queue.WaitingTime      4.7914     (Insuf)    .00000     18.896         63    
+Cola Espera Subir P4.Queue.WaitingTime      2.9666     (Insuf)    .00000     15.646         60    
+Cola Subida.Queue.WaitingTime                   --         --         --         --          0
+Grupo Personas en Ascensor de Subida.Queue  .43792     (Insuf)    .00000     9.9528        243    
+Ingreso al Elevador P3.Queue.WaitingTime    .40525     (Insuf)    .00000     4.1157         63    
+Grupo Personas Bajar P2.Queue.WaitingTime   .02019     (Insuf)    .00000     .88842         44    
+Grupo Personas Bajar P3.Queue.WaitingTime   .04191     (Insuf)    .00000     2.6400         63    
+Grupo Personas Bajar P4.Queue.WaitingTime   .08326     (Insuf)    .00000     3.8195         60    
+Grupo Personas SubirPB.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000         57    
+Cola Bajada.Queue.WaitingTime                   --         --         --         --          0
+Ingreso al Elevador de Subida.Queue.Waitin  .46555     (Insuf)    .00000     9.5114        243    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Persona.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+Hombre.WIP                                  2.7648     (Corr)     .00000     19.000     12.000    
+Mujer.WIP                                   2.5460     (Corr)     .00000     17.000     7.0000    
+AscensorSubida.NumberBusy                   .12632     (Corr)     .00000     4.0000     .00000    
+AscensorSubida.NumberScheduled              5.4255     (Corr)     .00000     8.0000     8.0000    
+AscensorSubida.Utilization                  .09198     (Corr)     .00000     1.0000     .00000    
+AscensorBajada.NumberBusy                   .07059     (Insuf)    .00000     3.0000     .00000    
+AscensorBajada.NumberScheduled              5.5163     (Corr)     .00000     8.0000     8.0000    
+AscensorBajada.Utilization                  .05641     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberBusy                   .02465     (Corr)     .00000     1.0000     .00000    
+PuertaAscensor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PuertaAscensor.Utilization                  .02465     (Corr)     .00000     1.0000     .00000    
+Ingreso al Elevador PB.Queue.NumberInQueue  4.2196E-04 (Insuf)    .00000     1.0000     .00000    
+Ingreso al Elevador P2.Queue.NumberInQueue  3.8694E-04 (Insuf)    .00000     2.0000     .00000    
+Ingreso al Elevador P4.Queue.NumberInQueue  4.9734E-04 (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir.Queue.NumberInQueue       .01787     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir PB.Queue.NumberInQueue    .00779     (Insuf)    .00000     1.0000     .00000    
+Cola Espera Subir P2.Queue.NumberInQueue    .00372     (Insuf)    .00000     2.0000     .00000    
+Cola Espera Subir P3.Queue.NumberInQueue    .00761     (Insuf)    .00000     1.0000     .00000    
+Cola Espera Subir P4.Queue.NumberInQueue    .00449     (Insuf)    .00000     2.0000     .00000    
+Cola Subida.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Grupo Personas en Ascensor de Subida.Queue  .00268     (Insuf)    .00000     4.0000     .00000    
+Ingreso al Elevador P3.Queue.NumberInQueue  6.4331E-04 (Insuf)    .00000     1.0000     .00000    
+Grupo Personas Bajar P2.Queue.NumberInQueu  2.2386E-05 (Insuf)    .00000     2.0000     .00000    
+Grupo Personas Bajar P3.Queue.NumberInQueu  6.6523E-05 (Insuf)    .00000     2.0000     .00000    
+Grupo Personas Bajar P4.Queue.NumberInQueu  1.2588E-04 (Insuf)    .00000     2.0000     .00000    
+Grupo Personas SubirPB.Queue.NumberInQueue  .00000     (Insuf)    .00000     1.0000     .00000    
+Cola Bajada.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Ingreso al Elevador de Subida.Queue.Number  .00285     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Persona.NumberIn                            180.00    
+Persona.NumberOut                           180.00    
+Hombre.NumberIn                             316.00    
+Hombre.NumberOut                            304.00    
+Mujer.NumberIn                              290.00    
+Mujer.NumberOut                             283.00    
+AscensorSubida.NumberSeized                 300.00    
+AscensorSubida.ScheduledUtilization         .02328    
+AscensorBajada.NumberSeized                 167.00    
+AscensorBajada.ScheduledUtilization         .01280    
+PuertaAscensor.NumberSeized                 467.00    
+PuertaAscensor.ScheduledUtilization         .02465    
+System.NumberOut                            161.00    
+

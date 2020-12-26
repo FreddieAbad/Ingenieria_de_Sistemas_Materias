@@ -1,0 +1,7 @@
+[RESOURCES]
+[VARIABLES]
+PUERTA?.NumberOut True
+PERSONAS.NumberOut
+PUERTA2.NumberOut
+PUERTA1.NumberOut
+PUERTA?.NumberOut False

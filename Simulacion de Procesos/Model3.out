@@ -1,0 +1,47 @@
+SIMAN Run Controller.
+
+0.0 Hours>SIMAN Run Controller.
+
+77.633498 Hours>
+                                      ARENA Simulation Results
+                                     Usuario - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/21/2019
+Analyst: Usuario                                                     Model revision date: 6/21/2019
+
+Replication ended at time      : 77.633498 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+PERSONA.VATime                              .00000     (Insuf)    .00000     .00000         68    
+PERSONA.NVATime                             .00000     (Insuf)    .00000     .00000         68    
+PERSONA.WaitTime                            .00000     (Insuf)    .00000     .00000         68    
+PERSONA.TranTime                            .00000     (Insuf)    .00000     .00000         68    
+PERSONA.OtherTime                           .00000     (Insuf)    .00000     .00000         68    
+PERSONA.TotalTime                           .00000     (Insuf)    .00000     .00000         68    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+PERSONA.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+PERSONA.NumberIn                            68.000    
+PERSONA.NumberOut                           68.000    
+System.NumberOut                            68.000    
+
+
+Simulation run time: 0.70 minutes.
+Simulation run complete.
