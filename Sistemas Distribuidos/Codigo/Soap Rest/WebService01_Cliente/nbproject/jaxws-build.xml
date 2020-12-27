@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-WS100" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WS100"/>
+        <property name="wsdl-WS100" location="xml-resources/web-service-references/WS100/wsdl/localhost_8080/WebServices01/WS100.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WS100" destdir="${build.generated.dir}/jax-wsCache/WS100" wsdl="${wsdl-WS100}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/WebServices01/WS100?WSDL" xnocompile="true" xendorsed="true" package="com.empresa.proyecto.ws">
+            <depends file="${wsdl-WS100}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WS100"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WS100">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WS100" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WS100"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/com/empresa/proyecto/ws"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-WS100"/>
+</project>
