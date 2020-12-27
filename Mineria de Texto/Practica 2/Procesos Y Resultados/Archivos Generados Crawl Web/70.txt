@@ -1,0 +1,531 @@
+Ir para o conteúdo 1Ir para o menu 2Ir para a busca 3Ir para o rodapé 4
+
+        A+A-ACESSIBILIDADEALTO CONTRASTEMAPA DO SITE
+
+        
+            Portal da Transparência
+            CONTROLADORIA-GERAL DA UNIÃO
+        
+
+
+    
+
+
+    
+        
+        
+            
+                    Sobre o Portal
+                    O que é e como funcionaO que você encontra no PortalLegislação
+                            Dados do portal
+                            Origem e atualizaçãoDados abertosAPI de DadosHistórico de dados
+                        
+                            Contato
+                            Faça um pedido de informação para o Governo FederalFaça uma denúnciaRegistre suas sugestões, dúvidas e reclamações
+                        
+                
+                    Painéis
+                    Orçamento anualDespesas públicas
+                            Despesas em políticas públicas
+                            Por área de atuação (função)Por programas e ações orçamentáriasPor programas de governo
+                        Receitas públicasRecursos transferidosCartões de pagamentoLicitaçõesContratosConvênios e outros acordosBenefícios ao cidadãoEmendas parlamentaresServidores públicosViagens a serviçoImóveis funcionaisSançõesLocalidades
+                
+                    Consultas Detalhadas
+                    OrçamentoDespesas públicasReceitas públicasRecursos transferidosCartões de pagamentoLicitaçõesContratosConvênios e outros acordosBenefícios ao cidadãoEmendas parlamentares
+                            Servidores públicos
+                                Por órgãoRelação de vínculos
+                        Viagens a serviço
+                            Imóveis funcionais
+                            Relação de imóveisRelação de ocupantes
+                        Pessoas físicasPessoas jurídicas
+                            Sanções
+                            Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS)Cadastro Nacional de Empresas Punidas (CNEP)Cadastro de Entidades Privadas sem Fins Lucrativos Impedidas (CEPIM)Cadastro de Expulsões da Administração Federal (CEAF)Acordos de leniência
+                        
+                
+                    Controle social
+                    Escala Brasil Transparente - Avaliação 360°Controle socialO Portal como ferramentaAcesso à informaçãoGoverno Aberto
+                Rede de TransparênciaReceba Notificações
+                    Aprenda mais
+                    
+                            Entenda a gestão pública
+                            Orçamento públicoExecução da receita públicaExecução da despesa públicaProgramas de GovernoBenefícios ao cidadãoServidores públicosLicitações e contrataçõesConvênios e outros acordosSanções aplicadasTransferências de Recursos Cartões de Pagamento
+                        Usando o portalPerguntas frequentesGlossárioVídeos
+                
+        
+    
+
+
+
+    
+
+    
+        
+            
+
+
+
+        
+    
+
+    
+
+
+
+    
+
+        
+            
+                Formulário de busca
+                Selecione aqui o tipo de informação que pretende buscar
+                TodosCompras e contrataçõesTransferências de recursosConvênios e outros acordosExecução Orçamentária e Financeira da DespesaGasto com cartão de pagamentoDocumentos de empenhosDocumentos de liquidaçõesDocumentos de pagamentosViagens a serviçoReceitas públicasServidoresImóveis funcionaisCEISCNEPCEPIMCEAFAcordos de leniênciaSeguro DefesoPETIGarantia-SafraBolsa FamíliaÓrgãos / entidadesPessoas físicasPessoas jurídicasSóciosEstados e municípiosRede de TransparênciaRelatórios de auditoria
+                Busque por orgão, cidade, CNPJ, servidor...
+                
+                Buscar
+            
+        
+    
+
+
+
+
+    
+        
+            
+                PANORAMA
+                Governo FederalPessoas jurídicasPessoas físicas
+            
+            
+                Consulte os documentos diários de despesa
+            
+            
+                 Sanções
+                PainelEmpresas Inidôneas e SuspensasEmpresas PunidasEntidades Privadas sem Fins Lucrativos ImpedidasAcordos de leniência
+            
+        
+
+        
+            
+                
+                    
+                        
+                            
+                                ORÇAMENTO
+                            
+                            
+                                ORÇAMENTO
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                DESPESAS E RECEITAS
+                            
+                            
+                                DESPESAS
+                                PainelConsulta
+                                RECEITAS
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                ÓRGÃOS
+                            
+                            
+                                ÓRGÃOS
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                ESTADOS E MUNICÍPIOS
+                            
+                            
+                                ESTADOS E MUNICÍPIOS
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                LICITAÇÕES E CONTRATOS
+                            
+                            
+                                LICITAÇÕES
+                                PainelConsulta
+                                CONTRATOS
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                CONVÊNIOS
+                            
+                            
+                                CONVÊNIOS E ACORDOS
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                CARTÕES DE PAGAMENTO
+                            
+                            
+                                CARTÕES DE PAGAMENTO
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                RECURSOS TRANSFERIDOS
+                            
+                            
+                                RECURSOS TRANSFERIDOS
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                BENEFÍCIOS AO CIDADÃO
+                            
+                            
+                                BENEFÍCIOS AO CIDADÃO
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                SERVIDORES
+                            
+                            
+                                SERVIDORES
+                                PainelConsulta
+                                IMÓVEIS FUNCIONAIS
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                VIAGENS A SERVIÇO
+                            
+                            
+                                VIAGENS A SERVIÇO
+                                PainelConsulta
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                EMENDA PARLAMENTAR
+                            
+                            
+                                EMENDA PARLAMENTAR
+                                PainelConsulta
+                            
+                        
+                    
+                
+            
+        
+    
+
+    
+        
+
+
+                
+
+                            
+                                Cartões de pagamento - Ano 2018
+
+
+    
+                QUANTIDADE DE PORTADORES DE CARTÃO
+                
+            
+                TOTAL GASTO POR MEIO DE CARTÕES
+                
+            
+                As despesas por meio de cartões de pagamentos equivalem a
+                
+                dos gastos públicos
+            
+
+
+                                
+                                    Acompanhe os gastos do Governo Federal realizados por meio de cartões de pagamento.
+                                    Acesse o Painel de Cartões
+                                
+                            
+
+                
+
+
+                
+                    
+                        
+                                        Aprenda mais com o Novo Portal da Transparência
+
+                                            
+                                                
+                                            
+
+                                        Conheça a área educativa do Portal para saber mais sobre os conteúdos!.
+                                    
+                                        Rede de Transparência - Projetos de Recursos Externos (PREs) - Meio Ambiente
+
+                                            
+                                                
+                                            
+
+                                        Disponível link para o portal de Projetos de Recursos Externos do Ministério do Meio Ambiente (PREs).
+                                    
+                                        Novas informações no Portal da Transparência
+
+                                            
+                                                
+                                            
+
+                                        Agora você encontra novas bases de dados e consultas no Portal da Transparência
+                                    
+                        
+                    
+                
+        
+    
+
+    
+				
+					
+						Dados do Portal
+						Você pode baixar os dados do Portal da Transparência para fazer seus próprios cruzamentos, gráficos e análises. E agora o Portal também oferece APIs para alimentar seus aplicativos e programas. Saiba mais!
+						
+					
+				
+				
+					
+						Rede da transparência
+						Acesse dezenas de links da Rede para ter acesso a dados, informações, relatórios, sistemas e outros recursos. A Rede aproxima você de outras iniciativas de transparência do Governo Federal, de outros poderes e governos. Confira!
+						
+					
+				
+				
+					
+						Receba notificações
+						Quer acompanhar os convênios com o seu município? Saber quando o governo fez gastos em um programa do seu interesse?  Ou que tal acompanhar os novos contratos de um órgão? Cadastra-se e o Portal mantém você informado!
+
+    Não encontrou o que desejava?
+
+    
+        
+            
+                
+                    
+                
+                
+                    Consulte pedidos de informação já respondidos.
+                    Acesse a ferramenta de busca e verifique se a informação desejada já foi disponibilizada para outro cidadão.
+                    Consultar
+                
+            
+        
+        
+            
+                
+                Faça o seu pedido no e-SIC
+                Tenha acesso a informações públicas de mais de 300 instituições do poder executivo.
+                Fazer pedido
+            
+        
+    
+
+
+
+
+
+
+    
+        
+             Dúvidas?
+
+            
+                
+
+                
+                    
+                        
+                            Formulário de dúvidas
+
+                            Qual é sua dúvida?
+                            
+
+                            
+                        
+                    
+                
+                
+
+
+                
+            
+        
+    
+
+
+
+
+
+
+    
+        
+             Compartilhe Receba notificações Contato
+
+            
+                
+                    
+                        Redes sociais
+                        WhatsappFacebookTwitterQR Code
+                        
+                    
+
+                    
+
+                        Link
+                        
+                            
+                                
+                            
+                            
+                                Gerar Link
+                                Copiar link
+                            
+                        
+
+                    
+                
+
+                
+                    
+                        Gostaria de receber notificações sobre atualizações de dados do Portal da Transparência?
+                        Cadastre-se aqui.
+                    
+                
+
+                
+                    Contato
+                    
+                        
+                            
+                                    
+                                    Faça um pedido de informação para o Governo Federal
+                                
+                                    
+                                    Faça uma denúncia
+                                
+                        
+                        
+                            
+                                    Registre suas sugestões, dúvidas e reclamações
+                                 Onde encontrar informações sobre estados e municípios
+                        
+                    
+
+                    
+                        
+                            Formulário de correção
+
+                            
+                                
+                                    
+                                        Texto
+                                        
+                                    
+                                
+                            
+
+                            Seu e-mail
+
+                            
+                                
+                                    
+                                
+                                
+                                    
+                                
+                            
+
+                        
+                    
+                
+            
+        
+    
+
+
+
+    
+        Voltar para o topo 
+
+        
+            
+                Principal
+                Panorama do Governo FederalDespesas PúblicasÁreas de atuação do GovernoServidores PúblicosRede de TransparênciaReceba NotificaçõesDados Abertos
+            
+            
+                Educativo
+                O que é e como funciona o PortalO que você encontra no PortalOrçamento PúblicoUsando o PortalPerguntas frequentesGlossário
+            
+            
+                Controle social
+                O Portal como ferramentaAcesso à Informação
+            
+        
+    
+
+
+
+
+
+    Carregando...

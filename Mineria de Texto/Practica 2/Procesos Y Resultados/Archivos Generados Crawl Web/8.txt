@@ -1,0 +1,9 @@
+@import "../libs/jquery/jquery.webui-popover.min.css?v=1.8.1";
+@import "../css/style.css?v=1.8.1";
+@import "../css/cgu.css?v=1.8.1";
+@import "../libs/bootstrap-datepicker/bootstrap-datepicker3.min.css?v=1.8.1";
+@import "../libs/font-awesome-4.4.0/css/font-awesome.min.css?v=1.8.1";
+<!--
+ARQUIVO ALTERADO CONFORME O AMBIENTE.
+PARA ADICIONAR NOVOS ARQUIVOS, INCLUIR NO FILTRO E POM.XML
+-->

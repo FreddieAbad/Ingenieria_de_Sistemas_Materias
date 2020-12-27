@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="9.2.001">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="9.2.001" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="false" class="social_media:search_twitter" compatibility="9.0.000" expanded="true" height="68" name="Search Twitter" width="90" x="45" y="289">
+        <parameter key="connection" value="Practica13"/>
+        <parameter key="query" value="#starwars -rt -http"/>
+        <parameter key="result_type" value="recent or popular"/>
+        <parameter key="limit" value="1000"/>
+        <parameter key="language" value="en"/>
+        <parameter key="filter_by_geo_location" value="false"/>
+        <parameter key="radius_unit" value="miles"/>
+      </operator>
+      <operator activated="false" class="nominal_to_text" compatibility="9.2.001" expanded="true" height="82" name="Nominal to Text" width="90" x="179" y="289">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Text"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="false" class="text:process_document_from_data" compatibility="8.2.000" expanded="true" height="82" name="Process Documents from Data" width="90" x="380" y="289">
+        <parameter key="create_word_vector" value="true"/>
+        <parameter key="vector_creation" value="TF-IDF"/>
+        <parameter key="add_meta_information" value="true"/>
+        <parameter key="keep_text" value="false"/>
+        <parameter key="prune_method" value="none"/>
+        <parameter key="prune_below_percent" value="3.0"/>
+        <parameter key="prune_above_percent" value="30.0"/>
+        <parameter key="prune_below_rank" value="0.05"/>
+        <parameter key="prune_above_rank" value="0.95"/>
+        <parameter key="datamanagement" value="double_sparse_array"/>
+        <parameter key="data_management" value="auto"/>
+        <parameter key="select_attributes_and_weights" value="false"/>
+        <list key="specify_weights"/>
+        <process expanded="true">
+          <operator activated="true" class="text:tokenize" compatibility="8.2.000" expanded="true" height="68" name="Tokenize" width="90" x="112" y="34">
+            <parameter key="mode" value="non letters"/>
+            <parameter key="characters" value=".:"/>
+            <parameter key="language" value="English"/>
+            <parameter key="max_token_length" value="3"/>
+          </operator>
+          <operator activated="true" class="text:filter_stopwords_english" compatibility="8.2.000" expanded="true" height="68" name="Filter Stopwords (English)" width="90" x="246" y="34"/>
+          <operator activated="true" class="wordnet:open_wordnet_dictionary" compatibility="5.3.000" expanded="true" height="68" name="Open WordNet Dictionary" width="90" x="246" y="136">
+            <parameter key="resource_type" value="directory"/>
+            <parameter key="directory" value="C:\Users\Usuario\Desktop\Practica 13 FA\WordNet-3.0\dict"/>
+          </operator>
+          <operator activated="true" class="wordnet:stem_wordnet" compatibility="5.3.000" expanded="true" height="82" name="Stem (WordNet)" width="90" x="380" y="34">
+            <parameter key="allow_ambiguity" value="false"/>
+            <parameter key="keep_unmatched_stems" value="false"/>
+            <parameter key="keep_unmatched_tokens" value="false"/>
+            <parameter key="work_on_type_noun" value="true"/>
+            <parameter key="work_on_type_verb" value="true"/>
+            <parameter key="work_on_type_adjective" value="true"/>
+            <parameter key="work_on_type_adverb" value="true"/>
+          </operator>
+          <operator activated="true" class="wordnet:find_sentiment_wordnet" compatibility="5.3.000" expanded="true" height="82" name="Extract Sentiment (English)" width="90" x="514" y="34">
+            <parameter key="threshold" value="0.05"/>
+            <parameter key="use_nouns" value="true"/>
+            <parameter key="use_verbs" value="true"/>
+            <parameter key="use_adjectives" value="true"/>
+            <parameter key="use_adverbs" value="true"/>
+          </operator>
+          <connect from_port="document" to_op="Tokenize" to_port="document"/>
+          <connect from_op="Tokenize" from_port="document" to_op="Filter Stopwords (English)" to_port="document"/>
+          <connect from_op="Filter Stopwords (English)" from_port="document" to_op="Stem (WordNet)" to_port="document"/>
+          <connect from_op="Open WordNet Dictionary" from_port="dictionary" to_op="Stem (WordNet)" to_port="dictionary"/>
+          <connect from_op="Stem (WordNet)" from_port="document" to_op="Extract Sentiment (English)" to_port="document"/>
+          <connect from_op="Stem (WordNet)" from_port="dictionary" to_op="Extract Sentiment (English)" to_port="dictionary"/>
+          <connect from_op="Extract Sentiment (English)" from_port="document" to_port="document 1"/>
+          <portSpacing port="source_document" spacing="0"/>
+          <portSpacing port="sink_document 1" spacing="0"/>
+          <portSpacing port="sink_document 2" spacing="0"/>
+        </process>
+      </operator>
+      <operator activated="true" class="social_media:search_twitter" compatibility="9.0.000" expanded="true" height="68" name="Search Twitter (2)" width="90" x="45" y="85">
+        <parameter key="connection" value="Practica13"/>
+        <parameter key="query" value="#starwars -rt -http"/>
+        <parameter key="result_type" value="recent or popular"/>
+        <parameter key="limit" value="10"/>
+        <parameter key="language" value="en"/>
+        <parameter key="filter_by_geo_location" value="false"/>
+        <parameter key="radius_unit" value="miles"/>
+      </operator>
+      <operator activated="true" class="com.aylien.textapi.rapidminer:aylien_sentiment" compatibility="0.2.000" expanded="true" height="68" name="Analyze Sentiment" width="90" x="179" y="85">
+        <parameter key="connection" value="Practica13Aylien"/>
+        <parameter key="input_attribute" value="Text"/>
+        <parameter key="sentiment_mode" value="tweet"/>
+        <parameter key="Is input URL" value="false"/>
+      </operator>
+      <connect from_op="Search Twitter" from_port="output" to_op="Nominal to Text" to_port="example set input"/>
+      <connect from_op="Nominal to Text" from_port="example set output" to_op="Process Documents from Data" to_port="example set"/>
+      <connect from_op="Search Twitter (2)" from_port="output" to_op="Analyze Sentiment" to_port="Example Set"/>
+      <connect from_op="Analyze Sentiment" from_port="Example Set" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+    </process>
+  </operator>
+</process>

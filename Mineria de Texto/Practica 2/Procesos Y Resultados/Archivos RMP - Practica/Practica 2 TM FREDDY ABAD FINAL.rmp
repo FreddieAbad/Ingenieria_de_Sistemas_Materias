@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="9.2.001">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="9.2.001" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="web:crawl_web_modern" compatibility="7.3.000" expanded="true" height="68" name="Crawl Web" width="90" x="380" y="85">
+        <parameter key="url" value="https://www.youtube.com/watch?v=_KhsQ3nn6Kw"/>
+        <list key="crawling_rules"/>
+        <parameter key="max_crawl_depth" value="2"/>
+        <parameter key="retrieve_as_html" value="false"/>
+        <parameter key="enable_basic_auth" value="false"/>
+        <parameter key="add_content_as_attribute" value="false"/>
+        <parameter key="write_pages_to_disk" value="false"/>
+        <parameter key="include_binary_content" value="false"/>
+        <parameter key="output_file_extension" value="txt"/>
+        <parameter key="max_page_size" value="1000"/>
+        <parameter key="delay" value="200"/>
+        <parameter key="max_concurrent_connections" value="100"/>
+        <parameter key="max_connections_per_host" value="50"/>
+        <parameter key="user_agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"/>
+        <parameter key="ignore_robot_exclusion" value="false"/>
+      </operator>
+      <connect from_op="Crawl Web" from_port="example set" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+    </process>
+  </operator>
+</process>

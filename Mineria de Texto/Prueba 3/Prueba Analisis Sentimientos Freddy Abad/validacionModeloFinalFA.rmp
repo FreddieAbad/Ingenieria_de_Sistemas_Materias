@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="9.2.001">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="9.2.001" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="retrieve" compatibility="9.2.001" expanded="true" height="68" name="Modelo SVM" width="90" x="1452" y="136">
+        <parameter key="repository_entry" value="//Local Repository/modelSVMTweets"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.2.001" expanded="true" height="68" name="Diccionario" width="90" x="1251" y="136">
+        <parameter key="repository_entry" value="//Local Repository/diccionarioModelSVMTweets"/>
+      </operator>
+      <operator activated="true" class="read_csv" compatibility="9.0.003" expanded="true" height="68" name="Comentarios Neg" width="90" x="45" y="289">
+        <parameter key="csv_file" value="C:\Users\Estudiante\Desktop\Prueba Analisis Sentimientos Freddy Abad\negative_feeds.csv"/>
+        <parameter key="column_separators" value=","/>
+        <parameter key="trim_lines" value="false"/>
+        <parameter key="use_quotes" value="false"/>
+        <parameter key="quotes_character" value="&quot;"/>
+        <parameter key="escape_character" value="\"/>
+        <parameter key="skip_comments" value="false"/>
+        <parameter key="comment_characters" value="#"/>
+        <parameter key="starting_row" value="1"/>
+        <parameter key="parse_numbers" value="true"/>
+        <parameter key="decimal_character" value="."/>
+        <parameter key="grouped_digits" value="false"/>
+        <parameter key="grouping_character" value=","/>
+        <parameter key="infinity_representation" value=""/>
+        <parameter key="date_format" value=""/>
+        <parameter key="first_row_as_names" value="false"/>
+        <list key="annotations"/>
+        <parameter key="time_zone" value="SYSTEM"/>
+        <parameter key="locale" value="English (United States)"/>
+        <parameter key="encoding" value="windows-1252"/>
+        <parameter key="read_all_values_as_polynominal" value="false"/>
+        <list key="data_set_meta_data_information">
+          <parameter key="0" value="att1.true.text.attribute"/>
+          <parameter key="1" value="att2.true.polynominal.attribute"/>
+          <parameter key="2" value="att3.true.polynominal.attribute"/>
+        </list>
+        <parameter key="read_not_matching_values_as_missings" value="true"/>
+        <parameter key="datamanagement" value="double_array"/>
+        <parameter key="data_management" value="auto"/>
+      </operator>
+      <operator activated="true" class="filter_example_range" compatibility="9.2.001" expanded="true" height="82" name="Filtro 1000-2000 com" width="90" x="179" y="289">
+        <parameter key="first_example" value="1001"/>
+        <parameter key="last_example" value="2001"/>
+        <parameter key="invert_filter" value="false"/>
+      </operator>
+      <operator activated="true" class="generate_attributes" compatibility="9.2.001" expanded="true" height="82" name="Etiqueto Com Neg" width="90" x="313" y="289">
+        <list key="function_descriptions">
+          <parameter key="sentiment" value="&quot;negative&quot;"/>
+        </list>
+        <parameter key="keep_all" value="true"/>
+      </operator>
+      <operator activated="true" class="split_data" compatibility="9.2.001" expanded="true" height="103" name="Split Data (4)" width="90" x="447" y="289">
+        <enumeration key="partitions">
+          <parameter key="ratio" value="0.8"/>
+          <parameter key="ratio" value="0.2"/>
+        </enumeration>
+        <parameter key="sampling_type" value="linear sampling"/>
+        <parameter key="use_local_random_seed" value="false"/>
+        <parameter key="local_random_seed" value="1992"/>
+      </operator>
+      <operator activated="true" class="read_csv" compatibility="9.0.003" expanded="true" height="68" name="Comentarios Pos" width="90" x="45" y="442">
+        <parameter key="csv_file" value="C:\Users\Estudiante\Desktop\Prueba Analisis Sentimientos Freddy Abad\positive_feeds.csv"/>
+        <parameter key="column_separators" value=","/>
+        <parameter key="trim_lines" value="false"/>
+        <parameter key="use_quotes" value="false"/>
+        <parameter key="quotes_character" value="&quot;"/>
+        <parameter key="escape_character" value="\"/>
+        <parameter key="skip_comments" value="false"/>
+        <parameter key="comment_characters" value="#"/>
+        <parameter key="starting_row" value="1"/>
+        <parameter key="parse_numbers" value="true"/>
+        <parameter key="decimal_character" value="."/>
+        <parameter key="grouped_digits" value="false"/>
+        <parameter key="grouping_character" value=","/>
+        <parameter key="infinity_representation" value=""/>
+        <parameter key="date_format" value=""/>
+        <parameter key="first_row_as_names" value="false"/>
+        <list key="annotations"/>
+        <parameter key="time_zone" value="SYSTEM"/>
+        <parameter key="locale" value="English (United States)"/>
+        <parameter key="encoding" value="windows-1252"/>
+        <parameter key="read_all_values_as_polynominal" value="false"/>
+        <list key="data_set_meta_data_information">
+          <parameter key="0" value="att1.true.text.attribute"/>
+          <parameter key="1" value="att2.true.polynominal.attribute"/>
+          <parameter key="2" value="att3.true.polynominal.attribute"/>
+        </list>
+        <parameter key="read_not_matching_values_as_missings" value="true"/>
+        <parameter key="datamanagement" value="double_array"/>
+        <parameter key="data_management" value="auto"/>
+      </operator>
+      <operator activated="true" class="filter_example_range" compatibility="9.2.001" expanded="true" height="82" name="Filtro 1001-2001 com" width="90" x="179" y="442">
+        <parameter key="first_example" value="1001"/>
+        <parameter key="last_example" value="2001"/>
+        <parameter key="invert_filter" value="false"/>
+      </operator>
+      <operator activated="true" class="generate_attributes" compatibility="9.2.001" expanded="true" height="82" name="Etiqueto Com Pos" width="90" x="313" y="442">
+        <list key="function_descriptions">
+          <parameter key="sentiment" value="&quot;positive&quot;"/>
+        </list>
+        <parameter key="keep_all" value="true"/>
+      </operator>
+      <operator activated="true" class="split_data" compatibility="9.2.001" expanded="true" height="103" name="Split Data (5)" width="90" x="447" y="442">
+        <enumeration key="partitions">
+          <parameter key="ratio" value="0.8"/>
+          <parameter key="ratio" value="0.2"/>
+        </enumeration>
+        <parameter key="sampling_type" value="linear sampling"/>
+        <parameter key="use_local_random_seed" value="false"/>
+        <parameter key="local_random_seed" value="1992"/>
+      </operator>
+      <operator activated="true" class="append" compatibility="9.2.001" expanded="true" height="103" name="Append (4)" width="90" x="715" y="289">
+        <parameter key="datamanagement" value="double_array"/>
+        <parameter key="data_management" value="auto"/>
+        <parameter key="merge_type" value="all"/>
+      </operator>
+      <operator activated="true" class="append" compatibility="9.2.001" expanded="true" height="103" name="Append (5)" width="90" x="715" y="442">
+        <parameter key="datamanagement" value="double_array"/>
+        <parameter key="data_management" value="auto"/>
+        <parameter key="merge_type" value="all"/>
+      </operator>
+      <operator activated="true" class="append" compatibility="9.2.001" expanded="true" height="103" name="Append (6)" width="90" x="916" y="289">
+        <parameter key="datamanagement" value="double_array"/>
+        <parameter key="data_management" value="auto"/>
+        <parameter key="merge_type" value="all"/>
+      </operator>
+      <operator activated="true" class="set_role" compatibility="9.2.001" expanded="true" height="82" name="Set Role (2)" width="90" x="1050" y="289">
+        <parameter key="attribute_name" value="sentiment"/>
+        <parameter key="target_role" value="label"/>
+        <list key="set_additional_roles"/>
+      </operator>
+      <operator activated="true" class="nominal_to_text" compatibility="9.2.001" expanded="true" height="82" name="Nominal to Text (2)" width="90" x="1251" y="289">
+        <parameter key="attribute_filter_type" value="all"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="text:process_document_from_data" compatibility="8.1.000" expanded="true" height="82" name="Process Documents from Data (2)" width="90" x="1452" y="289">
+        <parameter key="create_word_vector" value="true"/>
+        <parameter key="vector_creation" value="TF-IDF"/>
+        <parameter key="add_meta_information" value="true"/>
+        <parameter key="keep_text" value="false"/>
+        <parameter key="prune_method" value="none"/>
+        <parameter key="prune_below_percent" value="3.0"/>
+        <parameter key="prune_above_percent" value="30.0"/>
+        <parameter key="prune_below_rank" value="0.05"/>
+        <parameter key="prune_above_rank" value="0.95"/>
+        <parameter key="datamanagement" value="double_sparse_array"/>
+        <parameter key="data_management" value="auto"/>
+        <parameter key="select_attributes_and_weights" value="false"/>
+        <list key="specify_weights"/>
+        <process expanded="true">
+          <operator activated="true" class="text:tokenize" compatibility="8.1.000" expanded="true" height="68" name="Tokenize (2)" width="90" x="112" y="34">
+            <parameter key="mode" value="non letters"/>
+            <parameter key="characters" value=".:"/>
+            <parameter key="language" value="English"/>
+            <parameter key="max_token_length" value="3"/>
+          </operator>
+          <operator activated="true" class="text:stem_porter" compatibility="8.1.000" expanded="true" height="68" name="Stem (2)" width="90" x="112" y="136"/>
+          <operator activated="true" class="text:filter_stopwords_english" compatibility="8.1.000" expanded="true" height="68" name="Filter Stopwords (2)" width="90" x="313" y="34"/>
+          <connect from_port="document" to_op="Tokenize (2)" to_port="document"/>
+          <connect from_op="Tokenize (2)" from_port="document" to_op="Stem (2)" to_port="document"/>
+          <connect from_op="Stem (2)" from_port="document" to_op="Filter Stopwords (2)" to_port="document"/>
+          <connect from_op="Filter Stopwords (2)" from_port="document" to_port="document 1"/>
+          <portSpacing port="source_document" spacing="0"/>
+          <portSpacing port="sink_document 1" spacing="0"/>
+          <portSpacing port="sink_document 2" spacing="0"/>
+          <description align="center" color="yellow" colored="false" height="105" resized="false" width="180" x="1506" y="950">Type your comment</description>
+        </process>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="9.2.001" expanded="true" height="82" name="Apply Model (3)" width="90" x="1653" y="238">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
+      <operator activated="true" class="performance_classification" compatibility="9.2.001" expanded="true" height="82" name="Performance" width="90" x="1787" y="238">
+        <parameter key="main_criterion" value="first"/>
+        <parameter key="accuracy" value="true"/>
+        <parameter key="classification_error" value="true"/>
+        <parameter key="kappa" value="false"/>
+        <parameter key="weighted_mean_recall" value="false"/>
+        <parameter key="weighted_mean_precision" value="false"/>
+        <parameter key="spearman_rho" value="false"/>
+        <parameter key="kendall_tau" value="false"/>
+        <parameter key="absolute_error" value="false"/>
+        <parameter key="relative_error" value="false"/>
+        <parameter key="relative_error_lenient" value="false"/>
+        <parameter key="relative_error_strict" value="false"/>
+        <parameter key="normalized_absolute_error" value="false"/>
+        <parameter key="root_mean_squared_error" value="false"/>
+        <parameter key="root_relative_squared_error" value="false"/>
+        <parameter key="squared_error" value="false"/>
+        <parameter key="correlation" value="false"/>
+        <parameter key="squared_correlation" value="false"/>
+        <parameter key="cross-entropy" value="false"/>
+        <parameter key="margin" value="false"/>
+        <parameter key="soft_margin_loss" value="false"/>
+        <parameter key="logistic_loss" value="false"/>
+        <parameter key="skip_undefined_labels" value="true"/>
+        <parameter key="use_example_weights" value="true"/>
+        <list key="class_weights"/>
+      </operator>
+      <connect from_op="Modelo SVM" from_port="output" to_op="Apply Model (3)" to_port="model"/>
+      <connect from_op="Diccionario" from_port="output" to_op="Process Documents from Data (2)" to_port="word list"/>
+      <connect from_op="Comentarios Neg" from_port="output" to_op="Filtro 1000-2000 com" to_port="example set input"/>
+      <connect from_op="Filtro 1000-2000 com" from_port="example set output" to_op="Etiqueto Com Neg" to_port="example set input"/>
+      <connect from_op="Etiqueto Com Neg" from_port="example set output" to_op="Split Data (4)" to_port="example set"/>
+      <connect from_op="Split Data (4)" from_port="partition 1" to_op="Append (4)" to_port="example set 1"/>
+      <connect from_op="Split Data (4)" from_port="partition 2" to_op="Append (5)" to_port="example set 1"/>
+      <connect from_op="Comentarios Pos" from_port="output" to_op="Filtro 1001-2001 com" to_port="example set input"/>
+      <connect from_op="Filtro 1001-2001 com" from_port="example set output" to_op="Etiqueto Com Pos" to_port="example set input"/>
+      <connect from_op="Etiqueto Com Pos" from_port="example set output" to_op="Split Data (5)" to_port="example set"/>
+      <connect from_op="Split Data (5)" from_port="partition 1" to_op="Append (4)" to_port="example set 2"/>
+      <connect from_op="Split Data (5)" from_port="partition 2" to_op="Append (5)" to_port="example set 2"/>
+      <connect from_op="Append (4)" from_port="merged set" to_op="Append (6)" to_port="example set 1"/>
+      <connect from_op="Append (5)" from_port="merged set" to_op="Append (6)" to_port="example set 2"/>
+      <connect from_op="Append (6)" from_port="merged set" to_op="Set Role (2)" to_port="example set input"/>
+      <connect from_op="Set Role (2)" from_port="example set output" to_op="Nominal to Text (2)" to_port="example set input"/>
+      <connect from_op="Nominal to Text (2)" from_port="example set output" to_op="Process Documents from Data (2)" to_port="example set"/>
+      <connect from_op="Process Documents from Data (2)" from_port="example set" to_op="Apply Model (3)" to_port="unlabelled data"/>
+      <connect from_op="Apply Model (3)" from_port="labelled data" to_op="Performance" to_port="labelled data"/>
+      <connect from_op="Performance" from_port="performance" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+      <description align="center" color="yellow" colored="false" height="50" resized="true" width="574" x="441" y="235">Junto datos</description>
+      <description align="center" color="red" colored="true" height="50" resized="true" width="147" x="1029" y="236">Asigno sentimiento como etiqueta</description>
+      <description align="center" color="yellow" colored="false" height="50" resized="true" width="186" x="1209" y="78">Cargo diccionario del modelo</description>
+      <description align="center" color="yellow" colored="false" height="50" resized="true" width="182" x="1408" y="78">Cargo modelo SVM</description>
+      <description align="center" color="yellow" colored="false" height="50" resized="true" width="184" x="1731" y="173">Obtengo precision</description>
+    </process>
+  </operator>
+</process>

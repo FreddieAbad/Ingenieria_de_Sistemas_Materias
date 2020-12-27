@@ -1,0 +1,25 @@
+							EXPLICACION
+
+Proceso entrenamientoModeloFinalFA.rmp contiene los procesos para obtener el modelo y el diccionario de clasificacion SVM.
+El modelo obtiene una precision del 71.60%.
+Archivos Necesario: 
+negative_feeds.csv 
+positive_feeds.csv 
+
+Archivos que genera:
+modeloSVM
+diccionarioSVM
+
+Proceso validacionModeloFinalFA.rmp contiene el modelo clasificatorio con los datos del 1001-2001 tweet positivo & negativo. 
+
+Archivo Necesario: 
+negative_feeds.csv 
+positive_feeds.csv 
+modeloSVM
+diccionarioSVM
+
+Archivos que genera:
+-
+
+La Precision de clasificacion: 69.58
+Error de Clasificacion: 30.42

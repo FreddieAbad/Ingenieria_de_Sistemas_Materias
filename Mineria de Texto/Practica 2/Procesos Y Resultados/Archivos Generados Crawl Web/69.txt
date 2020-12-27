@@ -1,0 +1,263 @@
+Ir para o conteúdo 1Ir para o menu 2Ir para a busca 3Ir para o rodapé 4
+
+        A+A-ACESSIBILIDADEALTO CONTRASTEMAPA DO SITE
+
+        
+            Portal da Transparência
+            CONTROLADORIA-GERAL DA UNIÃO
+        
+
+            
+                
+                    
+                        Formulário de busca
+
+                        Busque por órgão, cidade, CNPJ, servidor...
+                        
+
+                        Buscar
+                    
+                
+            
+
+    
+
+
+    
+        
+        
+            
+                    Sobre o Portal
+                    O que é e como funcionaO que você encontra no PortalLegislação
+                            Dados do portal
+                            Origem e atualizaçãoDados abertosAPI de DadosHistórico de dados
+                        
+                            Contato
+                            Faça um pedido de informação para o Governo FederalFaça uma denúnciaRegistre suas sugestões, dúvidas e reclamações
+                        
+                
+                    Painéis
+                    Orçamento anualDespesas públicas
+                            Despesas em políticas públicas
+                            Por área de atuação (função)Por programas e ações orçamentáriasPor programas de governo
+                        Receitas públicasRecursos transferidosCartões de pagamentoLicitaçõesContratosConvênios e outros acordosBenefícios ao cidadãoEmendas parlamentaresServidores públicosViagens a serviçoImóveis funcionaisSançõesLocalidades
+                
+                    Consultas Detalhadas
+                    OrçamentoDespesas públicasReceitas públicasRecursos transferidosCartões de pagamentoLicitaçõesContratosConvênios e outros acordosBenefícios ao cidadãoEmendas parlamentares
+                            Servidores públicos
+                                Por órgãoRelação de vínculos
+                        Viagens a serviço
+                            Imóveis funcionais
+                            Relação de imóveisRelação de ocupantes
+                        Pessoas físicasPessoas jurídicas
+                            Sanções
+                            Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS)Cadastro Nacional de Empresas Punidas (CNEP)Cadastro de Entidades Privadas sem Fins Lucrativos Impedidas (CEPIM)Cadastro de Expulsões da Administração Federal (CEAF)Acordos de leniência
+                        
+                
+                    Controle social
+                    Escala Brasil Transparente - Avaliação 360°Controle socialO Portal como ferramentaAcesso à informaçãoGoverno Aberto
+                Rede de TransparênciaReceba Notificações
+                    Aprenda mais
+                    
+                            Entenda a gestão pública
+                            Orçamento públicoExecução da receita públicaExecução da despesa públicaProgramas de GovernoBenefícios ao cidadãoServidores públicosLicitações e contrataçõesConvênios e outros acordosSanções aplicadasTransferências de Recursos Cartões de Pagamento
+                        Usando o portalPerguntas frequentesGlossárioVídeos
+                
+        
+    
+
+
+
+
+    
+        
+                    Você está aqui:
+                    
+                        Início
+                    
+                            » Usando o Portal
+                
+    
+
+        
+            
+                
+                    Usando o Portal
+                
+                
+                
+            
+        
+
+    
+
+    
+        
+            
+
+
+
+        
+    
+
+    
+
+
+
+O PORTAL DA TRANSPARÊNCIAO Governo Federal transfere recursos para os 5570 municípios brasileiros, investe diretamente bilhões para a execução de políticas públicas e usa diferentes instrumentos e processos para levar serviços públicos a todos os brasileiros. Num sistema tão grande e complexo, é difícil controlar tudo que está sendo feito e como está sendo executado. Por isso, a CGU criou, em 2004, o Portal da Transparência. O Portal da Transparência é uma ferramenta desenvolvida para permitir que a sociedade acompanhe o uso dos recursos públicos e tenha uma participação ativa na discussão das políticas públicas e no uso do dinheiro público. Chamamos isso de Controle Social. O Portal traz ferramentas e informações para facilitar essa atividade. São dados sobre as despesas e receitas públicas, as licitações e contratações, os servidores públicos, os fornecedores e muito mais. O CONTROLE SOCIALÉ possível acompanhar uma série de situações pelo Portal. Quer ver alguns exemplos?Você pode acompanhar os repasses para seu município e ver se, de fato, os serviços que receberam recursos estão sendo prestados ou se os bens foram comprados. Por exemplo, seu município provavelmente recebe recursos para merenda escolar. Tem merenda nas escolas?Você pode acompanhar as políticas públicas, vendo quanto o governo está investindo em educação, saúde, segurança pública. Pode inclusive ver de forma mais detalhada: educação básica, investimentos em unidades básicas de saúde, ou construção de estabelecimentos penais. Pode, por exemplo, ver quantos auditores trabalham no Ministério da Cultura e comparar com outros.Se o seu interesse for nas compras públicas, podem acompanhar os contratos e licitações. Pode, por exemplo, ter informações sobre as contratações que usaram dispensa de licitação ou conhecer quem tem os maiores contratos com a administração pública.Com a consulta de servidores, por exemplo, você pode identificar acúmulos de cargo ou pessoas ganhando acima do teto - e talvez até um caso de nepotismo ou conflito de interesses.Você pode verificar, por exemplo, se o vereador da sua cidade não está recebendo bolsa família ou se o seu prefeito que nunca esteve em atividade pesqueira está recebendo um seguro defeso.Viu só? São muitas as possibilidades com o Portal da Transparência.FORMAS DE NAVEGARO Portal da Transparência foi desenhado de maneira em que há muitos caminhos para se chegar nas informações. Por exemplo: você pode explorar o painel do Bolsa Família e depois ver quanto foi repassado para sua cidade; ou você pode navegar pelo painel da sua cidade e depois ver quanto de Bolsa Família foi repassado para lá. Aqui vão algumas dicas para sua navegação:Se você procura por algo bem específico, use a busca na página principal - ou no cabeçalho das páginas internas - para localizar a pessoa, programa, CNPJ, órgão que você procura. Lembre-se que você pode usar filtros no resultado da sua busca para facilitar a localização daquilo que procura!Se quer pegar um conjunto de dados e fazer cortes e filtros para analisar uma situação, você tem dois caminhos: use a "Consulta Detalhada" acessível no menu principal em todo o Portal ou use nossa seção de dados abertos para baixar bases e trabalhar no software de sua preferência. Lembre-se que, na Consulta, você pode usa filtros, adicionar ou remover colunas, pode gerar gráficos e pode baixar dados.Quer explorar ou ter uma visão geral sobre um assunto? Navegue pelos painéis, que trazem visualizações gráficas com diferentes perspectivas sobre os diferentes tópicos do Portal. Lembre-se que você ver os dados de uma tabela ou usar o botão "detalhar" que aparece na maioria dos gráficos para ir para a consulta detalhada daquele tema!Vale ressaltar que você também encontra diversos links úteis no Portal, pela Rede de Transparência. Os links serão apresentados quando você utilizar a ferramenta de busca ou acessando a seção Rede de Transparência. Faça um teste na busca: encontre o portal de transparência do seu estado digitando "porta da transparência [NOME DO SEU ESTADO]" OUTRAS FERRAMENTASO Portal traz muitas outras ferramentas para você ter uma participação ativa no controle do gasto público. Quer exemplos?Você pode compartilhar uma informação interessante nas redes sociais e começar uma discussão.Que tal gerar um QR Code para colar no tapume da obra para que outras pessoas acompanhem aquele convênio que chamou sua atenção?Você pode usar nossa ajuda (essa interrogação azul à direita das páginas) para consultar um termo técnico que você desconhece.Achou esse gráfico legal? Você pode publicá-lo no seu website usando a ferramenta "incorporar".E nossa favorita: você pode se cadastrar para receber notificações sobre diversas situações, como empenhos no programa que você monitora ou compras por inexigibilidade
+
+
+MAIS INFORMAÇÕES E DENÚNCIAS
+
+Pode ser que sua navegação pelo Portal da Transparência instigue você a ir atrás de um contrato ou um projeto, por exemplo. Nesse caso, é importante lembrar que a Lei de Acesso a Informação garante aos brasileiros o direito de solicitar documentos, dados e informações. O jeito mais fácil de fazer isso é acessando o Sistema de Informações ao Cidadão (e-SIC), que permite a requisição online, de forma fácil e sem custos.Agora, se a sua ação de controle social encontrou fatos que levem a uma denúncia, utilize o Sistema de Ouvidorias (e-Ouv) para relatar o seu achado. 
+
+
+
+
+
+
+
+
+    
+        
+             Dúvidas?
+
+            
+                
+
+                
+                    
+                        
+                            Formulário de dúvidas
+
+                            Qual é sua dúvida?
+                            
+
+                            
+                        
+                    
+                
+                
+
+
+                
+            
+        
+    
+
+
+
+
+
+
+    
+        
+             Compartilhe Receba notificações Contato
+
+            
+                
+                    
+                        Redes sociais
+                        WhatsappFacebookTwitterQR Code
+                        
+                    
+
+                    
+
+                        Link
+                        
+                            
+                                
+                            
+                            
+                                Gerar Link
+                                Copiar link
+                            
+                        
+
+                    
+                
+
+                
+                    
+                        Gostaria de receber notificações sobre atualizações de dados do Portal da Transparência?
+                        Cadastre-se aqui.
+                    
+                
+
+                
+                    Contato
+                    
+                        
+                            
+                                    
+                                    Faça um pedido de informação para o Governo Federal
+                                
+                                    
+                                    Faça uma denúncia
+                                
+                        
+                        
+                            
+                                    Registre suas sugestões, dúvidas e reclamações
+                                 Onde encontrar informações sobre estados e municípios
+                        
+                    
+
+                    
+                        
+                            Formulário de correção
+
+                            
+                                
+                                    
+                                        Texto
+                                        
+                                    
+                                
+                            
+
+                            Seu e-mail
+
+                            
+                                
+                                    
+                                
+                                
+                                    
+                                
+                            
+
+                        
+                    
+                
+            
+        
+    
+
+
+
+    
+        Voltar para o topo 
+
+        
+            
+                Principal
+                Panorama do Governo FederalDespesas PúblicasÁreas de atuação do GovernoServidores PúblicosRede de TransparênciaReceba NotificaçõesDados Abertos
+            
+            
+                Educativo
+                O que é e como funciona o PortalO que você encontra no PortalOrçamento PúblicoUsando o PortalPerguntas frequentesGlossário
+            
+            
+                Controle social
+                O Portal como ferramentaAcesso à Informação
+            
+        
+    
+
+
+
+
+
+    Carregando...

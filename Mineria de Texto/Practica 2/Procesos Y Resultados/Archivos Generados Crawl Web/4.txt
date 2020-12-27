@@ -1,0 +1,352 @@
+Ir para o conteúdo 1Ir para o menu 2Ir para a busca 3Ir para o rodapé 4
+
+        A+A-ACESSIBILIDADEALTO CONTRASTEMAPA DO SITE
+
+        
+            Portal da Transparência
+            CONTROLADORIA-GERAL DA UNIÃO
+        
+
+            
+                
+                    
+                        Formulário de busca
+
+                        Busque por órgão, cidade, CNPJ, servidor...
+                        
+
+                        Buscar
+                    
+                
+            
+
+    
+
+
+    
+        
+        
+            
+                    Sobre o Portal
+                    O que é e como funcionaO que você encontra no PortalLegislação
+                            Dados do portal
+                            Origem e atualizaçãoDados abertosAPI de DadosHistórico de dados
+                        
+                            Contato
+                            Faça um pedido de informação para o Governo FederalFaça uma denúnciaRegistre suas sugestões, dúvidas e reclamações
+                        
+                
+                    Painéis
+                    Orçamento anualDespesas públicas
+                            Despesas em políticas públicas
+                            Por área de atuação (função)Por programas e ações orçamentáriasPor programas de governo
+                        Receitas públicasRecursos transferidosCartões de pagamentoLicitaçõesContratosConvênios e outros acordosBenefícios ao cidadãoEmendas parlamentaresServidores públicosViagens a serviçoImóveis funcionaisSançõesLocalidades
+                
+                    Consultas Detalhadas
+                    OrçamentoDespesas públicasReceitas públicasRecursos transferidosCartões de pagamentoLicitaçõesContratosConvênios e outros acordosBenefícios ao cidadãoEmendas parlamentares
+                            Servidores públicos
+                                Por órgãoRelação de vínculos
+                        Viagens a serviço
+                            Imóveis funcionais
+                            Relação de imóveisRelação de ocupantes
+                        Pessoas físicasPessoas jurídicas
+                            Sanções
+                            Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS)Cadastro Nacional de Empresas Punidas (CNEP)Cadastro de Entidades Privadas sem Fins Lucrativos Impedidas (CEPIM)Cadastro de Expulsões da Administração Federal (CEAF)Acordos de leniência
+                        
+                
+                    Controle social
+                    Escala Brasil Transparente - Avaliação 360°Controle socialO Portal como ferramentaAcesso à informaçãoGoverno Aberto
+                Rede de TransparênciaReceba Notificações
+                    Aprenda mais
+                    
+                            Entenda a gestão pública
+                            Orçamento públicoExecução da receita públicaExecução da despesa públicaProgramas de GovernoBenefícios ao cidadãoServidores públicosLicitações e contrataçõesConvênios e outros acordosSanções aplicadasTransferências de Recursos Cartões de Pagamento
+                        Usando o portalPerguntas frequentesGlossárioVídeos
+                
+        
+    
+
+
+
+
+    
+        
+                    Você está aqui:
+                    
+                        Início
+                    
+                            » Api de dados
+                
+    
+
+        
+            
+                
+                    API de dados
+                
+                
+                
+            
+        
+
+    
+
+    
+        
+            
+
+
+
+        
+    
+
+    
+
+
+
+
+    
+        
+            
+                Consultas disponíveis
+                Bolsa Família
+                        Consulta a quantidade de beneficiários e o valor total por município
+                    Programa de Erradicação do Trabalho Infantil (Peti)
+                        Consulta a quantidade de beneficiários e o valor total por município
+                    Garantia-Safra
+                        Consulta a quantidade de beneficiários e o valor total por município
+                    Seguro Defeso
+                        Consulta a quantidade de beneficiários e o valor total por município
+                    Cadastro de Expulsões da Administração Federal (CEAF)
+                        Consulta os registros do CEAF por CPF/Órgão de Lotação/PeríodoConsulta um registro do CEAF pelo id
+                    Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS)
+                        Consulta os registros do CEIS por CNPJ ou CPF Sancionado/Órgão Sancionador/PeríodoConsulta um registro do CEIS pelo id
+                    Cadastro Nacional de Empresas Punidas (CNEP)
+                        Consulta os registros do CNEP por CNPJ ou CPF Sancionado/Órgão Sancionador/PeríodoConsulta um registro do CNEP pelo id
+                    Contratos do Poder Executivo Federal
+                        Consulta os contratos de um órgão do Poder Executivo FederalConsulta um contrato do Poder Executivo Federal pelo idConsulta um contrato do Poder Executivo Federal pelo número do contrato
+                    Convênios do Poder Executivo Federal
+                        Consulta os convênios do Poder Executivo Federal por períodoConsulta um convênio do Poder Executivo Federal pelo idConsulta um convênio do Poder Executivo Federal pelo número do contratoConsulta um convênio do Poder Executivo Federal pelo número do contrato
+                    Despesas Públicas
+                        Consulta todos os documentos de despesas por períodoConsulta todos os documentos de despesas por favorecidoConsulta os documentos relacionados a um documento de despesa específicoConsulta um documento pelo código (Unidade Gestora + Gestão + Número do documento)Consulta as despesas do Poder Executivo Federal pela classificação funcional programáticaConsulta as despesas dos órgão do Poder Executivo FederalConsulta os subitens de um empenho específico
+                    Cartões de Pagamento
+                        Consulta os gastos com cartões de pagamento por Período/Órgão/Portador/Favorecido/Valor
+                    Entidades Privadas sem Fins Lucrativos Impedidas (CEPIM)
+                        Consulta os registros do CEPIM por CNPJ ou CPF Sancionado/Órgão superior/UFConsulta um registro do CEPIM pelo id
+                    Licitações do Poder Executivo Federal
+                        Consulta as licitações do Poder Executivo Federal por órgãoConsulta uma licitação do Poder Executivo Federal pelo id
+                    Servidores do Poder Executivo Federal
+                        Consulta os servidores do Poder Executivo Federal por órgãoConsulta um servidor do Poder Executivo Federal pelo CPFConsulta um servidor do Poder Executivo Federal pelo id
+                    Viagens a serviço
+                        Consulta viagens por Órgão/PeríodoConsulta viagens por CPFConsulta uma viagem pelo ID
+                    Órgãos
+                        Consulta os órgãos cadastrados no Sistema Integrado de Administração Financeira do Governo Federal (SIAFI)Consulta de órgãos cadastrados no Sistema Integrado de Administração de Pessoal (SIAPE)
+                    
+            
+        
+
+        
+            O Portal da Transparência está atento aos princípios de Governo Eletrônico e sabe que os dados devem ser disponibilizados de formas diferentes a fim de atender aos diversos perfis de usuários. Para isso, além de consultas online e com visualizações que buscam transmitir, de forma simples, como o governo usa os recursos públicos, formas de acesso aos dados para desenvolvedores e engajados com a tecnologia da informação também estão disponíveis.O acesso para desenvolvedores e engajados ocorre através de uma Interface de Programa de Aplicativos (do inglês, “Application Programming Interface”), ou
+simplesmente “API”. Com ela, é possível ter um serviço de consulta direta aos
+dados do Portal da Transparência sem precisar navegar pelo site ou utilizar robôs para a obtenção das informações de forma automática. Os
+dados disponíveis são os mesmos apresentados em tela, com a flexibilidade
+característica das APIs.No Portal da Transparência, o serviço de consulta via API
+foi implementado em REST (Representational State Transfer). Entendemos que o REST é mais simples
+de ser utilizado, além de poder ser testado aqui mesmo no Portal. Além do mais,
+o REST costuma ser a escolha preferida dos desenvolvedores.O acesso via API fornece toda uma flexibilidade para consultas pontuais. Para
+acesso ao conjunto completo de dados, no entanto, sugerimos utilizar as planilhas de dados abertos. O Portal da Transparência agrega uma enorme
+quantidade de dados e baixar as planilhas para uso local certamente fornecerá melhores resultados para grandes volumes de dados. O download de planilhas pode ser feito em seção específica.
+
+
+
+
+
+A documentação do uso das APIs pode ser acessada em http://www.transparencia.gov.br/swagger-ui.html. Estão disponíveis as seguintes consultas: Bolsa Família,
+Programa de Erradicação do Trabalho Infantil (Peti), Garantia-Safra, Seguro
+Defeso, Cadastro de Expulsões da Administração Federal (CEAF), Cadastro
+Nacional de Empresas Inidôneas e Suspensas (CEIS), Cadastro Nacional de
+Empresas Punidas (CNEP), Contratos do Poder Executivo Federal, Convênios do
+Poder Executivo Federal, Despesas Públicas, Entidades Privadas sem Fins
+Lucrativos Impedidas (CEPIM), Licitações do Poder Executivo Federal, Servidores
+do Poder Executivo Federal e Viagens a Serviço. 
+
+Mas afinal, o que é API?A API é uma ferramenta específica para usuários técnicos que
+desejam obter dados sem navegar pelo Portal da Transparência. Através da API,
+usuários podem desenvolver programas que se conectam diretamente às máquinas do Portal da Transparência e selecionam os dados desejados. Esses dados são os mesmos obtidos em
+tela, ou seja, os dados obtidos via API podem também ser obtidos via consultas
+em tela pelos usuários não técnicos.Em uma analogia com o mundo real, a API pode ser vista como
+um carro sem motorista. O carro está lá com todos os recursos disponíveis e um
+manual que ensina como ele deve ser utilizado. Seguindo as instruções, você
+pode ir para onde quiser (no caso de dados, pedir os dados que
+quiser). O uso do Portal sem API seria como um motorista de aplicativo ou um taxi. Nesse carro, o motorista se apresenta e você fala o
+caminho que quer ir (o dado que quer obter). É o motorista (no caso, o site), o
+responsável por guiar o carro e te levar ao local desejado (fornecer o dado).
+
+
+
+Em outra analogia, a API pode ser vista como um quadro em
+branco com as tintas, pincéis e materiais necessários para fazer qualquer pintura. A navegação pelo site, ou seja, sem o uso da API, seria uma
+exposição de quadros onde existem quadros prontos dos melhores pintores.
+Você escolhe a pintura ou as pinturas que mais agradam. Com a vantagem de que,
+no Portal da Transparência, você não paga nada pelas diversas formas de
+visualização dos dados oferecidas.
+
+            Exemplos
+
+                Os dados dos serviços disponibilizados na API de dados deverão ser consumidos via requisições HTTP aos serviços REST. A API está documentada com exemplos de uso em http://www.transparencia.gov.br/swagger-ui.html.
+
+            Termos de uso
+
+                A API de dados do Portal da Transparência do Governo Federal são de livre utilização conforme previsto no DECRETO Nº 8.777, DE 11 DE MAIO DE 2016. O Ministério da Transparência e Controladoria-Geral da União poderá alterar as APIs disponibilizadas sem prévio aviso. Ressalta-se que todos os dados disponíveis para acesso via API podem também ser baixados em formato abertos em seção específica do Portal.
+        
+    
+
+
+
+
+
+
+
+    
+        
+             Dúvidas?
+
+            
+                
+
+                
+                    
+                        
+                            Formulário de dúvidas
+
+                            Qual é sua dúvida?
+                            
+
+                            
+                        
+                    
+                
+                
+
+
+                
+            
+        
+    
+
+
+
+
+
+
+    
+        
+             Compartilhe Receba notificações Contato
+
+            
+                
+                    
+                        Redes sociais
+                        WhatsappFacebookTwitterQR Code
+                        
+                    
+
+                    
+
+                        Link
+                        
+                            
+                                
+                            
+                            
+                                Gerar Link
+                                Copiar link
+                            
+                        
+
+                    
+                
+
+                
+                    
+                        Gostaria de receber notificações sobre atualizações de dados do Portal da Transparência?
+                        Cadastre-se aqui.
+                    
+                
+
+                
+                    Contato
+                    
+                        
+                            
+                                    
+                                    Faça um pedido de informação para o Governo Federal
+                                
+                                    
+                                    Faça uma denúncia
+                                
+                        
+                        
+                            
+                                    Registre suas sugestões, dúvidas e reclamações
+                                 Onde encontrar informações sobre estados e municípios
+                        
+                    
+
+                    
+                        
+                            Formulário de correção
+
+                            
+                                
+                                    
+                                        Texto
+                                        
+                                    
+                                
+                            
+
+                            Seu e-mail
+
+                            
+                                
+                                    
+                                
+                                
+                                    
+                                
+                            
+
+                        
+                    
+                
+            
+        
+    
+
+
+
+    
+        Voltar para o topo 
+
+        
+            
+                Principal
+                Panorama do Governo FederalDespesas PúblicasÁreas de atuação do GovernoServidores PúblicosRede de TransparênciaReceba NotificaçõesDados Abertos
+            
+            
+                Educativo
+                O que é e como funciona o PortalO que você encontra no PortalOrçamento PúblicoUsando o PortalPerguntas frequentesGlossário
+            
+            
+                Controle social
+                O Portal como ferramentaAcesso à Informação
+            
+        
+    
+
+
+
+
+
+    Carregando...
