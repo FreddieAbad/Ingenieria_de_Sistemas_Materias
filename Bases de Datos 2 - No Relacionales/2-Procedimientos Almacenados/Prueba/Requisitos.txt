@@ -1,0 +1,11 @@
+Crear al menos tres tablas con al menos los campos descritos:
+
+ Pacientes (id, cedula, apellido, nombre, direccion, telefono, max_pago)
+
+Citas (fecha, hora, tratamiento)
+
+Tratamiento (id, nombre_tratamiento, costo, numero_citas)
+
+ Debe determinar si crear un Trigger, Función o Procedimiento lo la mezcla de ellos para poder conseguir que se controle el momento de grabar el tratamiento solo se guarde si el costo de tratamiento es menor al max_pago. Debe estar bien documentado para que se explique lo que realiza.
+
+Suba a la plataforma los pantallazos que demuestren el trabajo realizado en PostgreSQL.
