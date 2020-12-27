@@ -1,0 +1,1 @@
+canvas:compose(10,10,canvas:new('media.jpg'))

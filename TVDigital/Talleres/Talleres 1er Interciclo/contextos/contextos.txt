@@ -1,0 +1,109 @@
+<ncl id="botoones" xmlns="http://www.ncl.org.br/NCL3.0/EDTVProfile">
+    <head>
+        <ruleBase>
+            <rule id="rule1" var="page" comparator="eq" value="1"/>
+            <rule id="rule2" var="page" comparator="eq" value="2"/>
+            <rule id="rule3" var="page" comparator="eq" value="3"/>
+        </ruleBase>
+        <regionBase>
+            <region id="all" width="100%" height="100%">
+                <region id="top" height="70%"/>
+                <region id="middle" top="70%" height="20%"/>
+                <region id="bottonLeft" top="90%" height="10%" width="50%"/>
+                <region id="bottonRight" top="90%" height="10%" width="50%" left="50%"/>
+                <region id="overRegion" top="93%" height="5%" width="5%" left="80%" zIndex="1"/>
+            </region>
+        </regionBase>
+        <descriptorBase>
+            <descriptor id="bigImageDesc" region="all"/>
+            <descriptor id="smallImageDesc" region="top"/>
+            <descriptor id="textDesc" region="middle"/>
+            <descriptor id="blueDesc" region="bottonLeft"/>
+            <descriptor id="redDesc" region="bottonRight"/>
+            <descriptor id="backDesc" region="overRegion"/>
+        </descriptorBase>
+        <connectorBase>
+            <causalConnector id="changePage">
+                <!--parametro para elegir un boton -->
+                <connectorParam name="key"/>
+                <!-- parametro para elegir una pagina a la cual pasar-->
+                <connectorParam name="pagina"/>
+                <simpleCondition role="onSelection" key="$key"/>
+                <compoundAction operator="seq">
+                    <!--para frenar el switch-->
+                    <simpleAction role="stop"/>
+                    <!--cambia la pagina-->
+                    <simpleAction role="set" value="$pagina"/>
+                    <!--para comenzar de nuevo el switch-->
+                    <simpleAction role="start"/>
+                </compoundAction>
+            </causalConnector>
+        </connectorBase>
+    </head>
+    <body>
+        <port id="pp" component="selector"/>
+        <port id="p2" component="blueButton"/>
+        <port id="p3" component="redButton"/>
+        <port id="pb" component="backButton"/>
+        <switch id="selector">
+            <context id="pantallaInicial">
+                <port id="p0" component="pastillas"/>
+                <port id="p1" component="texto"/>
+                <media id="pastillas" src="pastillas.jpeg" descriptor="smallImageDesc"/>
+                <media id="texto" src="texto.txt" descriptor="textDesc">
+                    <property name="fontFamily" value="Verdana"/>
+                    <property name="fontSize" value="20"/>
+                    <property name="fontColor" value="red"/>
+                </media>
+            </context>
+            <context id="pantallaMatrix">
+                <port id="pm" component="matrix"/>
+                <media id="matrix" src="matrix.jpg" descriptor="bigImageDesc"/>
+            </context>
+            <context id="pantallaMundoFeliz">
+                <port id="pmf" component="mundoFeliz"/>
+                <media id="mundoFeliz" src="mundo.jpg" descriptor="bigImageDesc"/>
+            </context>
+            <bindRule constituent="pantallaInicial" rule="rule1"/>
+            <bindRule constituent="pantallaMatrix" rule="rule2"/>
+            <bindRule constituent="pantallaMundoFeliz" rule="rule3"/>
+        </switch>
+        <media id="blueButton" src="blue.jpeg" descriptor="blueDesc"/>
+        <media id="redButton" src="red.jpeg" descriptor="redDesc"/>
+        <media id="backButton" src="back.jpeg" descriptor="backDesc"/>
+        <media id="variables" type="application/x-ncl-settings">
+            <property name="page" value="1"/>
+        </media>
+        <link xconnector="changePage">
+            <bind role="onSelection" component="backButton">
+                <bindParam name="key" value="CURSOR_LEFT"/>
+            </bind>
+            <bind role="stop" component="selector"/>
+            <bind role="set" component="variables" interface="page">
+                <bindParam name="pagina" value="1"/>
+            </bind>
+            <bind role="start" component="selector"/>
+        </link>
+        <link xconnector="changePage">
+            <bind role="onSelection" component="redButton">
+                <bindParam name="key" value="RED"/>
+            </bind>
+            <bind role="stop" component="selector"/>
+            <bind role="set" component="variables" interface="page">
+                <bindParam name="pagina" value="2"/>
+            </bind>
+            <bind role="start" component="selector"/>
+        </link>
+        <link xconnector="changePage">
+            <bind role="onSelection" component="blueButton">
+                <bindParam name="key" value="BLUE"/>
+            </bind>
+            <bind role="stop" component="selector"/>
+            <bind role="set" component="variables" interface="page">
+                <bindParam name="pagina" value="3"/>
+            </bind>
+            <bind role="start" component="selector"/>
+        </link>
+    </body>
+</ncl>
+

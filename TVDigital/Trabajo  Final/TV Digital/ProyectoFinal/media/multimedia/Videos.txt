@@ -1,0 +1,3 @@
+Los videos usados para el trabajo final son extremadamente grandes para alojarlos en Github, 
+pero se puede usar cualquier tipo de video en cualquier formato para este fin.
+Se recomienda usar archivos tipo .mp4
