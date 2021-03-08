@@ -1,0 +1,281 @@
+// 1. Num Retraso de llegada por ruta
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/16db0c2acf29b03f06bceb7023c50af0
+[
+    {
+        "origin": "DEN",
+        "dest": "PHX",
+        "count": "1919"
+    },
+    {
+        "origin": "DEN",
+        "dest": "PHX",
+        "count": "1919"
+    },
+    {},
+    // {...},
+    {}
+]
+// 2. Num Retraso de salida por ruta
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/ca1df37102b759bff642ac345c6cef21
+[
+    {
+        "origin": "DEN",
+        "dest": "PHX",
+        "count": "1919"
+    },
+    {
+        "origin": "DEN",
+        "dest": "PHX",
+        "count": "1919"
+    },
+    {},
+    // {...},
+    {}
+]
+// 3. Total Retrasos por salida de ruta en especifico
+// ** Solo tiene 2 objetos
+// https://gist.github.com/FreddieAbad/974bddf83fca9ae1e4548fe5c44c15ae
+[
+    //retrasos por salida
+    {
+        "origin": "DEN",
+        "dest": "PHX",
+        "count": "1919"
+    },
+    //retrasos por llegada
+    {
+        "origin": "DEN",
+        "dest": "PHX",
+        "count": "1919"
+    }
+]
+// 4. Num retrasos por salida por aerolinea
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/12b2c49505545ed230e114d7954afc47
+[
+    {
+        "aerolinea": "US",
+        "count": "1919"
+    },
+    {
+        "aerolinea": "US",
+        "count": "1919"
+    },
+    {},
+    // {...},
+    {}
+]
+// 5. Num retrasos por llegada por aerolinea
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/3c4c7698ff881e637c8b7ca008446e3b
+[
+    {
+        "aerolinea": "US",
+        "count": "1919"
+    },
+    {
+        "aerolinea": "US",
+        "count": "1919"
+    },
+    {},
+    // {...},
+    {}
+]
+// 6. Aerolinea con mas retrasos de salida y llegada
+// ** Solo tiene 2 objetos
+// https://gist.github.com/FreddieAbad/6fa30d910a1e08f18b25e5f5458bcb73
+[
+    //retrasos por salida
+    {
+        "aerolinea": "US",
+        "count": "1919"
+    },
+    //retrasos por llegada
+    {
+        "aerolinea": "US",
+        "count": "1919"
+    }
+]
+// 7. Aerolinea con menos retrasos de salida y llegada
+// ** Solo tiene 2 objetos
+// https://gist.github.com/FreddieAbad/ffb051d074758407f1119b2aa8f8fdd4
+[
+    //retrasos por salida
+    {
+        "aerolinea": "US",
+        "count": "1919"
+    },
+    //retrasos por llegada
+    {
+        "aerolinea": "US",
+        "count": "1919"
+    }
+]
+// 8. Num retraso de salida por aerolinea y condicion climatica por ruta
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/fc91082d7918f4222d2285775b6d7740
+[
+    {
+        "aerolinea": "US",
+        "origin": "DEN",
+        "dest": "PHX",
+        "count": "1919"
+    },
+    {
+        "aerolinea": "US",
+        "origin": "DEN",
+        "dest": "PHX",
+        "count": "1919"
+    },
+    {},
+    // {...},
+    {}
+]
+// 9. Num retraso de LLEGADA por aerolinea y condicion climatica por ruta
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/0f7e94d8ad08086f9bc7ea9cf5c53ac2
+[
+    {
+        "aerolinea": "US",
+        "origin": "DEN",
+        "dest": "PHX",
+        "count": "1919"
+    },
+    {
+        "aerolinea": "US",
+        "origin": "DEN",
+        "dest": "PHX",
+        "count": "1919"
+    },
+    {},
+    // {...},
+    {}
+]
+// 10. Historico de vuelos no cancelados
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/8b4b37f0fad5a0c2a103c5920cd47697
+[
+    {
+        "time": "19/01/1987 19:00",
+        "count": "12"
+    },
+    {
+        "time": "19/01/1987 19:00",
+        "count": "12"
+    },
+    {
+        "time": "19/01/1987 19:00",
+        "count": "12"
+    },
+    {},
+    // {...},
+    {}
+]
+
+// 11. Historico de vuelos cancelados
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/12b6224f8face5a4144a7b63bc16fe22
+[
+    {
+        "time": "19/01/1987 19:00",
+        "count": "12"
+    },
+    {
+        "time": "19/01/1987 19:00",
+        "count": "12"
+    },
+    {
+        "time": "19/01/1987 19:00",
+        "count": "12"
+    },
+    {},
+    // {...},
+    {}
+]
+
+//12. Categorias por las que se cancelan
+// ** Solo tiene 1 objeto
+// https://gist.github.com/FreddieAbad/967df574e3640ca23fc56f90d76c1278
+[
+    {
+        "TRANSPORTISTA":"12",
+        "SEGURIDAD":"12",
+        "NAS":"12",
+        "CLIMA":"12",
+    }
+]
+
+//13. Vuelos no cancelados segun aeropuertos de salida
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/39eb5da00ffc808cedf5d7b9ecd0d722
+[
+    {
+        "lat":"72.19",
+        "long":"-2.19",
+        "count":"12",
+    },
+    {
+        "lat":"72.19",
+        "long":"-2.19",
+        "count":"12",
+    },
+    {},
+    // {...},
+    {}
+]
+
+//14. Vuelos no cancelados segun aeropuertos de llegada
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/ae84697c49e15144f0a2647afb887fec
+[
+    {
+        "lat":"72.19",
+        "long":"-2.19",
+        "count":"12",
+    },
+    {
+        "lat":"72.19",
+        "long":"-2.19",
+        "count":"12",
+    },
+    {},
+    // {...},
+    {}
+]
+
+//15. Historico a;os por origen vuelo
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/db31532463ee47229690018122eace87
+[
+    {
+        "ano":"1987",
+        "count":"5012",
+    },
+    {
+        "ano":"1988",
+        "count":"12",
+    },
+    {},
+    // {...},
+    {}
+]
+
+//16. Historico años por destino vuelo
+// ** Tiene N objetos
+// https://gist.github.com/FreddieAbad/c5756aa2c6e25889ecfca3db4a36c3cc
+[
+    {
+        "ano":"1987",
+        "count":"5012",
+    },
+    {
+        "ano":"1988",
+        "count":"12",
+    },
+    {},
+    // {...},
+    {}
+]
+
