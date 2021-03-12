@@ -1,0 +1,2172 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/freddy/ontologies/2021/2/untitled-ontology-31"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/freddy/ontologies/2021/2/untitled-ontology-31">
+    <Prefix name="" IRI="http://www.semanticweb.org/freddy/ontologies/2021/2/untitled-ontology-31"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accionista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccionistaC1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccionistaC2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccionistaC3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccionistaC4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asesor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsistenciaAccionistaAlto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsistenciaAccionistaBajo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Departamentos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DireccionAdministrativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DireccionComercializacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DireccionGeneral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DireccionPlanificacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DireccionProyectos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empleado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gerencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GerenciaAdministrativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GerenciaComercializacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GerenciaGeneral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GerenciaPlanificacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GerenciaProyectos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GerenciaRendimientoAltoN1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GerenciaRendimientoBajoN2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GerenciaRendimientoMedioN3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gerente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformeJunta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JubilableAccionistaC1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JubilableAccionistaC2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JuntaAccionista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nivel1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nivel2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nivel3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nivel4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RendimientoAlto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RendimientoBajo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RendimientoMedio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secretaria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#asistenReuniones"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conformaJunta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contrata"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contrataSecretaria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esEmpleado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esEscrito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esFirmado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esFirmadoDirector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esSecretariaContratadaPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#escribeInforme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#escribeInformeJunta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#firmaInforme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nombraGerenteGeneral"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceAccionistaJunta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceDepartamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceJunta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceNivel1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceNivel2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceNivel3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceNivel4"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAccionista"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAnoServicio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAsesor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneDirector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneEmpleado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneGananciaJunta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneGanancias"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneGerente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneRendimiento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneRendimientoAlto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneRendimientoBajo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneRendimientoMedio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneRepresentanteGerente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#votaEnJunta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoServicio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#campus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cuotaProyectos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#edificios"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gananciaJunta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ganancias"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#integraJunta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#oficinas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pisos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#porcentajePresupuesto2021"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#porcentajePresupuestoCumplido2020"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rendimiento2020"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reunionesAsistidas2020"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reunionesAsistidas2021"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reunionesPorAsistir2021"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sueldo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accionista1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accionista10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accionista2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accionista3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accionista4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accionista5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accionista6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accionista7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accionista8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accionista9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnoServicio1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Departamento1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GA1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GC1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPL1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPR1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ganancia1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GerenciaG1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GerenciaG2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Informe1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Informe2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Informe3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Informe4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Informe5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InformeS1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InformeS2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InformeS3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jose1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jose2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jose3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jose4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jose5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Juan1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Juan2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Juan3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Junta1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lorena1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lorena2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lorena3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lorena4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lorena5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lorena6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lorena7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luis1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luis2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luis3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luis4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luis5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luis6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luis7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nivel1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nivel2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nivel3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nivel4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rendimiento1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rendimiento2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rendimiento3"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#DireccionAdministrativo"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Direccion"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DireccionComercializacion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Direccion"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DireccionGeneral"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Direccion"/>
+            <ObjectExactCardinality cardinality="4">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DireccionPlanificacion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Direccion"/>
+            <ObjectExactCardinality cardinality="3">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DireccionProyectos"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Direccion"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GerenciaAdministrativo"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Gerencia"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#perteneceDepartamento"/>
+                <Class IRI="#Nivel4"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GerenciaComercializacion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Gerencia"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#perteneceDepartamento"/>
+                <Class IRI="#Nivel3"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GerenciaGeneral"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Gerencia"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#perteneceDepartamento"/>
+                <Class IRI="#Nivel1"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GerenciaPlanificacion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Gerencia"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#perteneceDepartamento"/>
+                <Class IRI="#Nivel2"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GerenciaProyectos"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Gerencia"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#perteneceDepartamento"/>
+                <Class IRI="#Nivel3"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#JuntaAccionista"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="3">
+                <ObjectProperty IRI="#tieneAccionista"/>
+                <Class IRI="#Accionista"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneRepresentanteGerente"/>
+                <Class IRI="#Gerente"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Asesor"/>
+        <Class IRI="#Empleado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Departamentos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneEmpleado"/>
+            <Class IRI="#Empleado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director"/>
+        <Class IRI="#Empleado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empleado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#esEmpleado"/>
+            <Class IRI="#Gerencia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GerenciaAdministrativo"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#perteneceNivel4"/>
+            <Class IRI="#Nivel4"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gerente"/>
+        <Class IRI="#Empleado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gerente"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contrata"/>
+            <Class IRI="#Asesor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gerente"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contrata"/>
+            <Class IRI="#Director"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informe"/>
+        <ObjectUnionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#esEscrito"/>
+                <Class IRI="#Secretaria"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#esFirmado"/>
+                <Class IRI="#Director"/>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformeJunta"/>
+        <ObjectUnionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#esEscrito"/>
+                <Class IRI="#Asesor"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#esFirmado"/>
+                <Class IRI="#Gerente"/>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nivel1"/>
+        <Class IRI="#Departamentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nivel1"/>
+        <ObjectIntersectionOf>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneAsesor"/>
+                <Class IRI="#Asesor"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneSecretaria"/>
+                <Class IRI="#Secretaria"/>
+            </ObjectMinCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneGerente"/>
+                <Class IRI="#Gerente"/>
+            </ObjectExactCardinality>
+            <ObjectMaxCardinality cardinality="3">
+                <ObjectProperty IRI="#tieneAsesor"/>
+                <Class IRI="#Asesor"/>
+            </ObjectMaxCardinality>
+            <ObjectMaxCardinality cardinality="4">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectMaxCardinality>
+            <ObjectMaxCardinality cardinality="4">
+                <ObjectProperty IRI="#tieneSecretaria"/>
+                <Class IRI="#Secretaria"/>
+            </ObjectMaxCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nivel2"/>
+        <Class IRI="#Departamentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nivel2"/>
+        <ObjectIntersectionOf>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneAsesor"/>
+                <Class IRI="#Asesor"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneSecretaria"/>
+                <Class IRI="#Secretaria"/>
+            </ObjectMinCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneGerente"/>
+                <Class IRI="#Gerente"/>
+            </ObjectExactCardinality>
+            <ObjectMaxCardinality cardinality="2">
+                <ObjectProperty IRI="#tieneAsesor"/>
+                <Class IRI="#Asesor"/>
+            </ObjectMaxCardinality>
+            <ObjectMaxCardinality cardinality="3">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectMaxCardinality>
+            <ObjectMaxCardinality cardinality="3">
+                <ObjectProperty IRI="#tieneSecretaria"/>
+                <Class IRI="#Secretaria"/>
+            </ObjectMaxCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nivel3"/>
+        <Class IRI="#Departamentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nivel3"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneAsesor"/>
+                <Class IRI="#Asesor"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneGerente"/>
+                <Class IRI="#Gerente"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneSecretaria"/>
+                <Class IRI="#Secretaria"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nivel4"/>
+        <Class IRI="#Departamentos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nivel4"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneDirector"/>
+                <Class IRI="#Director"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneGerente"/>
+                <Class IRI="#Gerente"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#tieneSecretaria"/>
+                <Class IRI="#Secretaria"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secretaria"/>
+        <Class IRI="#Empleado"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Asesor"/>
+        <Class IRI="#Director"/>
+        <Class IRI="#Gerente"/>
+        <Class IRI="#Secretaria"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Nivel1"/>
+        <Class IRI="#Nivel2"/>
+        <Class IRI="#Nivel3"/>
+        <Class IRI="#Nivel4"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#GerenciaPlanificacion"/>
+        <NamedIndividual IRI="#GerenciaG2"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneGanancias"/>
+        <NamedIndividual IRI="#Accionista10"/>
+        <NamedIndividual IRI="#Ganancia1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <NamedIndividual IRI="#Accionista10"/>
+        <NamedIndividual IRI="#Junta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAnoServicio"/>
+        <NamedIndividual IRI="#Accionista2"/>
+        <NamedIndividual IRI="#AnoServicio1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAnoServicio"/>
+        <NamedIndividual IRI="#Accionista3"/>
+        <NamedIndividual IRI="#AnoServicio1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneGanancias"/>
+        <NamedIndividual IRI="#Accionista3"/>
+        <NamedIndividual IRI="#Ganancia1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <NamedIndividual IRI="#Accionista3"/>
+        <NamedIndividual IRI="#Junta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <NamedIndividual IRI="#Accionista4"/>
+        <NamedIndividual IRI="#Junta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <NamedIndividual IRI="#Accionista5"/>
+        <NamedIndividual IRI="#Junta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <NamedIndividual IRI="#Accionista6"/>
+        <NamedIndividual IRI="#Junta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <NamedIndividual IRI="#Accionista7"/>
+        <NamedIndividual IRI="#Junta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <NamedIndividual IRI="#Accionista8"/>
+        <NamedIndividual IRI="#Junta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <NamedIndividual IRI="#Accionista9"/>
+        <NamedIndividual IRI="#Junta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneEmpleado"/>
+        <NamedIndividual IRI="#Departamento1"/>
+        <NamedIndividual IRI="#Juan3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#perteneceNivel4"/>
+        <NamedIndividual IRI="#GA1"/>
+        <NamedIndividual IRI="#Nivel4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#perteneceNivel3"/>
+        <NamedIndividual IRI="#GC1"/>
+        <NamedIndividual IRI="#Nivel3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneRendimientoMedio"/>
+        <NamedIndividual IRI="#GC1"/>
+        <NamedIndividual IRI="#Rendimiento2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#perteneceNivel2"/>
+        <NamedIndividual IRI="#GPL1"/>
+        <NamedIndividual IRI="#Nivel2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneRendimientoBajo"/>
+        <NamedIndividual IRI="#GPL1"/>
+        <NamedIndividual IRI="#Rendimiento1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#perteneceNivel3"/>
+        <NamedIndividual IRI="#GPR1"/>
+        <NamedIndividual IRI="#Nivel3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#perteneceNivel1"/>
+        <NamedIndividual IRI="#GerenciaG1"/>
+        <NamedIndividual IRI="#Nivel1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneRendimientoAlto"/>
+        <NamedIndividual IRI="#GerenciaG1"/>
+        <NamedIndividual IRI="#Rendimiento3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#perteneceNivel2"/>
+        <NamedIndividual IRI="#GerenciaG2"/>
+        <NamedIndividual IRI="#Nivel2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esFirmado"/>
+        <NamedIndividual IRI="#Informe1"/>
+        <NamedIndividual IRI="#Juan1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esFirmado"/>
+        <NamedIndividual IRI="#Informe3"/>
+        <NamedIndividual IRI="#Juan1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esFirmadoDirector"/>
+        <NamedIndividual IRI="#InformeS1"/>
+        <NamedIndividual IRI="#Luis1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esFirmadoDirector"/>
+        <NamedIndividual IRI="#InformeS2"/>
+        <NamedIndividual IRI="#Luis2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esFirmadoDirector"/>
+        <NamedIndividual IRI="#InformeS3"/>
+        <NamedIndividual IRI="#Luis1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escribeInformeJunta"/>
+        <NamedIndividual IRI="#Jose1"/>
+        <NamedIndividual IRI="#Informe1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escribeInformeJunta"/>
+        <NamedIndividual IRI="#Jose2"/>
+        <NamedIndividual IRI="#Informe2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escribeInformeJunta"/>
+        <NamedIndividual IRI="#Jose3"/>
+        <NamedIndividual IRI="#Informe3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#perteneceNivel2"/>
+        <NamedIndividual IRI="#Jose3"/>
+        <NamedIndividual IRI="#Nivel2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escribeInformeJunta"/>
+        <NamedIndividual IRI="#Jose4"/>
+        <NamedIndividual IRI="#Informe4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escribeInformeJunta"/>
+        <NamedIndividual IRI="#Jose5"/>
+        <NamedIndividual IRI="#Informe5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrata"/>
+        <NamedIndividual IRI="#Juan1"/>
+        <NamedIndividual IRI="#Jose1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrata"/>
+        <NamedIndividual IRI="#Juan1"/>
+        <NamedIndividual IRI="#Luis1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrata"/>
+        <NamedIndividual IRI="#Juan1"/>
+        <NamedIndividual IRI="#Luis2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrata"/>
+        <NamedIndividual IRI="#Juan1"/>
+        <NamedIndividual IRI="#Luis3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrata"/>
+        <NamedIndividual IRI="#Juan1"/>
+        <NamedIndividual IRI="#Luis4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firmaInforme"/>
+        <NamedIndividual IRI="#Juan1"/>
+        <NamedIndividual IRI="#Informe2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#perteneceJunta"/>
+        <NamedIndividual IRI="#Juan2"/>
+        <NamedIndividual IRI="#Junta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrata"/>
+        <NamedIndividual IRI="#Juan3"/>
+        <NamedIndividual IRI="#Jose4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrata"/>
+        <NamedIndividual IRI="#Juan3"/>
+        <NamedIndividual IRI="#Jose5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrata"/>
+        <NamedIndividual IRI="#Juan3"/>
+        <NamedIndividual IRI="#Luis5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrata"/>
+        <NamedIndividual IRI="#Juan3"/>
+        <NamedIndividual IRI="#Luis6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrata"/>
+        <NamedIndividual IRI="#Juan3"/>
+        <NamedIndividual IRI="#Luis7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAccionista"/>
+        <NamedIndividual IRI="#Junta1"/>
+        <NamedIndividual IRI="#Accionista1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAccionista"/>
+        <NamedIndividual IRI="#Junta1"/>
+        <NamedIndividual IRI="#Accionista10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAccionista"/>
+        <NamedIndividual IRI="#Junta1"/>
+        <NamedIndividual IRI="#Accionista2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esSecretariaContratadaPor"/>
+        <NamedIndividual IRI="#Lorena2"/>
+        <NamedIndividual IRI="#Luis2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esSecretariaContratadaPor"/>
+        <NamedIndividual IRI="#Lorena4"/>
+        <NamedIndividual IRI="#Luis4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrataSecretaria"/>
+        <NamedIndividual IRI="#Luis1"/>
+        <NamedIndividual IRI="#Lorena1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrataSecretaria"/>
+        <NamedIndividual IRI="#Luis3"/>
+        <NamedIndividual IRI="#Lorena3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrataSecretaria"/>
+        <NamedIndividual IRI="#Luis5"/>
+        <NamedIndividual IRI="#Lorena5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrataSecretaria"/>
+        <NamedIndividual IRI="#Luis6"/>
+        <NamedIndividual IRI="#Lorena6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contrataSecretaria"/>
+        <NamedIndividual IRI="#Luis7"/>
+        <NamedIndividual IRI="#Lorena7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAsesor"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Jose1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAsesor"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Jose2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAsesor"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Jose3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Luis1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Luis2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Luis3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Luis4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneGerente"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Juan1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Lorena1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Lorena2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Lorena3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <NamedIndividual IRI="#Lorena4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAsesor"/>
+        <NamedIndividual IRI="#Nivel2"/>
+        <NamedIndividual IRI="#Jose4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAsesor"/>
+        <NamedIndividual IRI="#Nivel2"/>
+        <NamedIndividual IRI="#Jose5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <NamedIndividual IRI="#Nivel2"/>
+        <NamedIndividual IRI="#Luis5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <NamedIndividual IRI="#Nivel2"/>
+        <NamedIndividual IRI="#Luis6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <NamedIndividual IRI="#Nivel2"/>
+        <NamedIndividual IRI="#Luis7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneGerente"/>
+        <NamedIndividual IRI="#Nivel2"/>
+        <NamedIndividual IRI="#Juan3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <NamedIndividual IRI="#Nivel2"/>
+        <NamedIndividual IRI="#Lorena5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <NamedIndividual IRI="#Nivel2"/>
+        <NamedIndividual IRI="#Lorena6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <NamedIndividual IRI="#Nivel2"/>
+        <NamedIndividual IRI="#Lorena7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#perteneceDepartamento"/>
+        <NamedIndividual IRI="#Nivel4"/>
+        <NamedIndividual IRI="#Departamento1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <NamedIndividual IRI="#Nivel4"/>
+        <NamedIndividual IRI="#Luis7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneGerente"/>
+        <NamedIndividual IRI="#Nivel4"/>
+        <NamedIndividual IRI="#Juan3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <NamedIndividual IRI="#Nivel4"/>
+        <NamedIndividual IRI="#Lorena7"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ganancias"/>
+        <NamedIndividual IRI="#Accionista2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ganancias"/>
+        <NamedIndividual IRI="#Accionista3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ganancias"/>
+        <NamedIndividual IRI="#Accionista8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ganancias"/>
+        <NamedIndividual IRI="#Accionista9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#oficinas"/>
+        <NamedIndividual IRI="#GA1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pisos"/>
+        <NamedIndividual IRI="#GC1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#campus"/>
+        <NamedIndividual IRI="#GPL1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cuotaProyectos"/>
+        <NamedIndividual IRI="#GPR1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ganancias"/>
+        <NamedIndividual IRI="#Ganancia1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Juan1"/>
+        <Literal>Juan1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edificios"/>
+        <NamedIndividual IRI="#Nivel1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pisos"/>
+        <NamedIndividual IRI="#Nivel3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#oficinas"/>
+        <NamedIndividual IRI="#Nivel4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceNivel1"/>
+        <ObjectProperty IRI="#perteneceDepartamento"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceNivel2"/>
+        <ObjectProperty IRI="#perteneceDepartamento"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceNivel3"/>
+        <ObjectProperty IRI="#perteneceDepartamento"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perteneceNivel4"/>
+        <ObjectProperty IRI="#perteneceDepartamento"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneAsesor"/>
+        <ObjectProperty IRI="#tieneEmpleado"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <ObjectProperty IRI="#tieneEmpleado"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneGerente"/>
+        <ObjectProperty IRI="#tieneEmpleado"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneRendimientoAlto"/>
+        <ObjectProperty IRI="#tieneRendimiento"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneRendimientoBajo"/>
+        <ObjectProperty IRI="#tieneRendimiento"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneRendimientoMedio"/>
+        <ObjectProperty IRI="#tieneRendimiento"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <ObjectProperty IRI="#tieneEmpleado"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contrataSecretaria"/>
+        <ObjectProperty IRI="#esSecretariaContratadaPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esEmpleado"/>
+        <ObjectProperty IRI="#tieneEmpleado"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esEscrito"/>
+        <ObjectProperty IRI="#escribeInforme"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esFirmado"/>
+        <ObjectProperty IRI="#firmaInforme"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#perteneceAccionistaJunta"/>
+        <ObjectProperty IRI="#tieneAccionista"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#escribeInforme"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#tieneEmpleado"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#asistenReuniones"/>
+        <Class IRI="#Accionista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#conformaJunta"/>
+        <Class IRI="#Accionista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contrata"/>
+        <Class IRI="#Gerente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contrataSecretaria"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esEmpleado"/>
+        <Class IRI="#Empleado"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esEscrito"/>
+        <Class IRI="#Informe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esFirmado"/>
+        <Class IRI="#InformeJunta"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esFirmadoDirector"/>
+        <Class IRI="#Informe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esSecretariaContratadaPor"/>
+        <Class IRI="#Secretaria"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#escribeInforme"/>
+        <Class IRI="#Secretaria"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#escribeInformeJunta"/>
+        <Class IRI="#Asesor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#firmaInforme"/>
+        <Class IRI="#Gerente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nombraGerenteGeneral"/>
+        <Class IRI="#JuntaAccionista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceDepartamento"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceJunta"/>
+        <Class IRI="#Gerente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceNivel1"/>
+        <Class IRI="#GerenciaGeneral"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceNivel2"/>
+        <Class IRI="#GerenciaPlanificacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceNivel3"/>
+        <Class IRI="#GerenciaComercializacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceNivel3"/>
+        <Class IRI="#GerenciaProyectos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAccionista"/>
+        <Class IRI="#JuntaAccionista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAnoServicio"/>
+        <Class IRI="#Accionista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAsesor"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneEmpleado"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneGananciaJunta"/>
+        <Class IRI="#Accionista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneGanancias"/>
+        <Class IRI="#Accionista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneGerente"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneRendimiento"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneRendimientoAlto"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneRendimientoBajo"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneRendimientoMedio"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneRepresentanteGerente"/>
+        <Class IRI="#JuntaAccionista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <Class IRI="#Accionista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#conformaJunta"/>
+        <Class IRI="#JuntaAccionista"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contrata"/>
+        <Class IRI="#Empleado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contrataSecretaria"/>
+        <Class IRI="#Secretaria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esEmpleado"/>
+        <Class IRI="#Gerencia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esEscrito"/>
+        <Class IRI="#Asesor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esEscrito"/>
+        <Class IRI="#Secretaria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esFirmado"/>
+        <Class IRI="#Gerente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esFirmadoDirector"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esSecretariaContratadaPor"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escribeInforme"/>
+        <Class IRI="#Informe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escribeInformeJunta"/>
+        <Class IRI="#InformeJunta"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#firmaInforme"/>
+        <Class IRI="#InformeJunta"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nombraGerenteGeneral"/>
+        <Class IRI="#Gerente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceDepartamento"/>
+        <Class IRI="#Departamentos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceJunta"/>
+        <Class IRI="#JuntaAccionista"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceNivel1"/>
+        <Class IRI="#Nivel1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceNivel2"/>
+        <Class IRI="#Nivel2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceNivel3"/>
+        <Class IRI="#Nivel3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAccionista"/>
+        <Class IRI="#Accionista"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAnoServicio"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#anoServicio"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAsesor"/>
+        <Class IRI="#Asesor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneDirector"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEmpleado"/>
+        <Class IRI="#Empleado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneGananciaJunta"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#gananciaJunta"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneGerente"/>
+        <Class IRI="#Gerente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneRendimientoAlto"/>
+        <Class IRI="#RendimientoAlto"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneRendimientoBajo"/>
+        <Class IRI="#RendimientoBajo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneRendimientoMedio"/>
+        <Class IRI="#RendimientoMedio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneRepresentanteGerente"/>
+        <Class IRI="#Gerente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneSecretaria"/>
+        <Class IRI="#Secretaria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#votaEnJunta"/>
+        <Class IRI="#JuntaAccionista"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#campus"/>
+        <Class IRI="#Nivel2"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cuotaProyectos"/>
+        <Class IRI="#GerenciaProyectos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#edificios"/>
+        <Class IRI="#Nivel1"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gananciaJunta"/>
+        <Class IRI="#Accionista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ganancias"/>
+        <Class IRI="#Accionista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#integraJunta"/>
+        <Class IRI="#Gerente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Accionista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Empleado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#oficinas"/>
+        <Class IRI="#Nivel4"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pisos"/>
+        <Class IRI="#Nivel3"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajePresupuesto2021"/>
+        <Class IRI="#GerenciaAdministrativo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajePresupuesto2021"/>
+        <Class IRI="#GerenciaComercializacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajePresupuesto2021"/>
+        <Class IRI="#GerenciaGeneral"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajePresupuesto2021"/>
+        <Class IRI="#GerenciaPlanificacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajePresupuesto2021"/>
+        <Class IRI="#GerenciaProyectos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajePresupuestoCumplido2020"/>
+        <Class IRI="#GerenciaAdministrativo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajePresupuestoCumplido2020"/>
+        <Class IRI="#GerenciaComercializacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajePresupuestoCumplido2020"/>
+        <Class IRI="#GerenciaGeneral"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajePresupuestoCumplido2020"/>
+        <Class IRI="#GerenciaPlanificacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajePresupuestoCumplido2020"/>
+        <Class IRI="#GerenciaProyectos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rendimiento2020"/>
+        <Class IRI="#GerenciaAdministrativo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rendimiento2020"/>
+        <Class IRI="#GerenciaComercializacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rendimiento2020"/>
+        <Class IRI="#GerenciaGeneral"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rendimiento2020"/>
+        <Class IRI="#GerenciaPlanificacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rendimiento2020"/>
+        <Class IRI="#GerenciaProyectos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reunionesAsistidas2020"/>
+        <Class IRI="#Accionista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reunionesAsistidas2021"/>
+        <Class IRI="#Accionista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reunionesPorAsistir2021"/>
+        <Class IRI="#Accionista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sueldo"/>
+        <Class IRI="#Empleado"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#campus"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cuotaProyectos"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#edificios"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gananciaJunta"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ganancias"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#integraJunta"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#oficinas"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pisos"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#porcentajePresupuesto2021"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#porcentajePresupuestoCumplido2020"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rendimiento2020"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reunionesAsistidas2020"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reunionesAsistidas2021"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reunionesPorAsistir2021"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sueldo"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Accionista con Asistencias Nivel Alto</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S9</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Accionista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#JuntaAccionista"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#perteneceAccionistaJunta"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#asistenReuniones"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#z"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#AsistenciaAccionistaAlto"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Accionista con Asistencias Nivel Bajo</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>T10</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Accionista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#JuntaAccionista"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#perteneceAccionistaJunta"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#asistenReuniones"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="#z"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#AsistenciaAccionistaBajo"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Junta Accionista Jubilable 2</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Accionista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#JuntaAccionista"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#perteneceAccionistaJunta"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneAnoServicio"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#z"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#AccionistaC2"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Accionista Jubilable C1</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Accionista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneAnoServicio"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#perteneceAccionistaJunta"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#JubilableAccionistaC1"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Accionista C1</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Accionista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#perteneceAccionistaJunta"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneGanancias"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#AccionistaC1"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Accionista Jubilable C2</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Accionista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneAnoServicio"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneGanancias"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#JubilableAccionistaC2"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Gerencias de Alto Rendimiento de Nivel 1</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S6</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Gerencia"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Departamentos"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#perteneceNivel1"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneRendimientoAlto"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#GerenciaRendimientoAltoN1"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Gerencias de Bajo Rendimiento de Nivel 2</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S7</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Gerencia"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Departamentos"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#perteneceNivel2"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneRendimientoBajo"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#GerenciaRendimientoBajoN2"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Gerencias de Medio Rendimiento de Nivel 3</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S8</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Gerencia"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Departamentos"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#perteneceNivel3"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneRendimientoMedio"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#GerenciaRendimientoMedioN3"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Accionista de Categoria 2</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Gerente"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#perteneceJunta"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#AccionistaC2"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
