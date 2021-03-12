@@ -1,0 +1,63 @@
+The terms "national security" or "cyber-security" may be familiar – but what about "epistemic security"? If societies lose it, they will struggle to tackle some of the most worrying crises of the 21st Century, from pandemics to climate change.
+
+The Covid-19 pandemic has made one thing clear: it is very difficult to coordinate the behaviour of an entire society – even in matters of life and death.
+
+Consider the public response to the rollout of vaccines. For the world to beat the coronavirus, most of the population needs to agree to take one, and few democratic governments would choose to make it mandatory. However, there remains significant vaccine hesitancy around the globe. If that group were big enough, one of our most promising routes out of the pandemic would be compromised. The refusal of these individuals would affect everyone, even the vaccinated.
+
+This has been a running theme of the pandemic: at various times, public health officials and politicians have attempted to persuade people to do things that benefit both themselves and their communities, from social distancing to wearing masks. Many have done so, but some people have been more resistant to the advice. False information about vaccines and face coverings, ineffective cures, and unfounded rumours about the origins of Covid-19 have made it exceedingly difficult to coordinate public behaviour.
+
+This fragmented response to a major world event speaks to a worrying trend that bodes ill for other crises we could face in the 21st Century, from future pandemics to climate change. In our post-truth age, it is becoming increasingly difficult to make sure everyone is well-informed. In other words, even if it was clear how to save the world, a degraded and untrustworthy information ecosystem could prevent it from happening.
+
+In a recent report published by the UK's Alan Turing Institute, my colleagues and I argue that this change is no less than a threat to global security itself. The terms "national security" or "cyber-security" will be familiar. But we argue that more attention ought to be paid to "epistemic security" – because without it, our societies will lose the ability to respond to the most severe risks we face in the future.
+
+There are many different kinds of security - now there is a new type to consider, called "epistemic security" (Credit: Getty Images)
+
+If home security is about making sure our possessions are safe, financial security is about keeping our money safe, national security is about keeping our country safe, then epistemic security is about keeping our knowledge safe.
+
+Episteme is a Greek philosophical term, meaning "to know". Epistemic security therefore involves ensuring that we do in fact know what we know, that we can identify claims that are unsupported or not true, and that our information systems are robust to "epistemic threats" such as fake news.
+
+In our report, we explore the potential countermeasures and areas of research that may help preserve epistemic security in democratic societies. But in this article, let's look at four key trends that have exacerbated the problem, and made it increasingly difficult for societies to respond to pressing challenges and crises:
+
+1: Attention scarcity
+
+As early as the 13th Century – well before the invention of the printing press in Europe – scholars complained about information overload. In 1255, the Dominican Vincent of Beauvais wrote of "the multitude of books, the shortness of time and the slipperiness of memory".
+
+However, the internet has made massive quantities of hard-to-verify information more easily accessible than ever before. It is difficult to sift through which tidbits are true and which are not. Our limited capacity for attention is simply spread too thin.
+
+Abundance of information and limitations on attention creates a fierce "attention economy" in which governments, journalists, interest groups and others must compete for eyeballs. Unfortunately, some of the most effective attention-grabbing strategies appeal to people's emotions and existing beliefs, and these sources are otherwise ambivalent about the truth.
+
+2: Filter bubbles and bounded rationality
+
+A particularly worrisome consequence of the attention economy is the formation of filter bubbles, where people are exposed primarily to their own pre-held beliefs, and opposing views are filtered out.
+
+When facing information overload, people naturally prefer to pay more attention to like-minded individuals in their own communities over unfamiliar outsiders. Using social media platforms, it is easier than ever to form and join communities unified by shared beliefs and values.
+
+The epistemic consequence of filter bubbles is called "bounded rationality". If access to information is the foundation of good reasoning and decision-making, then limiting one’s access to potentially relevant information by becoming entrenched in filter bubbles will in turn limit one’s ability to reason well.
+
+Filter bubbles can lead to communities living side-by-side with radically different beliefs (Credit: Wang Zhao/Getty Images)
+
+3: Adversaries and blunderers
+
+It's easier than ever to distribute and access information. The downside is that these same technologies also make it easier for people to either intentionally or accidentally spread false or misleading information.
+
+Actors (individuals, organisations, or states) who intentionally manipulate information to maliciously mislead or deceive information recipients in order to lead them to false beliefs are called "adversaries". Adversaries mount "adversarial attacks" to incite people to action based on misleading or false information. For example, a political campaign might use deepfake video technology to fabricate incriminating footage of other political candidates in order to manipulate election results in their own favour.
+
+On the other hand, actors who spread false or poorly supported beliefs by either well-intentioned or accidental means are called "blunderers". For example, a vaccine researcher wary of side effects and distrustful of medical authority might make a well-meaning but slightly alarmist comment during an interview, which could then be picked up and spread on social media, instigating a widespread anti-vaccination campaign.
+
+3: Erosion of trust
+
+Humans have evolved natural techniques to decide when to trust others. For example, we are more likely to trust someone if they are believed by a large number of people, and we are even more willing to believe a person who is a member of own community – a sign that they hold similar values and interests to our own. We also use body language, vocal intonation, and speech patterns to judge honesty. These strategies are fallible, but in general, they have served humans well.
+
+However, modern information technologies can undermine those tricks. For example, the emergence of filter bubbles can make otherwise minority opinions much more visible and seem to be much more widely believed than they actually are. While some minority perspectives ought to be made more visible, there is a problem when harmful, extremist narratives are made to appear much more mainstream than they actually are.
+
+Some technologies also hijack our subconscious tendency to search for signs of honesty and insincerity in vocal patterns and body language. Artificially-generated speech or deepfake videos are not plagued by the little ticks that tip us off when someone is fibbing.
+
+People are more likely to believe members of their own communities than outsiders (Credit: Guillermo Arias/Getty Images)
+
+What does this all mean?
+
+For those who are willing to put in the effort, a rich and balanced media diet is more accessible than ever before. However, being well-informed is often a privilege of time and resources that most people cannot easily afford.
+
+So when it comes to tackling complex challenges like Covid-19 – challenges that required timely decision-making and the coordination of widespread collective action – it is important to remember that sensible public health advice and safe vaccines are not enough. People also have to believe in the solutions and those who proffer them. 
+
+In our report, we explore some of the possible consequences if we don't act. One of the worst-case scenarios we called "epistemic babble". In this future, the ability for the general population to tell the difference between truth and fiction is entirely lost. Although information is easily available, people cannot tell whether anything they see, read or hear is reliable or not. So, when the next pandemic comes along, co-operation across society becomes impossible. It's a chilling idea – but Covid-19 has shown that we're closer than we might once have thought.
