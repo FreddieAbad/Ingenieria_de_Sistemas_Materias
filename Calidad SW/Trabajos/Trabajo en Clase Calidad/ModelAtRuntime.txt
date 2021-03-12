@@ -1,0 +1,27 @@
+<?xml version= 1.0 ?>
+<qualityRuntimeModel>
+<name>Runtime Monitoring Servicio de Subastas</name>
+<description>This configuration helps to configure the Servicio de SubastasPara la plataforma Azure</description>
+<cloudService name ="Servicio de Subastas" /> 
+</qualityRuntimeModel>
+<nfr id= "1 ">
+<Metric name = "Robustness of a Service (ROS)">
+<Operationalization name="Available Time for Invoking SaaS/Total Time for Operating SaaS ">
+<MeasurementFunction formula =" (\ASP.NET\Request Execution Time)/(\CUSTOM\Total Time Running Application)"/> 
+</Operationalization>
+</Metric>
+</nfr>
+<nfr id= "2 ">
+<Metric name = "Defective Operations Per Million (DPM)">
+<Operationalization name="((Operations Attempted - Operations Successful)/Operations Attempted)*10^6 ">
+<MeasurementFunction formula =" ((\ASP.NET Applications(*)\Requests Total-\ASP.NET Applications(*)\Requests Succeeded)/(\ASP.NET Applications(*)\Requests Total)*10^6"/> 
+</Operationalization>
+</Metric>
+</nfr>
+<nfr id= "3 ">
+<Metric name = "Latency">
+<Operationalization name="Request Execution Time + Request Response Time ">
+<MeasurementFunction formula =" \ASP.NET\Request Execution Time+\ASP.NET\Request Wait Time"/> 
+</Operationalization>
+</Metric>
+</nfr>
